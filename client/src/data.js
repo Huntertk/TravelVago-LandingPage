@@ -88,6 +88,36 @@ export const homeImgViwerData = [
         img:thailand,
         title: "Thailand"
     },
+    {
+        id: nanoid(),
+        img:northAmeraicaImg,
+        title: "NorthAmerica"
+    },
+    {
+        id: nanoid(),
+        img: southAmeraicaImg,
+        title: "SouthAmerica"
+    },
+    {
+        id: nanoid(),
+        img: europeImg,
+        title: "Europe"
+    },
+    {
+        id: nanoid(),
+        img: asiaImg,
+        title: "Asia"
+    },
+    {
+        id: nanoid(),
+        img: africaImg,
+        title: "Africa"
+    },
+    {
+        id: nanoid(),
+        img: australiaImg,
+        title: "Australia"
+    },
 ]
 
 export const homeCountryData = [
