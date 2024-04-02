@@ -18,7 +18,7 @@ const ImageSlider = () => {
       <div className="homeImageSlideContainer"
       
       >
-        <img className='sliderImage' src={homeImgViwerData[sliderChange].img} alt={homeImgViwerData[0].title} />
+        <img className='sliderImage' src={homeImgViwerData[sliderChange].img} alt={homeImgViwerData[sliderChange].title} />
         <h1 className='sliderTitle'>{homeImgViwerData[sliderChange].title}</h1>
       </div>
 
