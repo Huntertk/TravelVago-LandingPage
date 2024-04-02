@@ -13,11 +13,10 @@ const Product = ({data}) => {
       opacity: 1
     },
   }
-  console.log(data);
   return (
     <motion.div 
-    className='productCardContainer'
-    {...easeScaleUp}
+      className='productCardContainer'
+      {...easeScaleUp}
     >
       <div className="productImgContainer">
         <img src={data.image} alt={data.title} />
