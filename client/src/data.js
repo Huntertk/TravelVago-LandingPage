@@ -35,12 +35,36 @@ export const homeProductData = [
     },
     {
         id:nanoid(),
-        title:"Grand Switzerland",
-        image: "https://i.postimg.cc/1RMhyhC6/pexels-ketan-kumawat-724948.jpg",
-        tourPlace:"Mountain, Snow & Ice",
-        country:"Switzerland",
-        duration:"6 days"
-    }
+        title:"Discover Japan",
+        image: "https://i.postimg.cc/j2xpyZ5L/pexels-belle-co-402028.jpg",
+        tourPlace:"City Tour",
+        country:"Japan",
+        duration:"5 days"
+    },
+    {
+        id:nanoid(),
+        title:"Hong Kong",
+        image: "https://i.postimg.cc/HxgDkp10/pexels-jimmy-chan-2537536.jpg",
+        tourPlace:"Iconic, City Tour",
+        country:"Hong Kong",
+        duration:"8 hours"
+    },
+    {
+        id:nanoid(),
+        title:"Great Britain Travel",
+        image: "https://i.postimg.cc/7hKp90GX/pexels-oltion-bregu-338454.jpg",
+        tourPlace:"City Tour",
+        country:"London",
+        duration:"5 days"
+    },
+    {
+        id:nanoid(),
+        title:"Prague Trip",
+        image: "https://i.postimg.cc/8P585K9Y/pexels-pixabay-161077.jpg",
+        tourPlace:"City Tour, History Park",
+        country:"Czech Republic",
+        duration:"5 days"
+    },
 ]
 
 export const homeImgViwerData = [
