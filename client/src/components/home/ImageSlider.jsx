@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const ImageSlider = () => {
   const [sliderChange, setSliderChange] = useState(0);
-  console.log(sliderChange);
+
   useEffect(() => {
     const interval = setInterval(() => {
       const newIndex = Math.floor(Math.random() * homeImgViwerData.length);
