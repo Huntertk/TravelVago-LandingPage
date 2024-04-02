@@ -1,16 +1,47 @@
 import { nanoid } from 'nanoid';
+
+//Home Image Slider Images
 import iceland from './assets/images/iceland.jpg';
 import malaysia from './assets/images/malaysia.jpg';
 import singapore from './assets/images/singapore.jpg';
 import thailand from './assets/images/thailand.jpg';
 
 
+//Home Country Images
 import northAmeraicaImg from './assets/images/country/north-america.jpg';
 import southAmeraicaImg from './assets/images/country/south-america.jpg';
 import europeImg from './assets/images/country/europe.jpg';
 import africaImg from './assets/images/country/africa.jpg';
 import asiaImg from './assets/images/country/asia.jpg';
 import australiaImg from './assets/images/country/australia.jpg';
+
+
+export const homeProductData = [
+    {
+        id:nanoid(),
+        title:"French Autum",
+        image: "https://i.postimg.cc/xC3rkW9w/pexels-pixabay-532826.jpg",
+        tourPlace:"City Tours",
+        country:"France",
+        duration:"5 days"
+    },
+    {
+        id:nanoid(),
+        title:"Grand Switzerland",
+        image: "https://i.postimg.cc/1RMhyhC6/pexels-ketan-kumawat-724948.jpg",
+        tourPlace:"Mountain, Snow & Ice",
+        country:"Switzerland",
+        duration:"6 days"
+    },
+    {
+        id:nanoid(),
+        title:"Grand Switzerland",
+        image: "https://i.postimg.cc/1RMhyhC6/pexels-ketan-kumawat-724948.jpg",
+        tourPlace:"Mountain, Snow & Ice",
+        country:"Switzerland",
+        duration:"6 days"
+    }
+]
 
 export const homeImgViwerData = [
     {
