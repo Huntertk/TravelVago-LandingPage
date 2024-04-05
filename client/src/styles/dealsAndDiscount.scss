@@ -1,5 +1,8 @@
 @use './variables.scss' as *;
 
+.dealsAndDiscountMainMediumSection{
+    display: none;
+}
 .dealsAndDiscountMainSection{
     max-width: $maxWidth;
     padding: 1rem;
@@ -91,9 +94,82 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width:700px) {
+    .dealsAndDiscountMainMediumSection{
+        display: block;
+    .dealsAndDiscountTitleContainer{
+        padding: 1rem;
+        text-align: center;
+        margin: 2rem 0;
+        p{
+            color: $primary;
+            font-size: 2rem;
+            font-family: "Allura", cursive;
+        }
+
+        h1{
+            font-size: 2rem;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+    }
+
+    .dealsAndDiscountMainContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+        .dealsAndDiscountCardDesign{
+            display: flex;
+            align-items: flex-start;
+            justify-content: end;
+            flex-direction: column;
+            padding: 1rem;
+            height: 400px;
+            width: 350px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 14px;
+            box-shadow: 1px 1px 12px 1px #bbb;
+            p{
+                color: #fff;
+            }
+            h1{
+                color: $primary;
+                letter-spacing: 1px;
+                font-size: 1.6rem;
+            }
+        }
+        #dealsTopContainer{
+            background-image:  linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/ZYrjJ3H6/japan-Adventure.jpg');
+          
+        }
+
+        #dealsBottomSmallContainerOne{
+            background-image: linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/hPsrdBHj/madagascar.jpg');
+        }
+        #dealsBottomSmallContainerTwo{
+            background-image: linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/RV4dhFpy/colombia.jpg');
+        }    
+        #dealsBottomSubContainer{
+            background-image: linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/dV09RfY9/lituanina.jpg');
+        }
+                
+            }
+        }
     .dealsAndDiscountMainSection{
-        
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dealsAndDiscountMainMediumSection{
+        display: none;
+    }
+    .dealsAndDiscountMainSection{
+        display: block;
         .dealsAndDiscountTitleContainer{
             p{
                 font-size: 2.5rem;
