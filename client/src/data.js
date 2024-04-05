@@ -71,52 +71,62 @@ export const homeImgViwerData = [
     {
         id: nanoid(),
         img:iceland,
-        title: "Iceland"
+        title: "Iceland",
+        subTitle:"Find excitement wherever you go"
     },
     {
         id: nanoid(),
         img:malaysia,
-        title: "Malaysia"
+        title: "Malaysia",
+        subTitle:"Find your perfect vacation"
     },
     {
         id: nanoid(),
         img:singapore,
-        title: "Singapore"
+        title: "Singapore",
+        subTitle:"Visit the beautiful city"
     },
     {
         id: nanoid(),
         img:thailand,
-        title: "Thailand"
+        title: "Thailand",
+        subTitle:"Visit the beautiful landscape"
     },
     {
         id: nanoid(),
         img:northAmeraicaImg,
-        title: "NorthAmerica"
+        title: "NorthAmerica",
+        subTitle:"Find excitement wherever you go"
     },
     {
         id: nanoid(),
         img: southAmeraicaImg,
-        title: "SouthAmerica"
+        title: "SouthAmerica",
+        subTitle:"Find excitement wherever you go"
     },
     {
         id: nanoid(),
         img: europeImg,
-        title: "Europe"
+        title: "Europe",
+        subTitle:"Visit the beautiful city"
     },
     {
         id: nanoid(),
         img: asiaImg,
-        title: "Asia"
+        title: "Asia",
+        subTitle:"Visit the beautiful landscape"
     },
     {
         id: nanoid(),
         img: africaImg,
-        title: "Africa"
+        title: "Africa",
+        subTitle:"Find your perfect vacation"
     },
     {
         id: nanoid(),
         img: australiaImg,
-        title: "Australia"
+        title: "Australia",
+        subTitle:"Find your perfect vacation"
     },
 ]
 
