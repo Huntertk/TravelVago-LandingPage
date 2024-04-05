@@ -1,6 +1,7 @@
 import '../../styles/imageSlider.scss';
 import {homeImgViwerData} from '../../data';
 import { useEffect, useState } from 'react';
+import cloud from '../../assets/images/cloud.png'
 
 const ImageSlider = () => {
   const [sliderChange, setSliderChange] = useState(0);
@@ -20,6 +21,7 @@ const ImageSlider = () => {
       >
         <img className='sliderImage' src={homeImgViwerData[sliderChange].img} alt={homeImgViwerData[sliderChange].title} />
         <h1 className='sliderTitle'>{homeImgViwerData[sliderChange].title}</h1>
+        <img src={cloud} className='cloudImg' alt="" />
       </div>
 
     </section>

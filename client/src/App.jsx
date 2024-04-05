@@ -3,6 +3,7 @@ import Layout from './components/layout/Layout'
 import { About, Home } from './pages'
 
 const App = () => {
+  console.log(window.location.hostname);
   return (
     <BrowserRouter>
         <Routes>
