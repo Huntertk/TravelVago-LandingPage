@@ -163,3 +163,31 @@ export const homeCountryData = [
     },
 
 ]
+
+
+export const dealsAndDiscountData = [
+    {
+        id:nanoid(),
+        title: "Adventures in Japan",
+        desc:"Get an unforgettable experience from each of our trips! Travel with us!",
+        image: "https://i.postimg.cc/ZYrjJ3H6/japan-Adventure.jpg"
+    },
+    {
+        id:nanoid(),
+        title: "Extreme Madagascar",
+        desc:"Enjoy each of our tours!",
+        image: "https://i.postimg.cc/hPsrdBHj/madagascar.jpg"
+    },
+    {
+        id:nanoid(),
+        title: "Amazing Colombia",
+        desc:"Enjoy each of our tours!",
+        image: "https://i.postimg.cc/RV4dhFpy/colombia.jpg"
+    },
+    {
+        id:nanoid(),
+        title: "Aristocratic Lithuania",
+        desc:"Get an unforgettable experience from each of our trips! Travel with us!",
+        image: "https://i.postimg.cc/dV09RfY9/lituanina.jpg"
+    },
+]

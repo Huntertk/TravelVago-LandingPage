@@ -1,0 +1,72 @@
+@use './variables.scss' as *;
+
+.dealsAndDiscountMainSection{
+    padding: 1rem;
+    margin-top: 2rem;
+    .dealsAndDiscountTitleContainer{
+        padding: 1rem;
+        text-align: center;
+        p{
+            color: $primary;
+            font-size: 2rem;
+            font-family: "Allura", cursive;
+        }
+
+        h1{
+            font-size: 2rem;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+    }
+
+    .dealsAndDiscountMainContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .dealsAndDiscountCardDesign{
+            display: flex;
+            align-items: flex-start;
+            justify-content: end;
+            flex-direction: column;
+            padding: 1rem;
+            height: 400px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 14px;
+            box-shadow: 1px 1px 12px 1px #bbb;
+            p{
+                color: #fff;
+            }
+            h1{
+                color: $primary;
+                letter-spacing: 1px;
+                font-size: 1.6rem;
+            }
+        }
+        #dealsTopContainer{
+            background-image:  linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/ZYrjJ3H6/japan-Adventure.jpg');
+          
+        }
+
+        .dealsBottomContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .dealsBottomSubContainer{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                #dealsBottomSmallContainerOne{
+                    background-image: linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/hPsrdBHj/madagascar.jpg');
+                }
+                #dealsBottomSmallContainerTwo{
+                    background-image: linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/RV4dhFpy/colombia.jpg');
+                }    
+            }
+            #dealsBottomSubContainer{
+                background-image: linear-gradient(to top, #101010 21%, rgba(0, 0, 0, 0) 61%), url('https://i.postimg.cc/dV09RfY9/lituanina.jpg');
+            }
+        }
+    }
+}
