@@ -13,9 +13,9 @@ const VideoContainer = () => {
             <video 
             className='video'
             src={videoFile}
-            controls={false}
             loop
             autoPlay
+            muted
             />
             
     </div>
