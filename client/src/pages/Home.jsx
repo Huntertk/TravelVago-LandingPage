@@ -18,9 +18,9 @@ const Home = () => {
       <DealsAndDiscount />
       <TourCategories />
       <ProductContainer />
+      <Award />
       <VideoContainer />
       <CountryGrid />
-      <Award />
     </section>
   )
 }
