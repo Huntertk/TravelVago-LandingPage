@@ -16,8 +16,8 @@ const Home = () => {
       <ImageSlider />
       <DealsAndDiscount />
       <TourCategories />
-      <CountryGrid />
       <ProductContainer />
+      <CountryGrid />
       <Award />
     </section>
   )

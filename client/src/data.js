@@ -191,3 +191,43 @@ export const dealsAndDiscountData = [
         image: "https://i.postimg.cc/dV09RfY9/lituanina.jpg"
     },
 ]
+
+
+export const tourCategoryData = [
+    {
+        id:nanoid(),
+        title:"South America",
+        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
+        imgUrl:"https://i.postimg.cc/Yqy5qvr1/south-America.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"Africa",
+        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
+        imgUrl:"https://i.postimg.cc/HkcfJTnF/africe.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"Asia",
+        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
+        imgUrl:"https://i.postimg.cc/FK08ZGjZ/asia.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"Eastern Europe",
+        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
+        imgUrl:"https://i.postimg.cc/ZRZgD3Hh/eastern-europe.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"Europe",
+        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
+        imgUrl:"https://i.postimg.cc/8z2xMxrc/europe.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"London",
+        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
+        imgUrl:"https://i.postimg.cc/7hKp90GX/pexels-oltion-bregu-338454.jpg"
+    },
+]
