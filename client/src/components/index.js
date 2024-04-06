@@ -5,6 +5,8 @@ import ImageSlider from "./home/ImageSlider";
 import ProductContainer from "./home/ProductContainer";
 import TourCategories from "./home/TourCategories";
 import VideoContainer from "./home/VideoContainer";
+import WhyTravel from "./home/WhyTravel";
+
 
 export {
     ImageSlider,
@@ -13,5 +15,6 @@ export {
     ProductContainer,
     DealsAndDiscount,
     TourCategories,
-    VideoContainer
+    VideoContainer,
+    WhyTravel
 }

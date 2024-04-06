@@ -5,7 +5,8 @@ import {
   Award,
   DealsAndDiscount,
   TourCategories,
-  VideoContainer
+  VideoContainer,
+  WhyTravel
 } from '../components';
 
 import '../styles/home.scss';
@@ -15,6 +16,7 @@ const Home = () => {
   return (
     <section className='homeMainSection'>
       <ImageSlider />
+      <WhyTravel />
       <DealsAndDiscount />
       <TourCategories />
       <ProductContainer />
