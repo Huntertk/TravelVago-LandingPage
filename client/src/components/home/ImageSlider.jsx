@@ -27,7 +27,7 @@ const ImageSlider = () => {
           {homeImgViwerData[sliderChange].title}
         <p className='sliderSubtitle'>{homeImgViwerData[sliderChange].subTitle}</p>
           </h1>
-        <img src={cloud} className='cloudImg' alt="" />
+        <img src={cloud} className='cloudImg' alt="cloud image" />
       </div>
 
     </section>
