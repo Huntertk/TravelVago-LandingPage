@@ -3,7 +3,8 @@ import {
   CountryGrid, 
   ProductContainer,
   Award,
-  DealsAndDiscount
+  DealsAndDiscount,
+  TourCategories
 } from '../components';
 
 import '../styles/home.scss';
@@ -14,6 +15,7 @@ const Home = () => {
     <section className='homeMainSection'>
       <ImageSlider />
       <DealsAndDiscount />
+      <TourCategories />
       <CountryGrid />
       <ProductContainer />
       <Award />
