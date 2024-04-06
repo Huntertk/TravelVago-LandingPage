@@ -1,7 +1,24 @@
 import { whyTourData } from '../../data';
 import '../../styles/whyTravel.scss';
+import {motion} from 'framer-motion';
 
 const WhyTravel = () => {
+    const easeUpLeft = {
+        initial:{
+            x:-100,
+            opacity:0,
+            scale:0,
+        },
+        whileInView:{
+            x:0,
+            opacity: 1,
+            scale:1,
+          },
+          transition:{
+            delay:0.3,
+            duration:0.5
+          }
+    }
   return (
     <section className='whyTravelMainSection'>
         <div className="whyTravelTextContainer">
@@ -11,7 +28,10 @@ const WhyTravel = () => {
         <div className="whyTravelMainContainer">
             {
                 whyTourData.map((data) => (
-                    <div className="whyTravelCardContainer" key={data.id}>
+                    <motion.div 
+                    className="whyTravelCardContainer" key={data.id}
+                    {...easeUpLeft}
+                    >
                         <div className="whyTravelCardImage">
                             <img src={data.imgUrl} alt={data.title} />
                         </div>
@@ -21,7 +41,7 @@ const WhyTravel = () => {
                         <div className="whyTravelBadge">
                             <img src={data.iconUrl} alt={data.title} />
                         </div>
-                    </div>
+                    </motion.div>
                 ))
             }
         </div>
