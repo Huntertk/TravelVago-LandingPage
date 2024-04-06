@@ -6,7 +6,8 @@ import {
   DealsAndDiscount,
   TourCategories,
   VideoContainer,
-  WhyTravel
+  WhyTravel,
+  SeasonalTours
 } from '../components';
 
 import '../styles/home.scss';
@@ -19,6 +20,7 @@ const Home = () => {
       <WhyTravel />
       <DealsAndDiscount />
       <TourCategories />
+      <SeasonalTours />
       <ProductContainer />
       <Award />
       <VideoContainer />

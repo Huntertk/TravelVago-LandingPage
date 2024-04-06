@@ -16,6 +16,8 @@ import asiaImg from './assets/images/country/asia.jpg';
 import australiaImg from './assets/images/country/australia.jpg';
 
 
+
+
 export const homeProductData = [
     {
         id:nanoid(),
@@ -257,5 +259,36 @@ export const whyTourData = [
         title: "98% Our Travelers Are Happy",
         imgUrl:"https://i.postimg.cc/RZqH684y/62c42eafecf05141c4f4b1a6-helena-lopes-e3-OUQGT9b-WU-unsplash-p-500.jpg",
         iconUrl:"https://i.postimg.cc/fTzXZyFw/62c419d934af4375ae52c239-3512626-gps-location-map-navigation-pin-icon-1.png"
+    },
+]
+
+export const seasonalTourData = [
+    {
+        id:nanoid(),
+        season:"WINTER",
+        title:"Happy Winter Holidays",
+        desc:"A business strategy is the means by which it sets out to achieve its desired ends. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        imgUrl:"https://i.postimg.cc/85DFGyMP/62c44c55880581c04ede477b-france-1973527-640.jpg"
+    },
+    {
+        id:nanoid(),
+        season:"SPRING",
+        title:"A Picturesque Trip In The Spring",
+        desc:"If you have been selected for a business audit, here is what you need to know. If you have been selected, duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        imgUrl:"https://i.postimg.cc/g2CXSc0h/62c44c51a41e2eb8fc6b0f8f-china-5017648-640.jpg"
+    },
+    {
+        id:nanoid(),
+        season:"SUMMER",
+        title:"Summer Is The Time For Vacation",
+        desc:"Restructuring your company could restore its viability and improve its liquidity position. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        imgUrl:"https://i.postimg.cc/cLgtBtdZ/62c44c52214ae02a7c05ca61-hallstatt-3609863-640.jpg"
+    },
+    {
+        id:nanoid(),
+        season:"AUTUMN",
+        title:"Autumn Fairy Tale",
+        desc:"We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
+        imgUrl:"https://i.postimg.cc/yN0JwqJb/62c44c52ba7addf80c6d9d43-central-park-1804588-640.jpg"
     },
 ]
