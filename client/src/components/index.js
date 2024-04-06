@@ -4,6 +4,7 @@ import DealsAndDiscount from "./home/DealsAndDiscount";
 import ImageSlider from "./home/ImageSlider";
 import ProductContainer from "./home/ProductContainer";
 import TourCategories from "./home/TourCategories";
+import VideoContainer from "./home/VideoContainer";
 
 export {
     ImageSlider,
@@ -11,5 +12,6 @@ export {
     Award,
     ProductContainer,
     DealsAndDiscount,
-    TourCategories
+    TourCategories,
+    VideoContainer
 }

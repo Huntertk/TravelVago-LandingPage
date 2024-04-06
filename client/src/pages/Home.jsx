@@ -4,7 +4,8 @@ import {
   ProductContainer,
   Award,
   DealsAndDiscount,
-  TourCategories
+  TourCategories,
+  VideoContainer
 } from '../components';
 
 import '../styles/home.scss';
@@ -17,6 +18,7 @@ const Home = () => {
       <DealsAndDiscount />
       <TourCategories />
       <ProductContainer />
+      <VideoContainer />
       <CountryGrid />
       <Award />
     </section>
