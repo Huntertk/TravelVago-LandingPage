@@ -3,6 +3,7 @@
 .tourCategoryMainContainer{
     max-width: 800px;
     margin: 2rem auto;
+    width: 100%;
     .tourCategoryTitleContainer{
         padding: 1rem;
         text-align: center;
@@ -21,16 +22,11 @@
     }
 
     .tourCategoryCarouselContainer{
-        padding: 1rem;
-
+        width: 300px;
+        margin: 0 auto;
         .tourCategoryCarouselCardContainer{
 
             .tourCategoryCarouselCard{
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                align-items: center;
-                text-align: center;
                 img{
                     border-radius: 50%;
                     height: 250px;
@@ -46,11 +42,42 @@
                     color: $primary;
                 }
                 .para{
+                    width: 70%;
                     text-align: center;
-                    margin-top: 1rem auto;
+                    margin: 1rem auto;
                     font-size: 0.9rem;
                 }
             }
+        }
+    }
+}
+
+
+@media screen and (min-width:424px) {
+    .tourCategoryMainContainer{
+    
+        .tourCategoryCarouselContainer{
+            width: 370px;
+        }
+    }
+}
+
+
+@media screen and (min-width:767px) {
+    .tourCategoryMainContainer{
+    
+        .tourCategoryCarouselContainer{
+            width: 600px;
+        }
+    }
+}
+
+
+@media screen and (min-width:1023px) {
+    .tourCategoryMainContainer{
+    
+        .tourCategoryCarouselContainer{
+            width: 800px;
         }
     }
 }

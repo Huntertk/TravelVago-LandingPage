@@ -39,3 +39,46 @@
         }
     }
 }
+
+
+@media screen and (min-width: 1024px) {
+    .videoContainerMainSection{
+        display: grid;
+        grid-template-columns: 700px 1fr;
+    
+    
+        .videoContentContainer{
+            padding: 1rem;
+            text-align: center;
+            margin: 2rem 0;
+            p{
+                font-size: 0.9rem;
+                width: 60%;
+                margin: 0 auto;
+                font-size: 1.1rem;
+            }
+            .subTitle{
+                color: $primary;
+                font-size: 2.5rem;
+                font-family: "Allura", cursive;
+            }
+            
+            h1{
+                font-size: 2rem;
+                letter-spacing: 1px;
+                font-weight: 500;
+            }
+        }
+    
+        .videoWrapper{
+            border-radius: 24px;
+            overflow: hidden;
+            .video{
+                object-fit: cover;
+                height: 350px;
+                border-radius: 14px;
+                width: 100%;
+            }
+        }
+    }
+}
