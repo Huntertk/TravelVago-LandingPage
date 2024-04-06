@@ -16,7 +16,7 @@ const WhyTravel = () => {
           },
           transition:{
             delay:0.3,
-            duration:0.5
+            duration:0.3
           }
     }
   return (
