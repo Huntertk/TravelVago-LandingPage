@@ -1,0 +1,64 @@
+@use './variables.scss' as *;
+
+.guidesMainSection{
+    max-width: $maxWidth;
+    margin: 2rem auto;
+    padding: 1rem;
+    .guidesMainSectionTitleContainer{
+        padding: 1rem;
+        text-align: center;
+        margin: 2rem 0;
+        p{
+            color: $primary;
+            font-size: 2rem;
+            font-family: "Allura", cursive;
+        }
+
+        h1{
+            font-size: 2rem;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+    }
+
+    .guidesCarouselContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        img{
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+    .leftArrow{
+        position: absolute;
+        top: 80%;
+        left: 20px;
+        font-size: 2rem;
+        color:$primary;
+        cursor: pointer;
+    }
+    .rightArrow{
+        position: absolute;
+        top: 80%;
+        right: 20px;
+        font-size: 2rem;
+        color:$primary;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width: 767px) {
+    .guidesMainSection{
+
+        .guidesCarouselContainer{
+            width: 700px;
+            margin: 0 auto;
+        }
+    }
+}

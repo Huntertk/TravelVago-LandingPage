@@ -136,12 +136,12 @@ export const homeCountryData = [
     {
         id: nanoid(),
         img: northAmeraicaImg,
-        title: "NorthAmerica"
+        title: "North America"
     },
     {
         id: nanoid(),
         img: southAmeraicaImg,
-        title: "SouthAmerica"
+        title: "South America"
     },
     {
         id: nanoid(),
@@ -290,5 +290,45 @@ export const seasonalTourData = [
         title:"Autumn Fairy Tale",
         desc:"We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
         imgUrl:"https://i.postimg.cc/yN0JwqJb/62c44c52ba7addf80c6d9d43-central-park-1804588-640.jpg"
+    },
+]
+
+
+export const guidesData = [
+    {
+        id:nanoid(),
+        name:"Guy Hawkins",
+        imgUrl:"https://i.postimg.cc/FsrDnf0L/62b94fc938c962b26d4539a5-Man-1-2.jpg",
+        title:"Tourist Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Leslie Alexander",
+        imgUrl:"https://i.postimg.cc/05dVfGKv/62b94dbb8e2a468c99053777-portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-cros.jpg",
+        title:"Tourist Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Andrew Hogan",
+        imgUrl:"https://i.postimg.cc/NjVDMpS6/62b94dbda76511f7b323354e-portrait-handsome-smiling-stylish-young-man-model-dressed-jeans-clothes-fas.jpg",
+        title:"Tourist Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Lydia Jackson",
+        imgUrl:"https://i.postimg.cc/bNm3XzRF/62b94dbeddbeb88694901872-young-attractive-woman-smiling-feeling-healthy-hair-flying-wind-1-1.jpg",
+        title:"Tourist Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Derek Horton",
+        imgUrl:"https://i.postimg.cc/Dwm5ntjf/62b94db9e91ab75ded807f58-handsome-young-man-with-new-stylish-haircut-1-1.jpg",
+        title:"Tourist Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Jennie Bennett",
+        imgUrl:"https://i.postimg.cc/nrkThZfr/62b94fc038ce8febc1fbbd0a-girl-1-2.jpg",
+        title:"Tourist Guide"
     },
 ]

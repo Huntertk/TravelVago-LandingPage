@@ -7,7 +7,8 @@ import {
   TourCategories,
   VideoContainer,
   WhyTravel,
-  SeasonalTours
+  SeasonalTours,
+  GuidesCarousel
 } from '../components';
 
 import '../styles/home.scss';
@@ -24,6 +25,7 @@ const Home = () => {
       <ProductContainer />
       <Award />
       <VideoContainer />
+      <GuidesCarousel />
       <CountryGrid />
     </section>
   )

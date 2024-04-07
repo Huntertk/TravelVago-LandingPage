@@ -11,8 +11,8 @@ const ImageSlider = () => {
     const interval = setInterval(() => {
       const newIndex = Math.floor(Math.random() * homeImgViwerData.length);
       setSliderChange(newIndex);
-      return () => clearInterval(interval)
     },5000)
+    return () => clearInterval(interval)
 
   },[]) 
   return (
