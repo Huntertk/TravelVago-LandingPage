@@ -12,6 +12,9 @@ const CountryGrid = () => {
           scale:1,
           opacity: 1
         },
+        transition:{
+          duration:0.6
+        }
       }
   return (
     <section className='countryGridMainSection'>
