@@ -403,3 +403,13 @@ export const destinationImgViwerData = [
         subTitle:"Explore tours by destination"
     },
 ]
+
+
+export const contactImgViwerData = [
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/sxV99pbV/pexels-atbo-245240.jpg",
+        title: "ContactUs",
+        subTitle:"Get in touch"
+    },
+]
