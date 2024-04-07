@@ -1,4 +1,3 @@
-import React from 'react'
 import { ImageSlider, ProductContainer } from '../components'
 import { toursImgViwerData, toursProductData } from '../data'
 

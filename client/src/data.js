@@ -393,3 +393,13 @@ export const toursProductData = [
         duration:"5 days"
     },
 ]
+
+
+export const destinationImgViwerData = [
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/wTMq9LYC/pexels-pixabay-36717.jpg",
+        title: "Destination",
+        subTitle:"Explore tours by destination"
+    },
+]

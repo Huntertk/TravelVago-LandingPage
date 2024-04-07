@@ -10,7 +10,7 @@ import {
   SeasonalTours,
   GuidesCarousel
 } from '../components';
-import { homeImgViwerData, homeProductData } from '../data';
+import { homeCountryData, homeImgViwerData, homeProductData } from '../data';
 
 import '../styles/home.scss';
 
@@ -27,7 +27,7 @@ const Home = () => {
       <Award />
       <VideoContainer />
       <GuidesCarousel />
-      <CountryGrid />
+      <CountryGrid countryData={homeCountryData} para={"Unforgettable Trip"} title={"Explore New Destination"} />
     </section>
   )
 }
