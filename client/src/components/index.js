@@ -5,6 +5,7 @@ import GuidesCarousel from "./home/GuidesCarousel";
 import ImageSlider from "./home/ImageSlider";
 import ProductContainer from "./home/ProductContainer";
 import SeasonalTours from "./home/SeasonalTours";
+import TitleContainer from "./home/TitleContainer";
 import TourCategories from "./home/TourCategories";
 import VideoContainer from "./home/VideoContainer";
 import WhyTravel from "./home/WhyTravel";
@@ -20,5 +21,6 @@ export {
     VideoContainer,
     WhyTravel,
     SeasonalTours,
-    GuidesCarousel
+    GuidesCarousel,
+    TitleContainer
 }

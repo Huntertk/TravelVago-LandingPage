@@ -4,16 +4,14 @@ import { IoIosLeaf } from 'react-icons/io';
 import '../../styles/seasonalTour.scss';
 import { useState } from 'react';
 import { seasonalTourData } from '../../data';
+import TitleContainer from './TitleContainer';
 
 const SeasonalTours = () => {
     const [selectedSeasonalTour, setSelectedSeasonalTour] = useState("WINTER");
     const selectedSeasonalData = seasonalTourData.filter((d) => d.season === selectedSeasonalTour);
   return (
     <section className='seasonalTourMainSection'>
-        <div className="seasonalTourTitleContainer">
-              <p>Book now and get a discount</p>
-              <h1>LET'S TRAVEL ALL YEAR AROUND</h1>
-          </div>
+          <TitleContainer para={"Book now and get a discount"} title={"LET'S TRAVEL ALL YEAR AROUND"}  />
 
           <div className="seasonalTourButtonSelectorContainer">
             <button 

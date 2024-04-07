@@ -4,22 +4,6 @@
     max-width: $maxWidth;
     margin: 2rem auto;
     padding: 1rem;
-    .whyTravelTextContainer{
-        padding: 1rem;
-        text-align: center;
-        margin: 2rem 0;
-        p{
-            color: $primary;
-            font-size: 2rem;
-            font-family: "Allura", cursive;
-        }
-
-        h1{
-            font-size: 2rem;
-            letter-spacing: 1px;
-            font-weight: 500;
-        }
-    }
 
     .whyTravelMainContainer{
         display: flex;

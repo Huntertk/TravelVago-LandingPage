@@ -1,5 +1,6 @@
 import '../../styles/dealsAndDiscount.scss';
 import { motion} from 'framer-motion';
+import TitleContainer from './TitleContainer';
 
 const DealsAndDiscountMediumScreen = () => {
     const easeUpLeft = {
@@ -20,10 +21,8 @@ const DealsAndDiscountMediumScreen = () => {
     return (
       <>
       <section className='dealsAndDiscountMainMediumSection'>
-          <div className="dealsAndDiscountTitleContainer">
-              <p>Last minute offer for you</p>
-              <h1>Deals & Discount</h1>
-          </div>
+      <TitleContainer para={"Last minute offer for you"} title={"Deals & Discount"} />
+          
           <motion.div 
           className="dealsAndDiscountMainContainer"
           {...easeUpLeft}
@@ -78,10 +77,7 @@ const DealsAndDiscount = () => {
   return (
     <>
     <section className='dealsAndDiscountMainSection'>
-        <div className="dealsAndDiscountTitleContainer">
-            <p>Last minute offer for you</p>
-            <h1>Deals & Discount</h1>
-        </div>
+        <TitleContainer para={"Last minute offer for you"} title={"Deals & Discount"} />
         <div className="dealsAndDiscountMainContainer">
             <motion.div 
             id="dealsTopContainer" 

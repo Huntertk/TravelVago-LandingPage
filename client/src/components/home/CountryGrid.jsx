@@ -1,6 +1,7 @@
 import '../../styles/countryGrid.scss';
 import { homeCountryData } from '../../data';
 import {motion} from 'framer-motion';
+import TitleContainer from './TitleContainer';
 
 const CountryGrid = () => {
     const easeScaleUp = {
@@ -18,7 +19,7 @@ const CountryGrid = () => {
       }
   return (
     <section className='countryGridMainSection'>
-        <h1>Explore New Destination</h1>
+        <TitleContainer para={"Unforgettable Trip"} title={"Explore New Destination"} />
         <div className="countryGridContainer">
             {
                 homeCountryData.map((country) => (

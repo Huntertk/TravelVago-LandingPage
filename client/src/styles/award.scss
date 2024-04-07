@@ -6,8 +6,11 @@
     padding: 1rem;
 
     h1{
+        font-family: "Allura", cursive;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 2rem;
+        color: $primary;
+        letter-spacing: 2px;
     }
     .underline{
         width: 15%;
@@ -27,6 +30,9 @@
 
 @media screen and (min-width: 767px) {
     .awardMainSection{
+        h1{
+            font-size: 2.5rem;
+        }
         .awardImgContainer{
             width: 650px;
             margin: 1rem auto;

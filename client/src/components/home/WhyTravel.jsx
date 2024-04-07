@@ -1,6 +1,7 @@
 import { whyTourData } from '../../data';
 import '../../styles/whyTravel.scss';
 import {motion} from 'framer-motion';
+import TitleContainer from './TitleContainer';
 
 const WhyTravel = () => {
     const easeUpLeft = {
@@ -20,10 +21,7 @@ const WhyTravel = () => {
     }
   return (
     <section className='whyTravelMainSection'>
-        <div className="whyTravelTextContainer">
-            <p>We Care about your happiness</p>
-            <h1>Why Travel with Travelvago ? </h1>
-        </div>
+        <TitleContainer para={"We Care about your happiness"} title={"Why Travel with Travelvago ?"} />
         <div className="whyTravelMainContainer">
             {
                 whyTourData.map((data) => (

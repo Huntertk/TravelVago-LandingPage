@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Slider from "react-slick";
 import { GrPrevious, GrNext  } from "react-icons/gr";
 import { tourCategoryData } from "../../data";
+import TitleContainer from "./TitleContainer";
 
 
 function NextArrow(props) {
@@ -74,10 +75,7 @@ const TourCategories = () => {
 
   return (
     <section className='tourCategoryMainContainer'>
-        <div className="tourCategoryTitleContainer">
-              <p>Many places for your trip</p>
-              <h1>Tour Categories</h1>
-          </div>
+          <TitleContainer para={"Many places for your trip"} title={"Tour Categories"} />
 
           <div className="tourCategoryCarouselContainer">
             <div className="tourCategoryCarouselCardContainer">

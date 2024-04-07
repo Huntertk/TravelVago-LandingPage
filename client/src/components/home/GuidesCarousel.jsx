@@ -2,6 +2,7 @@ import { useState } from 'react';
 import '../../styles/guides.scss';
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 import { guidesData } from '../../data';
+import TitleContainer from './TitleContainer';
 
 const GuidesCarousel = () => {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -23,10 +24,7 @@ const GuidesCarousel = () => {
     }
   return (
     <section className='guidesMainSection'>
-        <div className="guidesMainSectionTitleContainer">
-            <p>People who create a fairy tale for you</p>
-            <h1>MEET OUR GUIDES</h1>
-        </div>
+        <TitleContainer para={"People who create a fairy tale for you"} title={"MEET OUR GUIDES"} />
         <div className="guidesCarouselContainer">
             <img src={guidesData[activeSlide].imgUrl} alt={guidesData[activeSlide].name} />
             <h1>{guidesData[activeSlide].name}</h1>
