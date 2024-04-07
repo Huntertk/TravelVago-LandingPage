@@ -108,8 +108,11 @@
 
 
             .bigNavContainer{
-
+                
                 .bigHeaderNavContainer{
+                    background-color: $backgroundColor;
+                    padding: 0.5rem 1rem;
+                    border-radius: 14px;
                     display: flex;
                     align-items: center;
                     gap: 1rem;
