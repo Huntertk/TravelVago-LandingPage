@@ -10,6 +10,7 @@ import {
   SeasonalTours,
   GuidesCarousel
 } from '../components';
+import { homeImgViwerData, homeProductData } from '../data';
 
 import '../styles/home.scss';
 
@@ -17,12 +18,12 @@ import '../styles/home.scss';
 const Home = () => {
   return (
     <section className='homeMainSection'>
-      <ImageSlider />
+      <ImageSlider imgData={homeImgViwerData} />
       <WhyTravel />
       <DealsAndDiscount />
       <TourCategories />
       <SeasonalTours />
-      <ProductContainer />
+      <ProductContainer prodData={homeProductData} para={"Travel far enough, meet yourself"} title={"Most Popular Tours"}/>
       <Award />
       <VideoContainer />
       <GuidesCarousel />

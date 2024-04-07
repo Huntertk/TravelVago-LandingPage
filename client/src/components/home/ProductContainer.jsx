@@ -1,15 +1,14 @@
 import '../../styles/productContainer.scss';
 import Product from './Product';
-import {homeProductData} from '../../data';
 import TitleContainer from './TitleContainer';
 
-const ProductContainer = () => {
+const ProductContainer = ({prodData, para, title}) => {
   return (
     <section className='productContainerMainSection'>
-      <TitleContainer para={"Travel far enough, meet yourself"} title={"Most Popular Tours"}  />
+      <TitleContainer para={para} title={title}  />
       <div className="productContainer">
         {
-          homeProductData.map((data) => <Product key={data.id} data={data}  />)
+          prodData.map((data) => <Product key={data.id} data={data}  />)
         }
       </div>
     </section>

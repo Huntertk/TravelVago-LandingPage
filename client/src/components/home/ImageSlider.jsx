@@ -1,15 +1,14 @@
 import '../../styles/imageSlider.scss';
-import {homeImgViwerData} from '../../data';
 import { useEffect, useState } from 'react';
 import cloud from '../../assets/images/cloud.png';
 
-const ImageSlider = () => {
+const ImageSlider = ({imgData}) => {
   const [sliderChange, setSliderChange] = useState(0);
 
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const newIndex = Math.floor(Math.random() * homeImgViwerData.length);
+      const newIndex = Math.floor(Math.random() * imgData.length);
       setSliderChange(newIndex);
     },5000)
     return () => clearInterval(interval)
@@ -20,12 +19,12 @@ const ImageSlider = () => {
       <div className="homeImageSlideContainer"
       
       >
-        <img className='sliderImage' src={homeImgViwerData[sliderChange].img} alt={homeImgViwerData[sliderChange].title} />
+        <img className='sliderImage' src={imgData[sliderChange].img} alt={imgData[sliderChange].title} />
         <h1 
         className='sliderTitle'
         >
-          {homeImgViwerData[sliderChange].title}
-        <p className='sliderSubtitle'>{homeImgViwerData[sliderChange].subTitle}</p>
+          {imgData[sliderChange].title}
+        <p className='sliderSubtitle'>{imgData[sliderChange].subTitle}</p>
           </h1>
         <img src={cloud} className='cloudImg' alt="cloud image" />
       </div>

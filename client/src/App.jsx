@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from './components/layout/Layout'
-import { About, Home } from './pages'
+import { About, Home,Tours } from './pages';
 
 const App = () => {
   console.log(window.location.hostname);
@@ -9,6 +9,7 @@ const App = () => {
         <Routes>
             <Route element={<Layout />}>
               <Route path='/' element={<Home />} />
+              <Route path='/tours' element={<Tours />} />
               <Route path='/about' element={<About />} />
               <Route path='*' element={<h1>Page Not Found</h1>} />
             </Route>
