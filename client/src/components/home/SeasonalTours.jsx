@@ -4,7 +4,6 @@ import { IoIosLeaf } from 'react-icons/io';
 import '../../styles/seasonalTour.scss';
 import { useState } from 'react';
 import { seasonalTourData } from '../../data';
-import {motion} from 'framer-motion';
 
 const SeasonalTours = () => {
     const [selectedSeasonalTour, setSelectedSeasonalTour] = useState("WINTER");
