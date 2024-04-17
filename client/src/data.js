@@ -21,51 +21,21 @@ import australiaImg from './assets/images/country/australia.jpg';
 export const homeProductData = [
     {
         id:nanoid(),
-        title:"French Autum",
-        image: "https://i.postimg.cc/xC3rkW9w/pexels-pixabay-532826.jpg",
-        tourPlace:"City Tours",
-        country:"France",
-        duration:"5 days"
+        title:"Malaysia Heritage Tour",
+        image: "https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg",
+        desc:" Uncover the rich history and cultural heritage of Malaysia with our expertly guided tour. From the colonial architecture of George Town to the ancient ruins of Melaka, this journey will immerse you in the heart and soul of Malaysia"
     },
     {
         id:nanoid(),
-        title:"Grand Switzerland",
-        image: "https://i.postimg.cc/1RMhyhC6/pexels-ketan-kumawat-724948.jpg",
-        tourPlace:"Mountain, Snow & Ice",
-        country:"Switzerland",
-        duration:"6 days"
+        title:"Thailand Island Escape",
+        image: "https://i.postimg.cc/zXZjTFND/pexels-oleksandr-p-1007657.jpg",
+        desc:"Embark on a tropical getaway with our island-hopping tour of Thailand's most picturesque destinations. Snorkel in the crystal-clear waters of Koh Phi Phi, relax on the pristine beaches of Koh Samui, and experience the laid-back island life that Thailand is famous for.",
     },
     {
         id:nanoid(),
-        title:"Discover Japan",
-        image: "https://i.postimg.cc/j2xpyZ5L/pexels-belle-co-402028.jpg",
-        tourPlace:"City Tour",
-        country:"Japan",
-        duration:"5 days"
-    },
-    {
-        id:nanoid(),
-        title:"Hong Kong",
-        image: "https://i.postimg.cc/HxgDkp10/pexels-jimmy-chan-2537536.jpg",
-        tourPlace:"Iconic, City Tour",
-        country:"Hong Kong",
-        duration:"8 hours"
-    },
-    {
-        id:nanoid(),
-        title:"Great Britain Travel",
-        image: "https://i.postimg.cc/7hKp90GX/pexels-oltion-bregu-338454.jpg",
-        tourPlace:"City Tour",
-        country:"London",
-        duration:"5 days"
-    },
-    {
-        id:nanoid(),
-        title:"Prague Trip",
-        image: "https://i.postimg.cc/8P585K9Y/pexels-pixabay-161077.jpg",
-        tourPlace:"City Tour, History Park",
-        country:"Czech Republic",
-        duration:"5 days"
+        title:"Singapore City Explorer",
+        image: "https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg",
+        desc:"Delve into the vibrant cityscape of Singapore with our comprehensive city tour. From the iconic Merlion Park to the bustling streets of Chinatown, this tour showcases the best that Singapore has to offer, ensuring an unforgettable experience for all.",    
     },
 ]
 
@@ -135,33 +105,18 @@ export const homeImgViwerData = [
 export const homeCountryData = [
     {
         id: nanoid(),
-        img: northAmeraicaImg,
-        title: "North America"
+        img: "https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg",
+        title: "Malaysia"
     },
     {
         id: nanoid(),
-        img: southAmeraicaImg,
-        title: "South America"
+        img: "https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg",
+        title: "Thailand"
     },
     {
         id: nanoid(),
-        img: europeImg,
-        title: "Europe"
-    },
-    {
-        id: nanoid(),
-        img: asiaImg,
-        title: "Asia"
-    },
-    {
-        id: nanoid(),
-        img: africaImg,
-        title: "Africa"
-    },
-    {
-        id: nanoid(),
-        img: australiaImg,
-        title: "Australia"
+        img: "https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg",
+        title: "Singapore"
     },
 
 ]
@@ -198,39 +153,21 @@ export const dealsAndDiscountData = [
 export const tourCategoryData = [
     {
         id:nanoid(),
-        title:"South America",
-        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
-        imgUrl:"https://i.postimg.cc/Yqy5qvr1/south-America.jpg"
+        title:"Malaysia",
+        desc:"Dive into the melting pot of cultures, flavors, and landscapes that Malaysia offers. From the iconic Petronas Twin Towers in Kuala Lumpur to the breathtaking islands of Langkawi, Malaysia is a treasure trove waiting to be explored.",
+        imgUrl:"https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg"
     },
     {
         id:nanoid(),
-        title:"Africa",
-        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
-        imgUrl:"https://i.postimg.cc/HkcfJTnF/africe.jpg"
+        title:"Thailand",
+        desc:"Experience the magic of Thailand, where ancient traditions blend seamlessly with modern marvels. Whether you're wandering through the historic temples of Bangkok or island-hopping through the turquoise waters of Phuket, Thailand promises adventure at every turn.",
+        imgUrl:"https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg"
     },
     {
         id:nanoid(),
-        title:"Asia",
-        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
-        imgUrl:"https://i.postimg.cc/FK08ZGjZ/asia.jpg"
-    },
-    {
-        id:nanoid(),
-        title:"Eastern Europe",
-        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
-        imgUrl:"https://i.postimg.cc/ZRZgD3Hh/eastern-europe.jpg"
-    },
-    {
-        id:nanoid(),
-        title:"Europe",
-        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
-        imgUrl:"https://i.postimg.cc/8z2xMxrc/europe.jpg"
-    },
-    {
-        id:nanoid(),
-        title:"London",
-        desc:"Our travels are different from all the others! We love our business and want to see happy customers, so we always do our best for your comfort!",
-        imgUrl:"https://i.postimg.cc/7hKp90GX/pexels-oltion-bregu-338454.jpg"
+        title:"Singapore",
+        desc:" Discover the allure of Singapore, where skyscrapers meet lush greenery and vibrant neighborhoods. Indulge in a sensory journey through the city's diverse culinary scene, explore the stunning Gardens by the Bay, or shop 'til you drop on Orchard Road.",
+        imgUrl:"https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg"
     },
 ]
 

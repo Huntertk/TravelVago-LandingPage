@@ -23,14 +23,13 @@ const Product = ({data}) => {
       </div>
       <div className="productContent">
         <h1>{data.title}</h1>
-        <p>{data.tourPlace}</p>
-        <p>{data.country}</p>
+        <p>{data.desc}</p>
         <div className="buttonContainer">
           <button>View Details</button>
-          <div className="duration">
+          {/* <div className="duration">
             <CiStopwatch />
           <p> {data.duration}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </motion.div>

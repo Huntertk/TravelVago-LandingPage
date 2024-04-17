@@ -50,6 +50,13 @@ const SmallNavbar = ({setNavOpen}) => {
                 setNavOpen(false)
             }}
             >Contact</NavLink>
+
+            <NavLink to="/about-us" 
+            className='navLinks'
+            onClick={() => {
+                setNavOpen(false)   
+            }}
+            >About Us</NavLink>
             
         </ul>
     </motion.nav>
