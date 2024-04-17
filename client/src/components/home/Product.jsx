@@ -5,11 +5,11 @@ import {motion} from 'framer-motion';
 const Product = ({data}) => {
   const easeScaleUp = {
     initial:{
-      x:-100,
+      scale:0,
       opacity:0
     },
     whileInView:{
-      x:0,
+      scale:1,
       opacity: 1
     },
   }

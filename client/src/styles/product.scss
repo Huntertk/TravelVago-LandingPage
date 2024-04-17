@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     max-width: 450px;
+    width: 270px;
     margin: 0 auto;
     border-radius: 14px;
     overflow: hidden;
@@ -44,5 +45,17 @@
             display: flex;
             align-items: center;
         }
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .productCardContainer{
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .productCardContainer{
+        width: 400px;
     }
 }

@@ -6,24 +6,14 @@
     margin: 3rem auto 2rem auto;
 
     .productContainer{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        overflow-x: scroll;
         gap: 1rem;
         padding: 1rem;
     }
 }
 
-
-@media screen and (min-width: 767px) {
-    .productContainerMainSection{
-    
-        .productContainer{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-
-        }
-    }
-}
 
 
 @media screen and (min-width: 1023px) {
@@ -32,6 +22,7 @@
         .productContainer{
             display: grid;
             grid-template-columns: repeat(3,1fr);
+            overflow-x: hidden;
 
         }
     }
