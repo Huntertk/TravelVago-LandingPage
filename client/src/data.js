@@ -350,3 +350,13 @@ export const contactImgViwerData = [
         subTitle:"Get in touch"
     },
 ]
+
+
+export const aboutUsImgViwerData = [
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/zXZjTFND/pexels-oleksandr-p-1007657.jpg",
+        title: "AboutUs",
+        subTitle:"Travelvago"
+    },
+]

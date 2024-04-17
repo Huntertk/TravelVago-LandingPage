@@ -1,1 +1,27 @@
 @use './variables.scss' as *;
+
+.aboutUsPageMainSection{
+
+
+    .companyDetailsAboutUsContainer{
+        max-width: 1024px;
+        margin: 0 auto;
+
+        p{
+            font-family: 'Poppins';
+            font-size: 1.1rem;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            margin: 1rem 0;
+        }
+
+        ol{
+            margin: 1rem 0;
+            li{
+                font-size: 1rem;
+                letter-spacing: 1px;
+                line-height: 1.6;
+            }
+        }
+    }
+}
