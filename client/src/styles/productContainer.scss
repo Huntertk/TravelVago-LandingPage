@@ -7,7 +7,7 @@
 
     .productContainer{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(5,1fr);
         overflow-x: scroll;
         gap: 1rem;
         padding: 1rem;
@@ -15,15 +15,3 @@
 }
 
 
-
-@media screen and (min-width: 1023px) {
-    .productContainerMainSection{
-    
-        .productContainer{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            overflow-x: hidden;
-
-        }
-    }
-}

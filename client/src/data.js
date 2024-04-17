@@ -37,6 +37,18 @@ export const homeProductData = [
         image: "https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg",
         desc:"Delve into the vibrant cityscape of Singapore with our comprehensive city tour. From the iconic Merlion Park to the bustling streets of Chinatown, this tour showcases the best that Singapore has to offer, ensuring an unforgettable experience for all.",    
     },
+    {
+        id:nanoid(),
+        title:"Dubai Desert Safari and Bedouin Camp Experience",
+        image: "https://i.postimg.cc/NjTxf9hK/pexels-yasin-gdu-2867769.jpg",
+        desc:"Embark on an exhilarating desert safari adventure through Dubai's golden sands. Experience the thrill of dune bashing as skilled drivers navigate the undulating desert terrain",    
+    },
+    {
+        id:nanoid(),
+        title:"Vietnam: Ha Long Bay Cruise",
+        image: "https://i.postimg.cc/8k740Ppn/gary-cacciatore-n-T0-Ds-Yc-Xbb-Y-unsplash.jpg",
+        desc:"Set sail on a mesmerizing cruise through the breathtaking landscapes of Ha Long Bay, a UNESCO World Heritage Site. Marvel at the towering limestone karsts rising majestically from the emerald waters as you glide past secluded coves, hidden caves, and floating fishing villages.",    
+    },
 ]
 
 export const homeImgViwerData = [
@@ -118,6 +130,17 @@ export const homeCountryData = [
         img: "https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg",
         title: "Singapore"
     },
+    {
+        id: nanoid(),
+        img: "https://i.postimg.cc/YS8fY2Gz/pexels-duytrg-truong-20725259.jpg",
+        title: "Vietnam"
+    },
+    {
+        id: nanoid(),
+        img: "https://i.postimg.cc/2SQxj7CJ/pexels-the-lazy-artist-gallery-1089645.jpg",
+        title: "Dubai"
+    },
+
 
 ]
 
@@ -168,6 +191,18 @@ export const tourCategoryData = [
         title:"Singapore",
         desc:" Discover the allure of Singapore, where skyscrapers meet lush greenery and vibrant neighborhoods. Indulge in a sensory journey through the city's diverse culinary scene, explore the stunning Gardens by the Bay, or shop 'til you drop on Orchard Road.",
         imgUrl:"https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"Vietnam",
+        desc:"Immerse yourself in the rich history and breathtaking landscapes of Vietnam. From the bustling streets of Hanoi to the picturesque beauty of Ha Long Bay and the vibrant culture of Ho Chi Minh City, Vietnam offers a truly unforgettable travel experience.",
+        imgUrl:"https://i.postimg.cc/YS8fY2Gz/pexels-duytrg-truong-20725259.jpg"
+    },
+    {
+        id:nanoid(),
+        title:"Dubai",
+        desc:"Enter a world of luxury and opulence in Dubai, where futuristic skyscrapers stand tall against the golden desert backdrop. Marvel at the architectural wonders of Burj Khalifa, indulge in shopping extravaganzas at Dubai Mall, or embark on a desert safari for an adrenaline-pumping adventure.",
+        imgUrl:"https://i.postimg.cc/2SQxj7CJ/pexels-the-lazy-artist-gallery-1089645.jpg"
     },
 ]
 
