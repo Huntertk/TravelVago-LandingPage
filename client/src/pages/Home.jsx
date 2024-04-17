@@ -8,7 +8,7 @@ import {
   VideoContainer,
   WhyTravel,
   SeasonalTours,
-  GuidesCarousel
+  GuidesCarousel,
 } from '../components';
 import { homeCountryData, homeImgViwerData, homeProductData } from '../data';
 
@@ -19,6 +19,10 @@ const Home = () => {
   return (
     <section className='homeMainSection'>
       <ImageSlider imgData={homeImgViwerData} />
+      <div id="titleContainer">
+        <h1 className='homeMainTitle'>Welcome to Travelvago - Your Gateway to Adventure!</h1>
+        <p className='homeMainPara'>Are you ready to embark on an unforgettable journey? At Travelvago, we specialize in curating extraordinary travel experiences that will leave you spellbound. Explore the wonders of Southeast Asia with our carefully selected destinations and tours, crafted to satisfy every wanderlust-filled soul.</p>
+      </div>
       <WhyTravel />
       <DealsAndDiscount />
       <TourCategories />

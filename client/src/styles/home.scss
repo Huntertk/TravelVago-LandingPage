@@ -1,1 +1,20 @@
 @use './variables.scss' as *;
+
+.homeMainSection{
+
+    #titleContainer{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 1rem;
+        text-align: center;
+        .homeMainTitle{
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .homeMainPara{
+            font-family: 'Poppins';
+            font-size: 0.9rem;
+        }
+    }
+}
