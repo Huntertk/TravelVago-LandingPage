@@ -9,9 +9,10 @@ import TitleContainer from "./home/TitleContainer";
 import TourCategories from "./home/TourCategories";
 import VideoContainer from "./home/VideoContainer";
 import WhyTravel from "./home/WhyTravel";
-
+import TeamMember from "./TeamMember";
 
 export {
+    TeamMember,
     ImageSlider,
     CountryGrid,
     Award,

@@ -1,5 +1,5 @@
 import '../styles/about.scss';
-import { ImageSlider, TitleContainer, VideoContainer } from '../components';
+import { ImageSlider, TeamMember, TitleContainer, VideoContainer } from '../components';
 import { aboutUsImgViwerData } from '../data';
 
 const About = () => {
@@ -48,6 +48,7 @@ discover exciting destinations, and start planning your dream vacation today! Ha
 questions or need assistance? Our friendly team is here to help. Contact us anytime,
 and let&#39;s make your travel dreams a reality!</p>
       </div>
+      <TeamMember />
       <VideoContainer />
     </section>
   )
