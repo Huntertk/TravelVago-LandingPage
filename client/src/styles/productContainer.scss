@@ -4,13 +4,13 @@
 .productContainerMainSection{
     max-width: $maxWidth;
     margin: 3rem auto 2rem auto;
-
+    padding: 1rem;
     .productContainer{
         display: grid;
         grid-template-columns: repeat(5,1fr);
         overflow-x: scroll;
         gap: 1rem;
-        padding: 1rem;
+        padding: 1rem 0;
     }
 }
 

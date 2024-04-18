@@ -6,11 +6,12 @@
     padding: 1rem;
 
     .whyTravelMainContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        overflow-x: scroll;
         gap: 2rem;
+        padding: 1rem;
         width: 100%;
         
         .whyTravelCardContainer{
@@ -73,6 +74,7 @@
             align-items: center;
             justify-items: center;
             gap: 2rem;
+            overflow-x: hidden;
         }
     }
 }
@@ -82,7 +84,10 @@
     .whyTravelMainSection{
         .whyTravelMainContainer{
             display: flex;
+            align-items: center;
+            justify-content: center;
             flex-direction: row;
+            overflow-x: hidden;
         }
     }
 }
