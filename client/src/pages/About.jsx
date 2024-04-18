@@ -1,7 +1,7 @@
 import '../styles/about.scss';
 import { ImageSlider, TeamMember, TitleContainer, VideoContainer } from '../components';
 import { aboutUsImgViwerData } from '../data';
-
+import thailandTeamImg from '../assets/images/thailandteam.jpeg';
 const About = () => {
   return (  
     <section className='aboutUsPageMainSection'>
@@ -48,7 +48,11 @@ discover exciting destinations, and start planning your dream vacation today! Ha
 questions or need assistance? Our friendly team is here to help. Contact us anytime,
 and let&#39;s make your travel dreams a reality!</p>
       </div>
-      <TeamMember />
+      <TeamMember 
+        heading={"Meet Our Thailand Team at Travelvago"}  
+        desc={"Discover the faces behind your Thailand adventure at Travelvago. With a passion for travel and a commitment to exceptional service, our Thailand team is dedicated to ensuring every aspect of your journey exceeds expectations. From crafting tailor-made itineraries to leading immersive tours, our team members bring warmth, knowledge, and enthusiasm to every interaction. With Travelvago, you're not just booking a trip—you're gaining trusted partners who are committed to making your Thailand experience unforgettable. Contact us today and let our experienced team turn your travel dreams into reality!"}
+        image={thailandTeamImg} 
+      />
       <VideoContainer />
     </section>
   )
