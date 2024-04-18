@@ -21,9 +21,12 @@
     }
 
     .awardImgContainer{
-        width: 100%;
+        width: 300px;
+        padding: 1rem;
         img{
+            object-fit: contain;
             width: 100%;
+            height: 200px;
         }
     }
 }
