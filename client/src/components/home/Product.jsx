@@ -3,20 +3,25 @@ import { CiStopwatch } from "react-icons/ci";
 import {motion} from 'framer-motion';
 
 const Product = ({data}) => {
-  const easeScaleUp = {
+  const easeUpLeft = {
     initial:{
-      scale:0,
-      opacity:0
+        x:-100,
+        opacity:0,
+        scale:0,
     },
     whileInView:{
-      scale:1,
-      opacity: 1
-    },
-  }
+        x:0,
+        opacity: 1,
+        scale:1,
+      },
+      transition:{
+        duration:0.3
+      }
+}
   return (
     <motion.div 
       className='productCardContainer'
-      {...easeScaleUp}
+      {...easeUpLeft}
     >
       <div className="productImgContainer">
         <img src={data.image} alt={data.title} />
