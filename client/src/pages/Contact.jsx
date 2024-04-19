@@ -23,7 +23,7 @@ const Contact = () => {
       }
 }
   return (
-    <section className='contanPageMainSection'>
+    <section className='contactPageMainSection'>
         <ImageSlider imgData={contactImgViwerData} />
         <TitleContainer title={"Contact Us"} para={"Get in Touch"} />
           <p>Ready to start planning your next adventure? Contact our dedicated team of travel experts at Travelvago today. Whether you're dreaming of a relaxing beach vacation, an adrenaline-fueled adventure, or a cultural immersion like no other, we're here to turn your travel dreams into reality. Let's embark on this journey together!</p>
