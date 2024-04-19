@@ -8,7 +8,7 @@ const Award = () => {
     <section className='awardMainSection'>
         <h1>Our Achivements</h1>
         <Marquee
-        speed={150}
+        speed={100}
         >
           <div className="awardImgContainer">
               <img 
