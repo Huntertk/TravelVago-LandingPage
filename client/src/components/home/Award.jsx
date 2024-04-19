@@ -9,11 +9,18 @@ const Award = () => {
         <h1>Our Achivements</h1>
         <Marquee>
           <div className="awardImgContainer">
-              <img src={awardImgTwo} alt="Travelvago" />
+              <img 
+              className='awardImg awardBigImg' 
+              src={awardImgTwo} 
+              alt="Travelvago" />
           </div>
 
           <div className="awardImgContainer">
-              <img src={awardImgThree} alt="Travelvago" />
+              <img 
+              className='awardImg ' 
+              src={awardImgThree} 
+              alt="Travelvago" 
+              />
           </div>
         </Marquee>
     </section>
