@@ -15,3 +15,17 @@
 }
 
 
+@media screen and (min-width: 1023px) {
+    .productContainerMainSection{
+        .productContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+    }
+}
+
