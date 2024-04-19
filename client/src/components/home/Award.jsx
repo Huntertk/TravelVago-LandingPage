@@ -7,7 +7,9 @@ const Award = () => {
   return (
     <section className='awardMainSection'>
         <h1>Our Achivements</h1>
-        <Marquee>
+        <Marquee
+        speed={150}
+        >
           <div className="awardImgContainer">
               <img 
               className='awardImg awardBigImg' 
