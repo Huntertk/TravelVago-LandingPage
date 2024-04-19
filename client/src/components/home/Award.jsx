@@ -17,7 +17,7 @@ const Award = () => {
 
           <div className="awardImgContainer">
               <img 
-              className='awardImg ' 
+              className='awardImg' 
               src={awardImgThree} 
               alt="Travelvago" 
               />
