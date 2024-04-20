@@ -9,14 +9,18 @@
         letter-spacing: 1px;
         font-size: 1.1rem;
         text-align: center;    
+        font-weight: 500;
     }
 
     .partnerImgContainer{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
 
         img{
-            width: 150px;
+            object-fit: contain;
+            width: 120px;
         }
     }
 }
