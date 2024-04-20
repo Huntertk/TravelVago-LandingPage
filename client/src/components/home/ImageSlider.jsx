@@ -17,7 +17,6 @@ const ImageSlider = ({imgData}) => {
   return (
     <section className='homeImageSliderSection'>
       <div className="homeImageSlideContainer"
-      
       >
         <img className='sliderImage' src={imgData[sliderChange].img} alt={imgData[sliderChange].title} />
         <h1 
@@ -26,7 +25,7 @@ const ImageSlider = ({imgData}) => {
           {imgData[sliderChange].title}
         <p className='sliderSubtitle'>{imgData[sliderChange].subTitle}</p>
           </h1>
-        <img src={cloud} className='cloudImg' alt="cloud image" />
+        {/* <img src={cloud} className='cloudImg' alt="cloud image" /> */}
       </div>
 
     </section>
