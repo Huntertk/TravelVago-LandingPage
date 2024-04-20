@@ -15,7 +15,8 @@ import africaImg from './assets/images/country/africa.jpg';
 import asiaImg from './assets/images/country/asia.jpg';
 import australiaImg from './assets/images/country/australia.jpg';
 
-
+//Blog Image
+import blogMountain from './assets/images/mountainsBlog.jpg'
 
 
 export const homeProductData = [
@@ -393,5 +394,17 @@ export const aboutUsImgViwerData = [
         img:"https://i.postimg.cc/zXZjTFND/pexels-oleksandr-p-1007657.jpg",
         title: "AboutUs",
         subTitle:"Travelvago"
+    },
+]
+
+
+//Blog
+
+export const blogImgViwerData = [
+    {
+        id: nanoid(),
+        img:blogMountain,
+        title: "OurBlog",
+        subTitle:"News from the world of tourism"
     },
 ]
