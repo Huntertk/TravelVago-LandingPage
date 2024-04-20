@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from './components/layout/Layout'
-import { About, Blogs, Contact, Destination, Home,Tours } from './pages';
+import { About, BlogDetails, Blogs, Contact, Destination, Home,Tours } from './pages';
 
 const App = () => {
   console.log(window.location.hostname);
@@ -12,6 +12,7 @@ const App = () => {
               <Route path='/tours' element={<Tours />} />
               <Route path='/destination' element={<Destination />} />
               <Route path='/blogs' element={<Blogs />} />
+              <Route path='/blogs/:slug' element={<BlogDetails />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='/about-us' element={<About />} />
             </Route>
