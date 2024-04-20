@@ -1,114 +1,77 @@
 import '../../styles/dealsAndDiscount.scss';
-import { motion} from 'framer-motion';
 import TitleContainer from './TitleContainer';
 
 const DealsAndDiscountMediumScreen = () => {
-    const easeUpLeft = {
-        initial:{
-            x:-100,
-            opacity:0,
-            scale:0,
-        },
-        whileInView:{
-            x:0,
-            opacity: 1,
-            scale:1,
-          },
-          transition:{
-            duration:0.3
-          }
-    }
+    
     return (
       <>
       <section className='dealsAndDiscountMainMediumSection'>
       <TitleContainer para={"Last minute offer for you"} title={"Deals & Discount"} />
           
-          <motion.div 
+          <div 
           className="dealsAndDiscountMainContainer"
-          {...easeUpLeft}
           >
               <div id="dealsTopContainer" className='dealsAndDiscountCardDesign'>
                   <h1>Adventures in Japan</h1>
                   <p>Get an unforgettable experience from each of our trips! Travel with us!</p>
               </div>
-                <motion.div 
-                {...easeUpLeft}
+                <div 
                 id='dealsBottomSmallContainerOne' 
                 className='dealsAndDiscountCardDesign'
                 >
                         <h1>Extreme Madagascar</h1>
                         <p>Enjoy each of our tours!</p>
-                    </motion.div>
-                    <motion.div 
-                    {...easeUpLeft} 
+                    </div>
+                    <div 
                     id='dealsBottomSmallContainerTwo' 
                     className='dealsAndDiscountCardDesign'>
                         <h1>Amazing Colombia</h1>
                         <p>Enjoy each of our tours!</p>
-                    </motion.div>
-                    <motion.div
-                    {...easeUpLeft} 
+                    </div>
+                    <div
                     className="dealsBottomSubContainer dealsAndDiscountCardDesign" id='dealsBottomSubContainer'>
                     <h1>Aristocratic Lithuania</h1>
                     <p>Get an unforgettable experience from each of our trips! Travel with us!</p>
-                </motion.div>
-          </motion.div>
+                </div>
+          </div>
       </section>
       </>
     )
   }
 
 const DealsAndDiscount = () => {
-    const easeUpLeft = {
-        initial:{
-            x:-100,
-            opacity:0,
-            scale:0,
-        },
-        whileInView:{
-            x:0,
-            opacity: 1,
-            scale:1,
-          },
-          transition:{
-            duration:0.3
-          }
-    }
+    
   return (
     <>
     <section className='dealsAndDiscountMainSection'>
         <TitleContainer para={"Last minute offer for you"} title={"Deals & Discount"} />
         <div className="dealsAndDiscountMainContainer">
-            <motion.div 
+            <div 
             id="dealsTopContainer" 
             className='dealsAndDiscountCardDesign'
-            {...easeUpLeft}
             >
 
                 <h1>Adventures in Japan</h1>
                 <p>Get an unforgettable experience from each of our trips! Travel with us!</p>
-            </motion.div>
+            </div>
             <div className="dealsBottomContainer">
                 <div className="dealsBottomSubContainer">
-                    <motion.div 
-                    {...easeUpLeft}
+                    <div 
                     id='dealsBottomSmallContainerOne' className='dealsAndDiscountCardDesign'>
                         <h1>Extreme Madagascar</h1>
                         <p>Enjoy each of our tours!</p>
-                    </motion.div>
-                    <motion.div 
-                    {...easeUpLeft}
+                    </div>
+                    <div 
                     id='dealsBottomSmallContainerTwo' className='dealsAndDiscountCardDesign'>
                         <h1>Amazing Colombia</h1>
                         <p>Enjoy each of our tours!</p>
-                    </motion.div>
+                    </div>
                 </div>
-                <motion.div
-                {...easeUpLeft}
+                <div
                 className="dealsBottomSubContainer dealsAndDiscountCardDesign" id='dealsBottomSubContainer'>
                     <h1>Aristocratic Lithuania</h1>
                     <p>Get an unforgettable experience from each of our trips! Travel with us!</p>
-                </motion.div>
+                </div>
             </div>
         </div>
     </section>
