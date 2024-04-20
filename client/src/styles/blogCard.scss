@@ -27,6 +27,17 @@
             font-size: 0.9rem;
             letter-spacing: 1px;
         }
+
+        span{
+            font-weight: 800;
+            color: $primary;
+
+            &:hover,
+            &:active{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
     }
 
     .buttonContainer{

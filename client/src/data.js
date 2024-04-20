@@ -433,7 +433,155 @@ export const blogsData = [
             {
                 id:nanoid(),
                 title:"Conclusionn",
-                desc:"With its fascinating blend of cultures, breathtaking natural beauty, and mouthwatering cuisine, Malaysia promises an unforgettable adventure for first-time visitors. Embrace the warmth and hospitality of its people as you explore the diverse wonders of this enchanting country."
+                desc:"With its fascinating blend of cultures, breathtaking natural beauty, and mouthwatering cuisine, Malaysia promises an unforgettable adventure for first-time visitors. Embrace the warmth and hospitality of its people as you explore the diverse wonders of this enchanting country."
+            },
+        ]
+    },
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg",
+        title: "9 Best Ways to Celebrate Summer in Thailand",
+        desc:"As the temperature rises and the sun shines brighter, it's time to embrace the spirit of summer in Thailand! From pristine beaches to vibrant festivals, Thailand offers a plethora of activities to make your summer unforgettable. Whether you're a beach lover, a culture enthusiast, or an adventure seeker, there's something for everyone in the Land of Smiles. Let's dive into the nine best ways to celebrate summer in Thailand.",
+        slug:"9-best-ways-to-celebrate-summer-in-thailand",
+        detailedData:[
+            {
+                id:nanoid(),
+                title:"Island Hopping in the Andaman Sea",
+                desc:"Kick off your summer adventure by exploring the breathtaking islands of the Andaman Sea. From the famous Phi Phi Islands to the lesser-known gems like Koh Lanta and Koh Yao Noi, each island boasts crystal-clear waters, white sandy beaches, and vibrant marine life. Snorkel, dive, or simply relax under the shade of a palm tree – the choice is yours!"
+            },
+            {
+                id:nanoid(),
+                title:"Songkran Festival",
+                desc:"Experience the world's largest water fight during Thailand's Songkran Festival, celebrated in April. Join the lively street parties, where locals and tourists alike engage in friendly water battles to wash away the past year's misfortunes and welcome the Thai New Year with joy and laughter."
+            },
+            {
+                id:nanoid(),
+                title:"Chiang Mai Flower Festival",
+                desc:"Immerse yourself in a riot of colors at the Chiang Mai Flower Festival, held annually in February. Marvel at the stunning floral displays, intricately designed floats, and vibrant parades showcasing the beauty of Northern Thai culture. Don't forget to capture Instagram-worthy photos amidst a sea of blossoms!"
+            },
+            {
+                id:nanoid(),
+                title:"Muay Thai Training Camps",
+                desc:"Channel your inner warrior and embark on a Muay Thai training camp adventure. Whether you're a beginner or a seasoned fighter, Thailand's renowned Muay Thai camps offer professional training in a tropical paradise setting. Strengthen your body, sharpen your skills, and unleash your potential under the guidance of experienced trainers."
+            },
+            {
+                id:nanoid(),
+                title:"Temple Hopping in Bangkok",
+                desc:"Discover the rich cultural heritage of Thailand by exploring the ancient temples of Bangkok. Marvel at the majestic beauty of Wat Phra Kaew, home to the revered Emerald Buddha, and admire the intricate architecture of Wat Arun, the Temple of Dawn. Don't miss the chance to witness the mesmerizing evening chants at Wat Pho, the Temple of the Reclining Buddha."
+            },
+            {
+                id:nanoid(),
+                title:"Night Markets and Street Food",
+                desc:"Indulge your senses in the vibrant atmosphere of Thailand's night markets and savor the tantalizing flavors of Thai street food. From the bustling stalls of Bangkok's Chatuchak Weekend Market to the aromatic delicacies of Chiang Mai's Night Bazaar, experience a culinary adventure like no other. Sample exotic fruits, spicy curries, and delectable desserts as you navigate through a maze of colors and aromas."
+            },
+            {
+                id:nanoid(),
+                title:"Elephant Sanctuaries",
+                desc:"Embark on a journey of compassion and conservation at Thailand's ethical elephant sanctuaries. Interact with these gentle giants in their natural habitat, feed them, bathe them, and learn about their rehabilitation journey. Choose responsible elephant experiences that prioritize the well-being of the animals and support sustainable tourism practices."
+            },
+            {
+                id:nanoid(),
+                title:"Waterfalls and National Parks",
+                desc:"Escape the heat and reconnect with nature at Thailand's picturesque waterfalls and national parks. Trek through lush jungles, swim in refreshing pools, and marvel at the beauty of cascading waterfalls such as Erawan Falls in Kanchanaburi and Namtok Phlio in Chanthaburi. Embrace the serenity of the great outdoors and immerse yourself in Thailand's natural wonders."
+            },
+            {
+                id:nanoid(),
+                title:"Full Moon Parties in Koh Phangan",
+                desc:"Dance the night away under the glow of the full moon at Koh Phangan's legendary Full Moon Parties. Join thousands of revelers from around the world as they gather on the shores of Haad Rin Beach to celebrate life, music, and freedom. Lose yourself in the electrifying beats of international DJs, indulge in fire shows, and create memories that will last a lifetime."
+            },
+            {
+                id:nanoid(),
+                title:"Language and Communication",
+                desc:"While Bahasa Malaysia is the official language, English is widely spoken and understood, especially in tourist areas. Learning a few basic phrases in Bahasa Malaysia, such as 'terima kasih' (thank you) and 'tolong' (please), can go a long way in enhancing your travel experience."
+            },
+            {
+                id:nanoid(),
+                title:"Conclusion",
+                desc:"With its diverse landscapes, rich cultural heritage, and warm hospitality, Thailand beckons travelers to embrace the magic of summer like never before. Whether you're seeking adventure, relaxation, or cultural immersion, Thailand offers endless possibilities for a summer getaway you'll cherish forever. So pack your bags, embark on an unforgettable journey, and let the wonders of Thailand ignite your spirit of adventure this summer!"
+            },
+        ]
+    },
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg",
+        title: "13 Compelling Reasons to Make Malaysia Your Next Vacation Spot",
+        desc:"Did you know that Malaysia ranks among the top backpacking destinations in Southeast Asia? Overflowing with captivating attractions and experiences, it's a must-visit destination to add to your travel itinerary. If you need convincing, here are thirteen irresistible charms of this gem in Southeast Asia.",
+        slug:"13-compelling-reasons-to-make-malaysia-your-next-vacation-spot",
+        detailedData:[
+            {
+                id:nanoid(),
+                title:"Island Hopping in the Andaman Sea",
+                desc:"Kick off your summer adventure by exploring the breathtaking islands of the Andaman Sea. From the famous Phi Phi Islands to the lesser-known gems like Koh Lanta and Koh Yao Noi, each island boasts crystal-clear waters, white sandy beaches, and vibrant marine life. Snorkel, dive, or simply relax under the shade of a palm tree – the choice is yours!"
+            },
+            {
+                id:nanoid(),
+                title:"Petronas Twin Towers",
+                desc:"Rising to an impressive height of 452 meters, the Petronas Twin Towers held the title of the world's tallest building from 1998 to 2004. Take a lift to the 86th-floor observation deck for a breathtaking view of Kuala Lumpur."
+            },
+            {
+                id:nanoid(),
+                title:"Food Paradise",
+                desc:"Malaysia offers a culinary adventure like no other, with an array of delectable dishes at affordable prices. Whether you're dining at a street food cart, hawker center, café, or restaurant, you'll be treated to a diverse selection of Malay, Chinese, Indian, and Thai cuisine."
+            },
+            {
+                id:nanoid(),
+                title:"Multicultural Harmony",
+                desc:"Experience the harmonious coexistence of various cultures as you stroll through the streets of Malaysia. From mosques to Chinese temples and churches, Malaysia celebrates festivals like Christmas, Chinese New Year, and Hari Raya with enthusiasm, regardless of ethnic or religious background."
+            },
+            {
+                id:nanoid(),
+                title:"Blue Ocean, White Sand",
+                desc:"Malaysia boasts stunning beaches with crystal-clear waters and powdery white sands. Destinations like Langkawi, Perhentian Islands, Rendang Island, and Sabah offer idyllic settings for beach lovers."
+            },
+            {
+                id:nanoid(),
+                title:"Atas English Tea",
+                desc:"Head to Cameron Highlands for a taste of Southeast Asian English tea amidst lush landscapes and Malaysia's largest tea plantation."
+            },
+            {
+                id:nanoid(),
+                title:"Malacca World Heritage",
+                desc:"Explore the rich historical and cultural heritage of Malacca, a UNESCO World Heritage Site, dotted with colonial-era buildings, Dutch Square, and charming riverside walks."
+            },
+            {
+                id:nanoid(),
+                title:"Kinabalu National Park",
+                desc:"Discover the natural wonders of Kinabalu National Park, home to diverse flora and fauna, including over 5,000 plant species. Visitors can indulge in activities like mountain climbing, rock climbing, paragliding, and relaxing in hot springs."
+            },
+            {
+                id:nanoid(),
+                title:"World's Largest Cave",
+                desc:"Explore the awe-inspiring Gunung Mulu National Park, home to the world's largest known underground cave system, showcasing stunning karst landscapes and high biodiversity."
+            },
+            {
+                id:nanoid(),
+                title:"The Iban People",
+                desc:"Learn about the traditional customs and way of life of the Iban people, known for their past reputation as headhunters. Today, they preserve their cultural heritage while embracing modern amenities."
+            },
+            {
+                id:nanoid(),
+                title:"World's Oldest Rainforest",
+                desc:"Immerse yourself in the ancient Taman Negara, one of the world's oldest rainforests, teeming with rare wildlife and vegetation."
+            },
+            {
+                id:nanoid(),
+                title:"Southeast Asia's Largest Buddhist Temple",
+                desc:"Visit the magnificent Kek Lok Si Temple in Penang, the largest Buddhist temple in Southeast Asia, known for its elaborate Chinese New Year celebrations."
+            },
+            {
+                id:nanoid(),
+                title:"Sepang International Circuit",
+                desc:"Experience the adrenaline rush at Sepang International Circuit, where you can enjoy go-karting on tracks frequented by international racing stars."
+            },
+            {
+                id:nanoid(),
+                title:"Diver's Paradise",
+                desc:"Explore the vibrant underwater world of Sipadan, one of the world's top dive sites, boasting an abundance of marine life and stunning coral reefs."
+            },
+            {
+                id:nanoid(),
+                title:"Conclusion",
+                desc:"Whether you're seeking adventure, cultural immersion, or relaxation, Malaysia offers something for every type of traveler."
             },
         ]
     },
