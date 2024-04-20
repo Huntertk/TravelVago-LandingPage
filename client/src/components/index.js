@@ -3,6 +3,7 @@ import CountryGrid from "./home/CountryGrid";
 import DealsAndDiscount from "./home/DealsAndDiscount";
 import GuidesCarousel from "./home/GuidesCarousel";
 import ImageSlider from "./home/ImageSlider";
+import Partner from "./home/Partner";
 import ProductContainer from "./home/ProductContainer";
 import SeasonalTours from "./home/SeasonalTours";
 import TitleContainer from "./home/TitleContainer";
@@ -12,6 +13,7 @@ import WhyTravel from "./home/WhyTravel";
 import TeamMember from "./TeamMember";
 
 export {
+    Partner,
     TeamMember,
     ImageSlider,
     CountryGrid,

@@ -9,6 +9,7 @@ import {
   WhyTravel,
   SeasonalTours,
   GuidesCarousel,
+  Partner,
 } from '../components';
 import { homeCountryData, homeImgViwerData, homeProductData } from '../data';
 
@@ -32,6 +33,7 @@ const Home = () => {
       <VideoContainer />
       <GuidesCarousel />
       <CountryGrid countryData={homeCountryData} para={"Unforgettable Trip"} title={"Explore New Destination"} />
+      <Partner />
     </section>
   )
 }

@@ -1,0 +1,22 @@
+@use './variables.scss' as *;
+
+.partnerMainContainer{
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 1rem;
+    h1{
+        color: #aaa;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        text-align: center;    
+    }
+
+    .partnerImgContainer{
+        display: flex;
+        flex-wrap: wrap;
+
+        img{
+            width: 150px;
+        }
+    }
+}
