@@ -4,7 +4,8 @@ import { nanoid } from 'nanoid';
 import malaysia from './assets/images/malaysia.jpg';
 import singapore from './assets/images/singapore.jpg';
 import thailand from './assets/images/thailand.jpg';
-import veitnam from './assets/images/veitnam.jpg';
+import veitnam from './assets/images/vietnam.jpg';
+import dubai from './assets/images/dubai.jpg';
 
 
 //Blog Image
@@ -74,6 +75,12 @@ export const homeImgViwerData = [
         title: "Veitnam",
         subTitle:"Visit the beautiful city"
     },
+    {
+        id: nanoid(),
+        img:dubai,
+        title: "Dubai",
+        subTitle:"Visit the beautiful city"
+    },
     
 ]
 
@@ -81,22 +88,26 @@ export const homeCountryData = [
     {
         id: nanoid(),
         img: "https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg",
-        title: "Malaysia"
+        title: "Malaysia",
+        slug:"malaysia"
     },
     {
         id: nanoid(),
         img: "https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg",
-        title: "Thailand"
+        title: "Thailand",
+        slug:"thailand"
     },
     {
         id: nanoid(),
         img: "https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg",
-        title: "Singapore"
+        title: "Singapore",
+        slug:"singapore"
     },
     {
         id: nanoid(),
         img: "https://i.postimg.cc/YS8fY2Gz/pexels-duytrg-truong-20725259.jpg",
-        title: "Vietnam"
+        title: "Vietnam",
+        slug:"vietnam"
     },
     {
         id: nanoid(),
@@ -584,5 +595,23 @@ export const blogsData = [
                 desc:"Whether you're seeking adventure, cultural immersion, or relaxation, Malaysia offers something for every type of traveler."
             },
         ]
+    },
+]
+
+
+//Thailand Page
+export const thailandPageImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg",
+        title: "Thailand",
+        subTitle:"Find your perfect vacation"
+    },
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/zXZjTFND/pexels-oleksandr-p-1007657.jpg",
+        title: "Thailand",
+        subTitle:"Find your perfect vacation"
     },
 ]

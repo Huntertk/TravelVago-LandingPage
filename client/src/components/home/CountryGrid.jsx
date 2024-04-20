@@ -1,8 +1,10 @@
 import '../../styles/countryGrid.scss';
 import {motion} from 'framer-motion';
 import TitleContainer from './TitleContainer';
+import { useNavigate } from 'react-router-dom';
 
 const CountryGrid = ({countryData,para, title}) => {
+  const navigate = useNavigate()
     const easeScaleUp = {
         initial:{
           scale:0,
@@ -26,6 +28,7 @@ const CountryGrid = ({countryData,para, title}) => {
                         className="gridItem" 
                         key={country.id}
                         {...easeScaleUp}
+                        onClick={() => navigate(`/destination/${country.slug}`)}
                     >
                         <img src={country.img} alt={country.title} />
                         <h1>{country.title}</h1>

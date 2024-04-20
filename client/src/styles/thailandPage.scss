@@ -1,0 +1,23 @@
+@use './variables.scss' as *;
+
+.thailandPageMainSection{
+
+    #titleContainer{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 1rem;
+        text-align: center;
+        .thailandPageMainTitle{
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .thailandPageMainPara{
+            font-family: 'Poppins';
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            line-height: 1.6;
+            margin: 1rem auto;
+        }
+    }
+}
