@@ -12,6 +12,7 @@ import blogMountain from './assets/images/mountainsBlog.jpg'
 
 //Driver
 import driverOneImg from './assets/images/driverOne.jpg'
+import driverTwoImg from './assets/images/driverTwo.jpg'
 
 
 export const homeProductData = [
@@ -237,9 +238,9 @@ export const guidesData = [
     },
     {
         id:nanoid(),
-        name:"Leslie Alexander",
-        imgUrl:"https://i.postimg.cc/05dVfGKv/62b94dbb8e2a468c99053777-portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-cros.jpg",
-        title:"Tourist Guide"
+        name:"Yuvanesh",
+        imgUrl:driverTwoImg,
+        title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
@@ -367,5 +368,73 @@ export const blogImgViwerData = [
         img:blogMountain,
         title: "OurBlog",
         subTitle:"News from the world of tourism"
+    },
+]
+
+
+export const blogsData = [
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg",
+        title: "The Ultimate First-Timer's Guide to Exploring Malaysia",
+        desc:"Welcome to Malaysia  a land of vibrant cultures, breathtaking landscapes, and unforgettable experiences. Whether you're a history buff, an adventure seeker, or a food enthusiast, Malaysia has something for everyone. This guide is your ticket to navigating the wonders of this captivating country with ease.",
+        slug:"the-ultimate-first-timers-guide-to-exploring-malaysia",
+        detailedData:[
+            {
+                id:nanoid(),
+                title:"Visa and Entry Requirements",
+                desc:"Before embarking on your Malaysian adventure, ensure you check the visa requirements based on your nationality. Most visitors are granted a visa-free entry for a certain period, but it's essential to verify the latest regulations to avoid any last-minute surprises."
+            },
+            {
+                id:nanoid(),
+                title:"Best Time to Visit",
+                desc:"Malaysia enjoys a tropical climate, with warm temperatures year-round. The best time to visit depends on your preferences and activities. The dry season, from May to September, is ideal for exploring the beaches and islands on the east coast, while the west coast experiences its dry season from November to April."
+            },
+            {
+                id:nanoid(),
+                title:"Packing Essentials",
+                desc:"When packing for Malaysia, keep in mind the warm and humid weather. Lightweight, breathable clothing is a must, along with sunscreen, a hat, and insect repellent. Don't forget to pack comfortable walking shoes, as you'll likely be exploring bustling cities and trekking through lush jungles."
+            },
+            {
+                id:nanoid(),
+                title:"Health and Safety",
+                desc:"Ensure you're up to date on routine vaccinations before traveling to Malaysia. It's also advisable to drink bottled water and avoid street food stalls with questionable hygiene practices. While Malaysia is generally safe for travelers, exercise caution in crowded areas and be mindful of your belongings."
+            },
+            {
+                id:nanoid(),
+                title:"Transportation",
+                desc:"Getting around Malaysia is convenient, thanks to its well-developed transportation network. From modern highways to efficient public transport systems, including buses, trains, and even domestic flights, traveling between cities and regions is a breeze."
+            },
+            {
+                id:nanoid(),
+                title:"Accommodation",
+                desc:"Malaysia offers a wide range of accommodation options to suit every budget and preference. Whether you prefer luxury resorts, boutique hotels, or budget-friendly hostels, you'll find plenty of choices in bustling cities like Kuala Lumpur or idyllic beach destinations like Langkawi."
+            },
+            {
+                id:nanoid(),
+                title:"Cultural Etiquette",
+                desc:"Respect for local customs and traditions is key when visiting Malaysia. Dress modestly when visiting religious sites, remove your shoes before entering someone's home, and greet locals with a warm smile and a friendly 'Selamat sejahtera' (meaning 'peace and prosperity')."
+            },
+            {
+                id:nanoid(),
+                title:"Must-See Destinations",
+                desc:"No trip to Malaysia is complete without visiting iconic landmarks like the Petronas Twin Towers in Kuala Lumpur, the UNESCO-listed George Town in Penang, and the stunning beaches of the Perhentian Islands. Be sure to explore the rich cultural heritage of Melaka and the lush rainforests of Taman Negara."
+            },
+            {
+                id:nanoid(),
+                title:"Local Cuisine",
+                desc:"Malaysia is a paradise for food lovers, with its diverse culinary influences and mouthwatering dishes. Don't miss out on sampling local delicacies such as nasi lemak, roti canai, and laksa. Be adventurous and try street food from bustling night markets for an authentic Malaysian dining experience."
+            },
+            {
+                id:nanoid(),
+                title:"Language and Communication",
+                desc:"While Bahasa Malaysia is the official language, English is widely spoken and understood, especially in tourist areas. Learning a few basic phrases in Bahasa Malaysia, such as 'terima kasih' (thank you) and 'tolong' (please), can go a long way in enhancing your travel experience."
+            },
+            {
+                id:nanoid(),
+                title:"Conclusionn",
+                desc:"With its fascinating blend of cultures, breathtaking natural beauty, and mouthwatering cuisine, Malaysia promises an unforgettable adventure for first-time visitors. Embrace the warmth and hospitality of its people as you explore the diverse wonders of this enchanting country."
+            },
+        ]
     },
 ]

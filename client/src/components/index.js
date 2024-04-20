@@ -1,4 +1,5 @@
 import Award from "./home/Award";
+import BlogCard from "./home/BlogCard";
 import CountryGrid from "./home/CountryGrid";
 import DealsAndDiscount from "./home/DealsAndDiscount";
 import GuidesCarousel from "./home/GuidesCarousel";
@@ -13,6 +14,7 @@ import WhyTravel from "./home/WhyTravel";
 import TeamMember from "./TeamMember";
 
 export {
+    BlogCard,
     Partner,
     TeamMember,
     ImageSlider,
