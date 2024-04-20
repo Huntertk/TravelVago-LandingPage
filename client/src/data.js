@@ -1,19 +1,11 @@
 import { nanoid } from 'nanoid';
 
 //Home Image Slider Images
-import iceland from './assets/images/iceland.jpg';
 import malaysia from './assets/images/malaysia.jpg';
 import singapore from './assets/images/singapore.jpg';
 import thailand from './assets/images/thailand.jpg';
+import veitnam from './assets/images/veitnam.jpg';
 
-
-//Home Country Images
-import northAmeraicaImg from './assets/images/country/north-america.jpg';
-import southAmeraicaImg from './assets/images/country/south-america.jpg';
-import europeImg from './assets/images/country/europe.jpg';
-import africaImg from './assets/images/country/africa.jpg';
-import asiaImg from './assets/images/country/asia.jpg';
-import australiaImg from './assets/images/country/australia.jpg';
 
 //Blog Image
 import blogMountain from './assets/images/mountainsBlog.jpg'
@@ -53,12 +45,7 @@ export const homeProductData = [
 ]
 
 export const homeImgViwerData = [
-    {
-        id: nanoid(),
-        img:iceland,
-        title: "Iceland",
-        subTitle:"Find excitement wherever you go"
-    },
+    
     {
         id: nanoid(),
         img:malaysia,
@@ -79,40 +66,11 @@ export const homeImgViwerData = [
     },
     {
         id: nanoid(),
-        img:northAmeraicaImg,
-        title: "NorthAmerica",
-        subTitle:"Find excitement wherever you go"
-    },
-    {
-        id: nanoid(),
-        img: southAmeraicaImg,
-        title: "SouthAmerica",
-        subTitle:"Find excitement wherever you go"
-    },
-    {
-        id: nanoid(),
-        img: europeImg,
-        title: "Europe",
+        img:veitnam,
+        title: "Veitnam",
         subTitle:"Visit the beautiful city"
     },
-    {
-        id: nanoid(),
-        img: asiaImg,
-        title: "Asia",
-        subTitle:"Visit the beautiful landscape"
-    },
-    {
-        id: nanoid(),
-        img: africaImg,
-        title: "Africa",
-        subTitle:"Find your perfect vacation"
-    },
-    {
-        id: nanoid(),
-        img: australiaImg,
-        title: "Australia",
-        subTitle:"Find your perfect vacation"
-    },
+    
 ]
 
 export const homeCountryData = [
