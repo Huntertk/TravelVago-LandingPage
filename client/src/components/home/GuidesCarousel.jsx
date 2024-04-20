@@ -24,7 +24,7 @@ const GuidesCarousel = () => {
     }
   return (
     <section className='guidesMainSection'>
-        <TitleContainer para={"People who create a fairy tale for you"} title={"MEET OUR GUIDES"} />
+        <TitleContainer para={"People who create a fairy tale for you"} title={"MEET OUR DRIVERS"} />
         <div className="guidesCarouselContainer">
             <img src={guidesData[activeSlide].imgUrl} alt={guidesData[activeSlide].name} />
             <h1>{guidesData[activeSlide].name}</h1>

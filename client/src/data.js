@@ -10,6 +10,9 @@ import veitnam from './assets/images/veitnam.jpg';
 //Blog Image
 import blogMountain from './assets/images/mountainsBlog.jpg'
 
+//Driver
+import driverOneImg from './assets/images/driverOne.jpg'
+
 
 export const homeProductData = [
     {
@@ -228,9 +231,9 @@ export const seasonalTourData = [
 export const guidesData = [
     {
         id:nanoid(),
-        name:"Guy Hawkins",
-        imgUrl:"https://i.postimg.cc/FsrDnf0L/62b94fc938c962b26d4539a5-Man-1-2.jpg",
-        title:"Tourist Guide"
+        name:"Ayyanar",
+        imgUrl:driverOneImg,
+        title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
