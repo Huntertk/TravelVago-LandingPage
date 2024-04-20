@@ -12,8 +12,11 @@ import TourCategories from "./home/TourCategories";
 import VideoContainer from "./home/VideoContainer";
 import WhyTravel from "./home/WhyTravel";
 import TeamMember from "./TeamMember";
+import WhyThailand from "./thailand/WhyThailand";
+
 
 export {
+    WhyThailand,
     BlogCard,
     Partner,
     TeamMember,

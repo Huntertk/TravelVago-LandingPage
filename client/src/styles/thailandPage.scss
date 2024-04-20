@@ -2,22 +2,87 @@
 
 .thailandPageMainSection{
 
-    #titleContainer{
-        max-width: 900px;
-        margin: 0 auto;
+    .thailandPageContainer{
+        max-width: $maxWidth;
+        margin: 1rem auto;
         padding: 1rem;
-        text-align: center;
-        .thailandPageMainTitle{
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-        .thailandPageMainPara{
-            font-family: 'Poppins';
-            font-size: 1.1rem;
-            letter-spacing: 1px;
-            line-height: 1.6;
+
+        #titleContainer{
+            max-width: 800px;
             margin: 1rem auto;
+            text-align: center;
+            .thailandPageMainTitle{
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .thailandPageMainPara{
+                font-family: 'Poppins';
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+                line-height: 1.6;
+                margin: 1rem auto;
+            }
+        }
+        
+        .keyAreaContainer{
+            max-width: 800px;
+            margin: 1rem auto;
+            h1{
+                text-align: center;
+                margin: 1rem 0;
+            }
+
+            ul{
+                list-style: none;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 5px;
+
+                li{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    font-size: 1rem;
+
+                    svg{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+        .thailandContanContainer{
+            max-width: 950px;
+            margin: 1rem auto;
+
+            p{
+                letter-spacing: 1px;
+                line-height: 1.6;
+            }
         }
     }
+}
+
+
+@media screen and (min-width: 767px) {
+    .thailandPageMainSection{
+
+        .thailandPageContainer{
+             
+            .keyAreaContainer{
+                ul{
+                   
+                    grid-template-columns: repeat(3,1fr);
+                    gap: 10px;
+    
+                    li{
+                       
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    
 }
