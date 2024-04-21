@@ -17,6 +17,8 @@ import driverTwoImg from './assets/images/driverTwo.jpg'
 import driverThreeImg from './assets/images/driverThree.jpg'
 import driverFourImg from './assets/images/driverFour.jpg'
 import driverFiveImg from './assets/images/driverFive.jpg'
+import driverSixImg from './assets/images/driverSix.jpg'
+import driverSevenImg from './assets/images/driverSeven.jpg'
 
 
 export const homeProductData = [
@@ -272,6 +274,18 @@ export const guidesData = [
         id:nanoid(),
         name:"Siva",
         imgUrl:driverFiveImg,
+        title:"Driver Cum Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Vikram",
+        imgUrl:driverSixImg,
+        title:"Driver Cum Guide"
+    },
+    {
+        id:nanoid(),
+        name:"Aru",
+        imgUrl:driverSevenImg,
         title:"Driver Cum Guide"
     },
 ]
