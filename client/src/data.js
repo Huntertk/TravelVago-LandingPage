@@ -14,6 +14,9 @@ import blogMountain from './assets/images/mountainsBlog.jpg'
 //Driver
 import driverOneImg from './assets/images/driverOne.jpg'
 import driverTwoImg from './assets/images/driverTwo.jpg'
+import driverThreeImg from './assets/images/driverThree.jpg'
+import driverFourImg from './assets/images/driverFour.jpg'
+import driverFiveImg from './assets/images/driverFive.jpg'
 
 
 export const homeProductData = [
@@ -255,27 +258,21 @@ export const guidesData = [
     },
     {
         id:nanoid(),
-        name:"Andrew Hogan",
-        imgUrl:"https://i.postimg.cc/NjVDMpS6/62b94dbda76511f7b323354e-portrait-handsome-smiling-stylish-young-man-model-dressed-jeans-clothes-fas.jpg",
-        title:"Tourist Guide"
+        name:"Karthi",
+        imgUrl:driverThreeImg,
+        title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
-        name:"Lydia Jackson",
-        imgUrl:"https://i.postimg.cc/bNm3XzRF/62b94dbeddbeb88694901872-young-attractive-woman-smiling-feeling-healthy-hair-flying-wind-1-1.jpg",
-        title:"Tourist Guide"
+        name:"Nantha",
+        imgUrl:driverFourImg,
+        title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
-        name:"Derek Horton",
-        imgUrl:"https://i.postimg.cc/Dwm5ntjf/62b94db9e91ab75ded807f58-handsome-young-man-with-new-stylish-haircut-1-1.jpg",
-        title:"Tourist Guide"
-    },
-    {
-        id:nanoid(),
-        name:"Jennie Bennett",
-        imgUrl:"https://i.postimg.cc/nrkThZfr/62b94fc038ce8febc1fbbd0a-girl-1-2.jpg",
-        title:"Tourist Guide"
+        name:"Siva",
+        imgUrl:driverFiveImg,
+        title:"Driver Cum Guide"
     },
 ]
 
