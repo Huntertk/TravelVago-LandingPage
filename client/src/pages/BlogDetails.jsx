@@ -2,15 +2,25 @@ import '../styles/blogsDetails.scss';
 import { useParams } from 'react-router-dom'
 import { blogsData } from '../data';
 import { ImageSlider } from '../components';
+import { useEffect, useRef } from 'react';
 
 const BlogDetails = () => {
     const {slug} = useParams();
-    const data = blogsData.find(d => d.slug === slug)
+    const data = blogsData.find(d => d.slug === slug);
+    const divRef = useRef(null);
+
+  useEffect(() => {
+    divRef.current.focus();
+
+  },[]) 
     
   return (
     <section className='blogsDetailsMainSection'>
         {/* <ImageSlider imgData={data.img} /> */}
-        <div className="blogsDetailsImageContainer">
+        <div className="blogsDetailsImageContainer"
+        ref={divRef}
+        tabIndex={0}
+        >
             <img src={data.img} alt={data.title} />
         </div>
         <div className="blogsDetailsTopContainer">

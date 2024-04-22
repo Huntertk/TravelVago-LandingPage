@@ -1,12 +1,13 @@
 import '../../styles/imageSlider.scss';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import cloud from '../../assets/images/cloud.png';
 
 const ImageSlider = ({imgData}) => {
   const [sliderChange, setSliderChange] = useState(0);
-
+  const divRef = useRef(null);
 
   useEffect(() => {
+    divRef.current.focus();
     const interval = setInterval(() => {
       const newIndex = Math.floor(Math.random() * imgData.length);
       setSliderChange(newIndex);
@@ -17,6 +18,8 @@ const ImageSlider = ({imgData}) => {
   return (
     <section className='homeImageSliderSection'>
       <div className="homeImageSlideContainer"
+      ref={divRef}
+      tabIndex={0} 
       >
         <img className='sliderImage' src={imgData[sliderChange].img} alt={imgData[sliderChange].title} />
         <h1 
