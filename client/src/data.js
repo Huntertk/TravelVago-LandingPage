@@ -640,3 +640,17 @@ export const thailandPageImgViwerData = [
         subTitle:"Find your perfect vacation"
     },
 ]
+
+
+
+//Terms and Condition
+export const TermsAndConditionImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/d041cQsB/pexels-pixabay-33545.jpg",
+        title: "Terms&Condition",
+        subTitle:"Our Conditions"
+    },
+    
+]

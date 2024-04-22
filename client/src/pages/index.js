@@ -6,9 +6,10 @@ import About from "./About";
 import Blogs from "./Blogs";
 import BlogDetails from "./BlogDetails";
 import Thailand from "./Thailand";
-
+import Terms from "./Terms";
 
 export {
+    Terms,
     Thailand,
     Blogs,
     BlogDetails,

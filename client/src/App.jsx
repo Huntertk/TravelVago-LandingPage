@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from './components/layout/Layout'
-import { About, BlogDetails, Blogs, Contact, Destination, Home,Thailand,Tours } from './pages';
+import { About, BlogDetails, Blogs, Contact, Destination, Home,Terms,Thailand,Tours } from './pages';
 
 const App = () => {
   console.log(window.location.hostname);
@@ -15,6 +15,7 @@ const App = () => {
               <Route path='/blogs/:slug' element={<BlogDetails />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='/about-us' element={<About />} />
+              <Route path='/terms-condition' element={<Terms />} />
               <Route path='/destination/thailand' element={<Thailand />} />
             </Route>
               <Route path='*' element={<h1>Page Not Found</h1>} />
