@@ -37,6 +37,10 @@ const Footer = () => {
                     <p className='contactTitle'>For Ticketing Enquiries</p>
                     <p>+66657158194</p>
                 </div>
+                <div className="contactDetailsContainer">
+                    <p className='contactTitle'>Email us at</p>
+                    <p className='email'>support@travelvago.com</p>
+                </div>
             </div>
         </div>
         <div className="copyRightMainContainer">
