@@ -119,7 +119,8 @@ export const homeCountryData = [
     {
         id: nanoid(),
         img: "https://i.postimg.cc/gJGDRWjX/dubai.jpg",
-        title: "Dubai"
+        title: "Dubai",
+        slug:"dubai"
     },
 
 
@@ -651,6 +652,18 @@ export const TermsAndConditionImgViwerData = [
         img:"https://i.postimg.cc/d041cQsB/pexels-pixabay-33545.jpg",
         title: "Terms&Condition",
         subTitle:"Our Conditions"
+    },
+]
+
+
+//Privacy
+export const PrivacyImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/15ghtftj/pexels-flodahm-1139040.jpg",
+        title: "PrivacyPolicy",
+        subTitle:"Our Policy"
     },
     
 ]

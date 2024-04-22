@@ -7,8 +7,10 @@ import Blogs from "./Blogs";
 import BlogDetails from "./BlogDetails";
 import Thailand from "./Thailand";
 import Terms from "./Terms";
+import Privacy from "./Privacy";
 
 export {
+    Privacy,
     Terms,
     Thailand,
     Blogs,

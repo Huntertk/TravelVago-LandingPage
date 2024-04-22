@@ -1,0 +1,80 @@
+@use './variables.scss' as *;
+
+
+.privacyMainSection{
+
+    #titleContainer{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+        text-align: center;
+        .homeMainTitle{
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .homeMainPara{
+            font-family: 'Poppins';
+            font-size: 1.1rem;
+        }
+    }
+    .privacyContainer{
+        padding: 1rem;
+        .privacyContentContainer{
+            
+            .privacyContent{
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+                h1{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    text-align: start;
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.6;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 767px) {
+    .privacyMainSection{
+
+       
+        .privacyContainer{
+            .privacyContentContainer{
+                max-width: 1100px;
+                margin: 1rem auto;
+                display: grid;
+                gap: 1rem;
+                grid-template-columns: repeat(2,1fr);
+                padding: 1rem;
+                
+                .privacyContent{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 1rem;
+                    h1{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        text-align: start;
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        line-height: 1.6;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
