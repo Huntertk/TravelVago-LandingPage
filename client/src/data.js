@@ -94,31 +94,31 @@ export const homeImgViwerData = [
 export const homeCountryData = [
     {
         id: nanoid(),
-        img: "https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg",
+        img: "https://i.postimg.cc/Gt2x7xkb/malaysia.jpg",
         title: "Malaysia",
         slug:"malaysia"
     },
     {
         id: nanoid(),
-        img: "https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg",
+        img: "https://i.postimg.cc/L6JVjv9T/thailand.jpg",
         title: "Thailand",
         slug:"thailand"
     },
     {
         id: nanoid(),
-        img: "https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg",
+        img: "https://i.postimg.cc/WpWnDxvz/singapore.jpg",
         title: "Singapore",
         slug:"singapore"
     },
     {
         id: nanoid(),
-        img: "https://i.postimg.cc/YS8fY2Gz/pexels-duytrg-truong-20725259.jpg",
+        img: "https://i.postimg.cc/q7swzRJH/vietnam.jpg",
         title: "Vietnam",
         slug:"vietnam"
     },
     {
         id: nanoid(),
-        img: "https://i.postimg.cc/2SQxj7CJ/pexels-the-lazy-artist-gallery-1089645.jpg",
+        img: "https://i.postimg.cc/gJGDRWjX/dubai.jpg",
         title: "Dubai"
     },
 
