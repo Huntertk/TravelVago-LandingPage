@@ -194,25 +194,25 @@ export const whyTourData = [
         id:nanoid(),
         title: "2000+ Our Worldwide Guide",
         imgUrl:"https://i.postimg.cc/VNC04CSF/62bc5c213ad92a64c4d73e8c-happy-couple-laughing-traveling-summer-by-sea-man-woman-wearing-sunglasses.jpg",
-        iconUrl:"https://i.postimg.cc/G3JYZGX7/62c419da8d6142ce03ab49cd-3512624-holiday-journey-photo-photography-picture-icon-1.png"
+        iconUrl:"https://i.postimg.cc/TPJY391v/Global_Guide.png"
     },
     {
         id:nanoid(),
         title: "100% Trusted Tour Agency",
         imgUrl:"https://i.postimg.cc/Ssb2PxCb/62c42eaf84131b2f867b25a5-felix-rostig-Um-V2wr-Vbq8-unsplash-p-500.jpg",
-        iconUrl:"https://i.postimg.cc/X7s5v3S9/62c419d98d61421582ab49cb-3512614-beach-chair-summer-sunny-travel-icon-1.png"
+        iconUrl:"https://i.postimg.cc/qvnv90dR/Trusted_Agency.png"
     },
     {
         id:nanoid(),
         title: "12+ Years Of Travel Experience",
         imgUrl:"https://i.postimg.cc/g256vD0J/62c42eae57caff8720f77721-omar-lopez-0-uzd-U3g-UYw-unsplash-p-500.jpg",
-        iconUrl:"https://i.postimg.cc/90p7ZH45/62c419da728042f48eee0d1f-3512620-diving-scuba-sea-snorkel-snorkeling-icon-1.png"
+        iconUrl:"https://i.postimg.cc/Jn77DkHD/Travel_Experience.png"
     },
     {
         id:nanoid(),
         title: "98% Our Travelers Are Happy",
         imgUrl:"https://i.postimg.cc/RZqH684y/62c42eafecf05141c4f4b1a6-helena-lopes-e3-OUQGT9b-WU-unsplash-p-500.jpg",
-        iconUrl:"https://i.postimg.cc/fTzXZyFw/62c419d934af4375ae52c239-3512626-gps-location-map-navigation-pin-icon-1.png"
+        iconUrl:"https://i.postimg.cc/TP63xSRc/Satisfied_Customers.png"
     },
 ]
 
