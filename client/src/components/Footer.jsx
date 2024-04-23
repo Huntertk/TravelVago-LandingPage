@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyRightMainContainer">
-            <p>Copyright © 2024 Travelvago</p>
+            <p>Copyright © {new Date(Date.now()).getFullYear()} Travelvago</p>
         </div>
     </section>
   )
