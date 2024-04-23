@@ -2,7 +2,7 @@ import '../styles/footer.scss';
 import logo from '../assets/images/tvagologo.png';
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,10 +21,10 @@ const Footer = () => {
             <div className="footerSubConatiner">
                 <p className='footerTitle'>Quick Links</p>
                 <div className="linksContainer">
-                    <Link to="/terms-condition">Terms & Condition</Link>
-                    <Link to="/privacy-policy">Privacy Policy</Link>
-                    <Link to="/about-us">About Us</Link>
-                    <Link to="/contact">Contact Us</Link>
+                    <NavLink to="/terms-condition">Terms & Condition</NavLink>
+                    <NavLink to="/privacy-policy">Privacy Policy</NavLink>
+                    <NavLink to="/about-us">About Us</NavLink>
+                    <NavLink to="/contact">Contact Us</NavLink>
                 </div>
             </div>
             <div className="footerSubConatiner">
