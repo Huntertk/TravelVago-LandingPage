@@ -722,3 +722,64 @@ export const PrivacyImgViwerData = [
     },
     
 ]
+
+
+
+
+
+//Singapore Page
+export const singaporePageImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/WpWnDxvz/singapore.jpg",
+        title: "Singapore",
+        subTitle:"Find your perfect vacation"
+    },
+]
+
+export const singaporePageDetailsData = [
+    {
+        id:nanoid(),
+        title:"Discover Urban Marvels",
+        desc:[
+            "Begin your adventure in the heart of the city at Marina Bay, where iconic landmarks such as the Marina Bay Sands, Gardens by the Bay, and the futuristic Supertree Grove await. Marvel at the stunning architecture, stroll along the waterfront promenade, and immerse yourself in the dazzling light and sound show at Marina Bay Sands.",
+            
+            "Explore the vibrant neighborhoods of Chinatown, Little India, and Kampong Glam, where you can wander through colorful streets, visit ornate temples, and sample authentic cuisine at bustling hawker centers. Don't miss the chance to shop till you drop on Orchard Road, home to some of the best shopping malls and boutiques in Asia."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Gastronomic Delights",
+        desc:[
+            "Singapore's culinary scene is a melting pot of flavors, influenced by Chinese, Malay, Indian, and Peranakan cultures. Indulge in a culinary adventure as you feast on local delicacies such as Hainanese chicken rice, laksa, chili crab, and roti prata.",
+
+            "For a unique dining experience, head to one of Singapore's Michelin-starred restaurants, where innovative chefs combine traditional techniques with modern flair to create unforgettable dishes. Or satisfy your cravings at one of the city's many hawker centers, where you can savor a variety of affordable street food delights."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Oases of Tranquility",
+        desc:[
+            "Escape the hustle and bustle of the city and discover Singapore's lush green spaces. Take a leisurely stroll through the UNESCO-listed Singapore Botanic Gardens, home to a stunning array of tropical flora, including the world-famous Orchid Garden.",
+
+            "Explore the tranquil oasis of Sentosa Island, where pristine beaches, lush rainforests, and world-class attractions await. Relax on the sandy shores of Siloso Beach, soar above the treetops on the Sentosa Skyline Luge, or get up close and personal with marine life at the S.E.A. Aquarium."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Innovation and Entertainment",
+        desc:[
+            "Immerse yourself in the cutting-edge world of technology and innovation at the futuristic Gardens by the Bay, where you can marvel at the towering Supertrees, explore the Flower Dome and Cloud Forest, and experience the Garden Rhapsody light and sound show.",
+
+            "For a dose of adrenaline-pumping fun, visit Universal Studios Singapore, where you can embark on thrilling rides, meet your favorite movie characters, and enjoy live entertainment for the whole family."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Plan Your Singaporean Adventure Today",
+        desc:[
+            "With its dynamic blend of culture, cuisine, and innovation, Singapore promises an unforgettable journey for every traveler. Whether you're seeking urban marvels, gastronomic delights, tranquil oases, or adrenaline-pumping entertainment, Singapore has something for everyone. Start planning your Singaporean adventure today and let the magic of this vibrant city-state captivate your senses."
+        ]
+    },
+]
