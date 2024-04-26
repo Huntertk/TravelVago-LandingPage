@@ -643,6 +643,61 @@ export const thailandPageImgViwerData = [
 ]
 
 
+//Malaysia Page
+export const malaysiaPageImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/WpWnDxvz/singapore.jpg",
+        title: "Malaysia",
+        subTitle:"Find your perfect vacation"
+    },
+]
+
+
+export const malaysiaPageDetailsData = [
+    {
+        id:nanoid(),
+        title:"Explore Diverse Cities",
+        desc:[
+            "Begin your journey in Kuala Lumpur, the capital city, where modern skyscrapers stand alongside colonial buildings. Visit the iconic Petronas Twin Towers, explore the bustling street markets of Chinatown, and immerse yourself in the rich cultural heritage of Little India.",
+            "Next, head to Penang, known as the 'Pearl of the Orient,' renowned for its mouthwatering street food, vibrant street art, and UNESCO-listed George Town. Don't miss the opportunity to sample the famous Penang laksa and wander through the historic streets lined with colorful colonial buildings.",
+            "In Melaka, delve into the city's rich history as you explore its UNESCO World Heritage-listed sites, including A Famosa fortress, St. Paul's Hill, and the vibrant Jonker Street night market."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Nature's Playground",
+        desc:[
+            "Nature lovers will be captivated by Malaysia's natural beauty. Trek through the ancient rainforests of Taman Negara, one of the oldest tropical rainforests in the world, where you can spot exotic wildlife, hike through lush jungle trails, and experience the thrill of canopy walks.",
+            "For a tranquil escape, head to the idyllic islands of Langkawi or Perhentian, where crystal-clear waters, white sandy beaches, and vibrant marine life await. Snorkel among colorful coral reefs, laze on secluded beaches, or embark on a sunset cruise for breathtaking views."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Cultural Melting Pot",
+        desc:[
+            "Experience Malaysia's cultural diversity through its festivals, cuisine, and traditions. Celebrate the vibrant Hindu festival of Thaipusam in Batu Caves, witness the dazzling lanterns during Chinese New Year in Penang, or join in the festivities of Hari Raya Aidilfitri, marking the end of Ramadan.",
+            "Indulge your taste buds with Malaysia's eclectic culinary scene, from Malay satay and Chinese dim sum to Indian banana leaf rice and Nyonya laksa. Don't forget to try the national dish, nasi lemak, a fragrant rice dish served with spicy sambal, crispy anchovies, and peanuts."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Adventure Awaits",
+        desc:[
+            "For thrill-seekers, Malaysia offers a plethora of adventure activities. Scale the limestone cliffs of Batu Caves, go white-water rafting in the rivers of Sabah, or embark on a jungle safari in Borneo to spot orangutans in their natural habitat.",
+            "Explore the mystical caves of Gunung Mulu National Park, go diving in the world-renowned dive sites of Sipadan, or conquer the challenging trails of Mount Kinabalu, Southeast Asia's highest peak."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Plan Your Malaysian Adventure Today",
+        desc:[
+            "With its diverse landscapes, rich culture, and warm hospitality, Malaysia beckons travelers to embark on an unforgettable journey. Whether you're seeking adventure, relaxation, or cultural immersion, Malaysia promises an experience like no other. Start planning your Malaysian adventure today and let the magic of this enchanting destination captivate your soul."
+        ]
+    },
+]
+
 
 //Terms and Condition
 export const TermsAndConditionImgViwerData = [

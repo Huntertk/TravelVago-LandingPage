@@ -8,8 +8,12 @@ import BlogDetails from "./BlogDetails";
 import Thailand from "./Thailand";
 import Terms from "./Terms";
 import Privacy from "./Privacy";
+import Malaysia from "./Malaysia";
+import Singapore from "./Singapore";
 
 export {
+    Singapore,
+    Malaysia,
     Privacy,
     Terms,
     Thailand,

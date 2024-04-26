@@ -13,9 +13,10 @@ import VideoContainer from "./home/VideoContainer";
 import WhyTravel from "./home/WhyTravel";
 import TeamMember from "./TeamMember";
 import WhyThailand from "./thailand/WhyThailand";
-
+import WhyVisitDestination from "./WhyVisitDestination";
 
 export {
+    WhyVisitDestination,
     WhyThailand,
     BlogCard,
     Partner,
