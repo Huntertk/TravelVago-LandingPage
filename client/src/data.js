@@ -783,3 +783,85 @@ export const singaporePageDetailsData = [
         ]
     },
 ]
+
+
+//Vietnam Page
+export const vietnamPageImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/q7swzRJH/vietnam.jpg",
+        title: "Vietnam",
+        subTitle:"Find your perfect vacation"
+    },
+]
+
+
+
+export const vietnamePageDetailsData = [
+    {
+        id:nanoid(),
+        title:"Immerse Yourself in History and Culture",
+        desc:[
+            "Begin your journey in Hanoi, the capital city, where ancient temples, colonial architecture, and bustling markets coexist in harmony. Explore the maze-like streets of the Old Quarter, visit the iconic Hoan Kiem Lake, and delve into Vietnam's complex history at the Ho Chi Minh Mausoleum and the Imperial Citadel of Thang Long.",
+             
+            "In Hue, the former imperial capital, step back in time as you explore the UNESCO-listed Imperial City, with its majestic palaces, temples, and ancient walls. Cruise along the Perfume River, visit the Thien Mu Pagoda, and sample the city's renowned royal cuisine.",
+
+            "Discover the charm of Hoi An, a UNESCO World Heritage-listed town renowned for its well-preserved ancient architecture, lantern-lit streets, and bustling markets. Wander through the enchanting alleys, take a cooking class to learn the secrets of Vietnamese cuisine, and immerse yourself in the vibrant atmosphere of the nightly lantern festival."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Natural Wonders Await",
+        desc:[
+            "Embark on a journey to Ha Long Bay, a UNESCO World Heritage site known for its emerald waters, towering limestone karsts, and floating villages. Cruise through the maze of islands aboard a traditional junk boat, kayak through hidden lagoons, and marvel at the breathtaking sunset over the bay.",
+             
+            "For a tranquil escape, head to the Mekong Delta, where lush rice paddies, winding waterways, and floating markets await. Cruise along the Mekong River, visit local villages to experience traditional rural life, and sample fresh tropical fruits at the vibrant markets.",
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Culinary Delights",
+        desc:[
+            "Vietnam's culinary scene is a feast for the senses, with its aromatic herbs, bold flavors, and diverse regional specialties. Indulge in street food delights such as pho, banh mi, and fresh spring rolls, or savor a traditional Vietnamese feast with dishes like bun cha, cao lau, and banh xeo.",
+             
+            "Don't miss the opportunity to embark on a food tour, where you can taste your way through bustling markets, hidden alleyways, and family-run eateries, learning about the ingredients and techniques that make Vietnamese cuisine so unique.",
+        ]
+    },
+   {
+        id:nanoid(),
+        title:"Immerse Yourself in History and Culture",
+        desc:[
+            "Begin your journey in Hanoi, the capital city, where ancient temples, colonial architecture, and bustling markets coexist in harmony. Explore the maze-like streets of the Old Quarter, visit the iconic Hoan Kiem Lake, and delve into Vietnam's complex history at the Ho Chi Minh Mausoleum and the Imperial Citadel of Thang Long.",
+             
+            "In Hue, the former imperial capital, step back in time as you explore the UNESCO-listed Imperial City, with its majestic palaces, temples, and ancient walls. Cruise along the Perfume River, visit the Thien Mu Pagoda, and sample the city's renowned royal cuisine.",
+
+            "Discover the charm of Hoi An, a UNESCO World Heritage-listed town renowned for its well-preserved ancient architecture, lantern-lit streets, and bustling markets. Wander through the enchanting alleys, take a cooking class to learn the secrets of Vietnamese cuisine, and immerse yourself in the vibrant atmosphere of the nightly lantern festival."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Natural Wonders Await",
+        desc:[
+            "Embark on a journey to Ha Long Bay, a UNESCO World Heritage site known for its emerald waters, towering limestone karsts, and floating villages. Cruise through the maze of islands aboard a traditional junk boat, kayak through hidden lagoons, and marvel at the breathtaking sunset over the bay.",
+             
+            "For a tranquil escape, head to the Mekong Delta, where lush rice paddies, winding waterways, and floating markets await. Cruise along the Mekong River, visit local villages to experience traditional rural life, and sample fresh tropical fruits at the vibrant markets.",
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Adventure Awaits",
+        desc:[
+            "For outdoor enthusiasts, Vietnam offers a wealth of adventure activities. Trek through the terraced rice fields of Sapa, home to colorful hill tribes and breathtaking mountain scenery. Cycle through the picturesque countryside of Ninh Binh, known as the 'Halong on land,' where limestone karsts rise from emerald rice paddies.",
+             
+            "Explore the rugged landscapes of Phong Nha-Ke Bang National Park, home to some of the largest caves in the world, including the spectacular Son Doong Cave. Go trekking in the remote mountains of Ha Giang, where you can meet ethnic minority communities and witness their traditional way of life.",
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Plan Your Vietnamese Adventure Today",
+        desc:[
+            "With its captivating landscapes, rich culture, and warm hospitality, Vietnam invites travelers to embark on an unforgettable journey of discovery. Whether you're seeking history and culture, natural beauty, culinary delights, or adrenaline-pumping adventure, Vietnam promises an experience like no other. Start planning your Vietnamese adventure today and let the magic of this enchanting destination captivate your soul.",
+        ]
+    },
+]

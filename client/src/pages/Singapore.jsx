@@ -1,9 +1,6 @@
 import { ImageSlider, WhyVisitDestination } from '../components';
 import { singaporePageDetailsData, singaporePageImgViwerData,} from '../data';
 import '../styles/destinationSubPage.scss';
-import { IoMdMail } from "react-icons/io";
-import { FaPhoneAlt } from "react-icons/fa";
-
 const Singapore = () => {
   return (
     <section className='destinationSubPageMainSection'>

@@ -1,8 +1,6 @@
 import { ImageSlider, WhyVisitDestination } from '../components';
 import { malaysiaPageDetailsData, malaysiaPageImgViwerData,} from '../data';
 import '../styles/destinationSubPage.scss';
-import { IoMdMail } from "react-icons/io";
-import { FaPhoneAlt } from "react-icons/fa";
 
 const Malaysia = () => {
   return (

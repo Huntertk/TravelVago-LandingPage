@@ -10,8 +10,9 @@ import Terms from "./Terms";
 import Privacy from "./Privacy";
 import Malaysia from "./Malaysia";
 import Singapore from "./Singapore";
-
+import Veitnam from "./Veitnam";
 export {
+    Veitnam,
     Singapore,
     Malaysia,
     Privacy,
