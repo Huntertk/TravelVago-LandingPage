@@ -648,7 +648,7 @@ export const malaysiaPageImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/WpWnDxvz/singapore.jpg",
+        img:"https://i.postimg.cc/Gt2x7xkb/malaysia.jpg",
         title: "Malaysia",
         subTitle:"Find your perfect vacation"
     },
