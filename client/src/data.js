@@ -865,3 +865,62 @@ export const vietnamePageDetailsData = [
         ]
     },
 ]
+
+
+//Dubai Page
+export const dubaiPageImgViwerData = [
+    
+    {
+        id: nanoid(),
+        img:"https://i.postimg.cc/gJGDRWjX/dubai.jpg",
+        title: "Dubai",
+        subTitle:"Find your perfect vacation"
+    },
+]
+
+
+export const dubaiPageDetailsData = [
+    {
+        id:nanoid(),
+        title:"Iconic Landmarks",
+        desc:[
+            "Begin your journey with a visit to the iconic Burj Khalifa, the tallest building in the world, where you can ascend to the observation deck for breathtaking views of the city skyline and beyond. Marvel at the stunning architecture of the Burj Al Arab, often hailed as the most luxurious hotel in the world, with its sail-shaped silhouette dominating the coastline.",
+             
+            "Explore the vibrant neighborhoods of Old Dubai, where you can wander through the narrow alleyways of the historic Al Fahidi District, visit the Dubai Museum housed in the Al Fahidi Fort, and take a traditional abra ride across the Dubai Creek to the bustling souks of Deira."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Luxury and Shopping",
+        desc:[
+            "Indulge in a shopping extravaganza at the world-renowned Dubai Mall, where you can shop till you drop at over 1,200 retail outlets, including high-end designer boutiques, international brands, and local artisanal stores. Don't miss the opportunity to visit the Dubai Aquarium and Underwater Zoo, where you can marvel at thousands of aquatic creatures, including sharks and rays.",
+             
+            "For a taste of traditional Arabian hospitality, immerse yourself in the bustling souks of Dubai, where you can haggle for spices, textiles, gold, and other treasures. Experience the intoxicating sights, sounds, and scents of the Gold Souk, Spice Souk, and Perfume Souk, and uncover unique souvenirs to take home."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Desert Adventures",
+        desc:[
+            "Escape the city and embark on a desert safari adventure, where you can experience the thrill of dune bashing in a 4x4 vehicle, ride camels across the golden sands, and witness a mesmerizing desert sunset. Indulge in a traditional Arabian feast under the stars at a Bedouin-style desert camp, complete with live entertainment, henna painting, and shisha.",
+             
+            "For a unique perspective of the desert landscape, take to the skies in a hot air balloon and soar above the dunes at dawn, witnessing the breathtaking beauty of the desert as it comes to life with the first light of day."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Culinary Delights",
+        desc:[
+            "Dubai's culinary scene is as diverse as its population, with a tantalizing array of international cuisines to tempt your taste buds. Indulge in a fine dining experience at one of the city's Michelin-starred restaurants, where world-class chefs showcase their culinary creativity with innovative dishes and exotic flavors.",
+             
+            "For a more casual dining experience, head to one of Dubai's bustling food markets or street food stalls, where you can sample authentic Emirati cuisine, Middle Eastern delights, and global street food favorites."
+        ]
+    },
+    {
+        id:nanoid(),
+        title:"Plan Your Dubai Adventure Today",
+        desc:[
+            "With its unique blend of modernity, tradition, and luxury, Dubai promises an unforgettable journey for every traveler. Whether you're seeking iconic landmarks, luxury shopping, desert adventures, or culinary delights, Dubai offers a wealth of experiences waiting to be discovered. Start planning your Dubai adventure today and let the magic of this glittering city in the desert captivate your imagination."
+        ]
+    },
+]

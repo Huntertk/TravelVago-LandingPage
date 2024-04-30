@@ -11,7 +11,10 @@ import Privacy from "./Privacy";
 import Malaysia from "./Malaysia";
 import Singapore from "./Singapore";
 import Veitnam from "./Veitnam";
+import Dubai from "./Dubai";
+
 export {
+    Dubai,
     Veitnam,
     Singapore,
     Malaysia,
