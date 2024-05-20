@@ -28,7 +28,7 @@ const ContactCardContainer = ({title, address,email, phone}) => {
     <motion.div {...easeUpLeft} className="contactCard">
             <div className="dropDownOpen" onClick={ () => setIsDropDownOpen((prev) => !prev)}>
                 <h1>{title}</h1>
-                {isDropDownOpen ? <FaArrowDown /> : <FaArrowUp /> }
+                {isDropDownOpen ?  <FaArrowUp /> : <FaArrowDown /> }
             </div>
             {
                 isDropDownOpen ?   <div className={`contactDetailsContainer`} >
