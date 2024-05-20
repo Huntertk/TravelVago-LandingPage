@@ -1,11 +1,11 @@
 import { nanoid } from 'nanoid';
 
 //Home Image Slider Images
-import malaysia from './assets/images/malaysia.jpg';
-import singapore from './assets/images/singapore.jpg';
-import thailand from './assets/images/thailand.jpg';
-import veitnam from './assets/images/vietnam.jpg';
-import dubai from './assets/images/dubai.jpg';
+// import malaysia from './assets/images/malaysia.jpg';
+// import singapore from './assets/images/singapore.jpg';
+// import thailand from './assets/images/thailand.jpg';
+// import veitnam from './assets/images/vietnam.jpg';
+// import dubai from './assets/images/dubai.jpg';
 
 
 //Blog Image
@@ -60,31 +60,31 @@ export const homeImgViwerData = [
     
     {
         id: nanoid(),
-        img:malaysia,
+        img:'/assets/images/malaysia.jpg',
         title: "Malaysia",
         subTitle:"Find your perfect vacation"
     },
     {
         id: nanoid(),
-        img:singapore,
+        img:'/assets/images/singapore.jpg',
         title: "Singapore",
         subTitle:"Visit the beautiful city"
     },
     {
         id: nanoid(),
-        img:thailand,
+        img:'/assets/images/thailand.jpg',
         title: "Thailand",
         subTitle:"Visit the beautiful landscape"
     },
     {
         id: nanoid(),
-        img:veitnam,
+        img:'/assets/images/veitnam.jpg',
         title: "Veitnam",
         subTitle:"Visit the beautiful city"
     },
     {
         id: nanoid(),
-        img:dubai,
+        img:'/assets/images/dubai.jpg',
         title: "Dubai",
         subTitle:"Visit the beautiful city"
     },
@@ -193,26 +193,26 @@ export const whyTourData = [
     {
         id:nanoid(),
         title: "2000+ Our Worldwide Guide",
-        imgUrl:"https://i.postimg.cc/VNC04CSF/62bc5c213ad92a64c4d73e8c-happy-couple-laughing-traveling-summer-by-sea-man-woman-wearing-sunglasses.jpg",
-        iconUrl:"https://i.postimg.cc/TPJY391v/Global_Guide.png"
+        imgUrl:"/assets/images/whyTravelOne.jpg",
+        iconUrl:"/assets/images/whyTravelIconOne.png"
     },
     {
         id:nanoid(),
         title: "100% Trusted Tour Agency",
-        imgUrl:"https://i.postimg.cc/Ssb2PxCb/62c42eaf84131b2f867b25a5-felix-rostig-Um-V2wr-Vbq8-unsplash-p-500.jpg",
-        iconUrl:"https://i.postimg.cc/qvnv90dR/Trusted_Agency.png"
+        imgUrl:"/assets/images/whyTravelTwo.jpg",
+        iconUrl:"/assets/images/whyTravelIconTwo.png"
     },
     {
         id:nanoid(),
         title: "12+ Years Of Travel Experience",
-        imgUrl:"https://i.postimg.cc/g256vD0J/62c42eae57caff8720f77721-omar-lopez-0-uzd-U3g-UYw-unsplash-p-500.jpg",
-        iconUrl:"https://i.postimg.cc/Jn77DkHD/Travel_Experience.png"
+        imgUrl:"/assets/images/whyTravelThree.jpg",
+        iconUrl:"/assets/images/whyTravelIconTwo.png"
     },
     {
         id:nanoid(),
         title: "98% Our Travelers Are Happy",
-        imgUrl:"https://i.postimg.cc/RZqH684y/62c42eafecf05141c4f4b1a6-helena-lopes-e3-OUQGT9b-WU-unsplash-p-500.jpg",
-        iconUrl:"https://i.postimg.cc/TP63xSRc/Satisfied_Customers.png"
+        imgUrl:"/assets/images/whyTravelFour.jpg",
+        iconUrl:"/assets/images/whyTravelIconThree.png"
     },
 ]
 
