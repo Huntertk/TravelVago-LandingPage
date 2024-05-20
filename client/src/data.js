@@ -160,31 +160,31 @@ export const tourCategoryData = [
         id:nanoid(),
         title:"Malaysia",
         desc:"Dive into the melting pot of cultures, flavors, and landscapes that Malaysia offers. From the iconic Petronas Twin Towers in Kuala Lumpur to the breathtaking islands of Langkawi, Malaysia is a treasure trove waiting to be explored.",
-        imgUrl:"https://i.postimg.cc/tgFqQf44/pexels-pixabay-67559-1.jpg"
+        imgUrl:"/assets/images/categoryMalaysia.jpg"
     },
     {
         id:nanoid(),
         title:"Thailand",
         desc:"Experience the magic of Thailand, where ancient traditions blend seamlessly with modern marvels. Whether you're wandering through the historic temples of Bangkok or island-hopping through the turquoise waters of Phuket, Thailand promises adventure at every turn.",
-        imgUrl:"https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg"
+        imgUrl:"/assets/images/categoryThailand.jpg"
     },
     {
         id:nanoid(),
         title:"Singapore",
         desc:" Discover the allure of Singapore, where skyscrapers meet lush greenery and vibrant neighborhoods. Indulge in a sensory journey through the city's diverse culinary scene, explore the stunning Gardens by the Bay, or shop 'til you drop on Orchard Road.",
-        imgUrl:"https://i.postimg.cc/MTxWWDnb/pexels-kin-pastor-777059.jpg"
+        imgUrl:"/assets/images/categorySingapore.jpg"
     },
     {
         id:nanoid(),
         title:"Vietnam",
         desc:"Immerse yourself in the rich history and breathtaking landscapes of Vietnam. From the bustling streets of Hanoi to the picturesque beauty of Ha Long Bay and the vibrant culture of Ho Chi Minh City, Vietnam offers a truly unforgettable travel experience.",
-        imgUrl:"https://i.postimg.cc/YS8fY2Gz/pexels-duytrg-truong-20725259.jpg"
+        imgUrl:"/assets/images/categoryVietnam.jpg"
     },
     {
         id:nanoid(),
         title:"Dubai",
         desc:"Enter a world of luxury and opulence in Dubai, where futuristic skyscrapers stand tall against the golden desert backdrop. Marvel at the architectural wonders of Burj Khalifa, indulge in shopping extravaganzas at Dubai Mall, or embark on a desert safari for an adrenaline-pumping adventure.",
-        imgUrl:"https://i.postimg.cc/2SQxj7CJ/pexels-the-lazy-artist-gallery-1089645.jpg"
+        imgUrl:"/assets/images/categoryDubai.jpg"
     },
 ]
 
@@ -222,28 +222,28 @@ export const seasonalTourData = [
         season:"WINTER",
         title:"Happy Winter Holidays",
         desc:"A business strategy is the means by which it sets out to achieve its desired ends. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        imgUrl:"https://i.postimg.cc/85DFGyMP/62c44c55880581c04ede477b-france-1973527-640.jpg"
+        imgUrl:"/assets/images/winter.jpg"
     },
     {
         id:nanoid(),
         season:"SPRING",
         title:"A Picturesque Trip In The Spring",
         desc:"If you have been selected for a business audit, here is what you need to know. If you have been selected, duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        imgUrl:"https://i.postimg.cc/g2CXSc0h/62c44c51a41e2eb8fc6b0f8f-china-5017648-640.jpg"
+        imgUrl:"/assets/images/spring.jpg"
     },
     {
         id:nanoid(),
         season:"SUMMER",
         title:"Summer Is The Time For Vacation",
         desc:"Restructuring your company could restore its viability and improve its liquidity position. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        imgUrl:"https://i.postimg.cc/cLgtBtdZ/62c44c52214ae02a7c05ca61-hallstatt-3609863-640.jpg"
+        imgUrl:"/assets/images/summer.jpg"
     },
     {
         id:nanoid(),
         season:"AUTUMN",
         title:"Autumn Fairy Tale",
         desc:"We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-        imgUrl:"https://i.postimg.cc/yN0JwqJb/62c44c52ba7addf80c6d9d43-central-park-1804588-640.jpg"
+        imgUrl:"/assets/images/autumn.jpg"
     },
 ]
 
