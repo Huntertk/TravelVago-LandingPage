@@ -252,55 +252,55 @@ export const guidesData = [
     {
         id:nanoid(),
         name:"Ayyanar",
-        imgUrl:driverOneImg,
+        imgUrl:'/assets/images/driverOne.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Yuvanesh",
-        imgUrl:driverTwoImg,
+        imgUrl:'/assets/images/driverTwo.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Karthi",
-        imgUrl:driverThreeImg,
+        imgUrl:'/assets/images/driverThree.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Nantha",
-        imgUrl:driverFourImg,
+        imgUrl:'/assets/images/driverFour.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Siva",
-        imgUrl:driverFiveImg,
+        imgUrl:'/assets/images/driverFive.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Vikram",
-        imgUrl:driverSixImg,
+        imgUrl:'/assets/images/driverSix.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Aru",
-        imgUrl:driverSevenImg,
+        imgUrl:'/assets/images/driverSeven.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"Segar",
-        imgUrl:driverEightImg,
+        imgUrl:'/assets/images/driverEight.jpg',
         title:"Driver Cum Guide"
     },
     {
         id:nanoid(),
         name:"MJ",
-        imgUrl:driverNineImg,
+        imgUrl:'/assets/images/driverNine.jpg',
         title:"Driver Cum Guide"
     },
 ]
