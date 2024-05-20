@@ -13,10 +13,19 @@ const Contact = () => {
         <div className="contactCardContainer">
           
           <ContactCardContainer address={"Malaysia"} phone={"+610629262655"} title={"Malaysia Office"} email={"support@travelvago.com"} />
+
           <ContactCardContainer address={"Dubai"} phone={"+610629262655"} title={"Dubai Office"} email={"support@travelvago.com"}  />
+
           <ContactCardContainer address={"Vietnam"} phone={"+610629262655"} title={"Vietnam Office"} email={"support@travelvago.com"} />
+
           <ContactCardContainer address={"Thailand"} phone={"+610629262655"} title={"Thailand Office"} email={"support@travelvago.com"} />
+
+          <ContactCardContainer address={"Singapore"} phone={"+610629262655"} title={"Singapore Office"} email={"support@travelvago.com"} />
+
           <ContactCardContainer address={"Pakistan"} phone={"+610629262655"} title={"Pakistan Office"} email={"support@travelvago.com"} />
+
+
+
           {/* <motion.div {...easeUpLeft} className="contactCard">
             <img src="https://i.postimg.cc/JzfrFmmF/pexels-marcus-herzberg-2086765.jpg" alt="dubai" />
             <h1>Dubai Office</h1>
