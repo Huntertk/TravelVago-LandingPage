@@ -1,4 +1,5 @@
 import ContactCardContainer from "./contact/ContactCardContainer";
+import ContactForm from "./contact/ContactForm";
 import Award from "./home/Award";
 import BlogCard from "./home/BlogCard";
 import CountryGrid from "./home/CountryGrid";
@@ -15,7 +16,9 @@ import WhyTravel from "./home/WhyTravel";
 import TeamMember from "./TeamMember";
 import WhyThailand from "./thailand/WhyThailand";
 import WhyVisitDestination from "./WhyVisitDestination";
+
 export {
+    ContactForm,
     ContactCardContainer,
     WhyVisitDestination,
     WhyThailand,
