@@ -108,9 +108,9 @@ const ContactForm = () => {
                 <h4>Your approximated budget <span>*</span></h4>
                 <div className="budget-selection-container">
                     <select name="budget">
-                        <option value="1200-1500">1200 - 1500/person</option>
-                        <option value="1500-2000">1500 - 2000/person</option>
-                        <option value="Above 2000">Above 2000/person</option>
+                        <option value="1200-1500 MYR/Person">1200 - 1500 MYR/person</option>
+                        <option value="1500-2000 MYR/Person">1500 - 2000 MYR/person</option>
+                        <option value="Above 2000 MYR/Person">Above 2000 MYR/person</option>
                     </select>
                     <span className='person-text'>MYR/person</span>
                 </div>
