@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "client", "dist")))
 
 //Serving assets Statically
-app.use("/assets",express.static(path.join(__dirname, "public")))
+// app.use("/assets",express.static(path.join(__dirname, "public")))
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname,  "client", "dist", "index.html"))
