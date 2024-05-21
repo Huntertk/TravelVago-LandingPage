@@ -8,8 +8,19 @@ const ContactForm = () => {
     const [data, setData] = useState({
         name:"",
         email:"",
-        subject:"",
-        comment:""
+        duration:"",
+        month:"",
+        year:"",
+        adult:1,
+        child:0,
+        infant:0,
+        budget:"",
+        howYouKnow:"",
+        destination:"",
+        stars:"",
+        request:""
+
+
     }) 
     const [phone, setPhone] = useState();
     const handleInputData = (e) => {
@@ -23,6 +34,8 @@ const ContactForm = () => {
 
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        console.log(data);
+        console.log(phone);
     }
 
     const monthName = [
@@ -53,13 +66,15 @@ const ContactForm = () => {
                     type="number"
                     placeholder='Duration of your trip'
                     min={1}
+                    value={data.duration}
+                    onChange={handleInputData}
                     required
                     />
                 </label>
                 <label htmlFor="duration">
                     <h4>Your travel date <span>*</span></h4>
                     <div className="">
-                        <select name="month" required>
+                        <select name="month" required value={data.month} onChange={handleInputData}>
                         {
                             monthName.map((month) => (
                                 <option value={month} key={month}>{month}</option>
@@ -67,7 +82,7 @@ const ContactForm = () => {
                         }
                         </select>
 
-                        <select name="year" required>
+                        <select name="year" required value={data.year} onChange={handleInputData}>
                         {
                             [2024,2025,2026,2027].map((year) => (
                                 <option value={year} key={year}>{year}</option>
@@ -88,20 +103,24 @@ const ContactForm = () => {
                         placeholder='Adult'
                         min={1}
                         required
+                        value={data.adult} 
+                        onChange={handleInputData}
                         />
                         <input 
                         type="number"
                         name='child'
                         placeholder='Child'
                         min={0}
-                        required
+                        value={data.child} 
+                        onChange={handleInputData}
                         />
                         <input 
                         type="number"
                         name='infant'
                         placeholder='Infant'
                         min={0}
-                        required
+                        value={data.infant} 
+                        onChange={handleInputData}
                         />
                     </div>
                 </label>
@@ -110,7 +129,8 @@ const ContactForm = () => {
                 <label htmlFor="">
                 <h4>Your approximated budget <span>*</span></h4>
                 <div className="budget-selection-container">
-                    <select name="budget">
+                    <select name="budget" value={data.budget} 
+                        onChange={handleInputData} required>
                         <option value="1200-1500 MYR/Person">1200 - 1500 MYR/person</option>
                         <option value="1500-2000 MYR/Person">1500 - 2000 MYR/person</option>
                         <option value="Above 2000 MYR/Person">Above 2000 MYR/person</option>
@@ -121,7 +141,8 @@ const ContactForm = () => {
             <div className="how-you-know-container">
                 <label htmlFor="">
                     <h4>How do you know about Travelvago? <span>*</span></h4>
-                        <select name="how-you-know">
+                        <select name="howYouKnow" value={data.howYouKnow} 
+                        onChange={handleInputData} required>
                             <option value="Searching on Internet">Searching on Internet</option>
                             <option value="Recommendation">Recommendation</option>
                             <option value="By Social Network">By Social Network</option>
@@ -133,7 +154,8 @@ const ContactForm = () => {
         <h3>WHERE DO YOU WANT TO GO ?</h3>
             <label htmlFor="">
                 <h4>Destinations <span>*</span></h4>
-                <select name="destination" required>
+                <select name="destination" required value={data.destination} 
+                        onChange={handleInputData}>
                     <option value="Dubai">Dubai</option>
                     <option value="Malaysia">Malaysia</option>
                     <option value="Thailand">Thailand</option>
@@ -143,7 +165,8 @@ const ContactForm = () => {
             </label>
             <label htmlFor="">
                 <h4>Which type of accommodation do you want? <span>*</span></h4>
-                <select name="stars" required>
+                <select name="stars" required value={data.stars} 
+                        onChange={handleInputData}>
                     <option value="3 Stars">3 Stars</option>
                     <option value="4 Stars">4 Stars</option>
                     <option value="5 Stars">5 Stars</option>
@@ -155,11 +178,24 @@ const ContactForm = () => {
             <h3>YOUR INFORMATION AND CONTACT DETAILS</h3>
             <label htmlFor="">
                 <h4>Enter your name <span>*</span></h4>
-                <input type="text" name="name" placeholder="Enter your full name" required/>
+                <input 
+                type="text" 
+                name="name" 
+                placeholder="Enter your full name" 
+                required 
+                value={data.name} 
+                onChange={handleInputData}/>
             </label>
             <label htmlFor="">
                 <h4>Enter email <span>*</span></h4>
-                <input type="email" name="email" placeholder="Enter your email" required/>
+                <input 
+                type="email" 
+                name="email"
+                 placeholder="Enter your email" 
+                 required
+                 value={data.email} 
+                onChange={handleInputData}
+                 />
             </label>
             <label htmlFor="">
                 <h4>Enter Phone number <span>*</span></h4>
@@ -176,7 +212,14 @@ const ContactForm = () => {
         <h3>YOUR SPECIAL REQUESTS?</h3>
             <label htmlFor="">
                 <h4>Your special requests <span>(optional)</span></h4>
-                <textarea name="request" placeholder="Optional - tell us if you have specific plan" required rows={10} cols={40}></textarea>
+                <textarea 
+                name="request" 
+                placeholder="Optional - tell us if you have specific plan" 
+                rows={10} 
+                cols={40}
+                value={data.request} 
+                onChange={handleInputData}
+                ></textarea>
             </label>
         </div>
         <button type="submit">Send</button>
