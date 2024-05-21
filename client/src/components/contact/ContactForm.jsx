@@ -129,7 +129,7 @@ const ContactForm = () => {
                 </label>
             </div>
         </div>
-        <div className="where-to-go-container">
+        <div className="where-to-go-container container-flex">
         <h3>WHERE DO YOU WANT TO GO ?</h3>
             <label htmlFor="">
                 <h4>Destinations <span>*</span></h4>
@@ -150,6 +150,36 @@ const ContactForm = () => {
                 </select>
             </label>
         </div>
+
+        <div className="details-container container-flex">
+            <h3>YOUR INFORMATION AND CONTACT DETAILS</h3>
+            <label htmlFor="">
+                <h4>Enter your name <span>*</span></h4>
+                <input type="text" name="name" placeholder="Enter your full name" required/>
+            </label>
+            <label htmlFor="">
+                <h4>Enter email <span>*</span></h4>
+                <input type="email" name="email" placeholder="Enter your email" required/>
+            </label>
+            <label htmlFor="">
+                <h4>Enter Phone number <span>*</span></h4>
+                <PhoneInput
+                    placeholder="Enter phone number"
+                    value={phone}
+                    onChange={setPhone}
+                    defaultCountry="MY"
+                    required
+                />
+            </label>
+        </div>
+        <div className="container-flex">
+        <h3>YOUR SPECIAL REQUESTS?</h3>
+            <label htmlFor="">
+                <h4>Your special requests <span>(optional)</span></h4>
+                <textarea name="request" placeholder="Optional - tell us if you have specific plan" required rows={10} cols={40}></textarea>
+            </label>
+        </div>
+        <button type="submit">Send</button>
     </form>
   )
 }
