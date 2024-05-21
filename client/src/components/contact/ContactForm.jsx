@@ -34,11 +34,16 @@ const ContactForm = () => {
 
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        if(data.month === 'Select Month' || data.year === 'Select Year', !data.destination || !data.howYouKnow || !data.stars || !data.budget){
+            return alert("Invalid Selection of year or month")
+        }     
+
         console.log(data);
         console.log(phone);
     }
 
     const monthName = [
+        "Select Month",
         "January",
         "February",
         "March",
@@ -84,7 +89,7 @@ const ContactForm = () => {
 
                         <select name="year" required value={data.year} onChange={handleInputData}>
                         {
-                            [2024,2025,2026,2027].map((year) => (
+                            ["Select Year",2024,2025,2026,2027].map((year) => (
                                 <option value={year} key={year}>{year}</option>
                             ))
                         }
@@ -131,6 +136,7 @@ const ContactForm = () => {
                 <div className="budget-selection-container">
                     <select name="budget" value={data.budget} 
                         onChange={handleInputData} required>
+                        <option value="">Select your Budget</option>
                         <option value="1200-1500 MYR/Person">1200 - 1500 MYR/person</option>
                         <option value="1500-2000 MYR/Person">1500 - 2000 MYR/person</option>
                         <option value="Above 2000 MYR/Person">Above 2000 MYR/person</option>
@@ -143,6 +149,7 @@ const ContactForm = () => {
                     <h4>How do you know about Travelvago? <span>*</span></h4>
                         <select name="howYouKnow" value={data.howYouKnow} 
                         onChange={handleInputData} required>
+                            <option value="">Select how you know</option>
                             <option value="Searching on Internet">Searching on Internet</option>
                             <option value="Recommendation">Recommendation</option>
                             <option value="By Social Network">By Social Network</option>
@@ -156,6 +163,7 @@ const ContactForm = () => {
                 <h4>Destinations <span>*</span></h4>
                 <select name="destination" required value={data.destination} 
                         onChange={handleInputData}>
+                    <option value="">Select Destination</option>
                     <option value="Dubai">Dubai</option>
                     <option value="Malaysia">Malaysia</option>
                     <option value="Thailand">Thailand</option>
@@ -167,6 +175,7 @@ const ContactForm = () => {
                 <h4>Which type of accommodation do you want? <span>*</span></h4>
                 <select name="stars" required value={data.stars} 
                         onChange={handleInputData}>
+                    <option value="">Select Starts</option>
                     <option value="3 Stars">3 Stars</option>
                     <option value="4 Stars">4 Stars</option>
                     <option value="5 Stars">5 Stars</option>
