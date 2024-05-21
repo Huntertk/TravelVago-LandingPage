@@ -129,6 +129,27 @@ const ContactForm = () => {
                 </label>
             </div>
         </div>
+        <div className="where-to-go-container">
+        <h3>WHERE DO YOU WANT TO GO ?</h3>
+            <label htmlFor="">
+                <h4>Destinations <span>*</span></h4>
+                <select name="destination" required>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Vietnam">Vietnam</option>
+                </select>
+            </label>
+            <label htmlFor="">
+                <h4>Which type of accommodation do you want? <span>*</span></h4>
+                <select name="stars" required>
+                    <option value="3 Stars">3 Stars</option>
+                    <option value="4 Stars">4 Stars</option>
+                    <option value="5 Stars">5 Stars</option>
+                </select>
+            </label>
+        </div>
     </form>
   )
 }
