@@ -44,6 +44,7 @@ const ContactForm = () => {
     <form className='contact-form-main-container' onSubmit={handleFormSubmit}>
         <h1>Contact Us</h1>
         <div className="travel-information-container">
+            <h3>TRAVEL INFORMATION</h3>
             <div className="duration-date-container">
                 <label htmlFor="duration">
                     <h4>Duration of your trip <span>*</span></h4>
@@ -57,21 +58,23 @@ const ContactForm = () => {
                 </label>
                 <label htmlFor="duration">
                     <h4>Your travel date <span>*</span></h4>
-                    <select name="month" required>
-                    {
-                        monthName.map((month) => (
-                            <option value={month} key={month}>{month}</option>
-                        ))
-                    }
-                    </select>
+                    <div className="">
+                        <select name="month" required>
+                        {
+                            monthName.map((month) => (
+                                <option value={month} key={month}>{month}</option>
+                            ))
+                        }
+                        </select>
 
-                    <select name="month" required>
-                    {
-                        [2024,2025,2026,2027].map((year) => (
-                            <option value={year} key={year}>{year}</option>
-                        ))
-                    }
-                    </select>
+                        <select name="year" required>
+                        {
+                            [2024,2025,2026,2027].map((year) => (
+                                <option value={year} key={year}>{year}</option>
+                            ))
+                        }
+                        </select>
+                    </div>
                 </label>
             </div>
             <div className="pax-selection-container">
@@ -112,8 +115,17 @@ const ContactForm = () => {
                         <option value="1500-2000 MYR/Person">1500 - 2000 MYR/person</option>
                         <option value="Above 2000 MYR/Person">Above 2000 MYR/person</option>
                     </select>
-                    <span className='person-text'>MYR/person</span>
                 </div>
+                </label>
+            </div>
+            <div className="how-you-know-container">
+                <label htmlFor="">
+                    <h4>How do you know about Travelvago? <span>*</span></h4>
+                        <select name="how-you-know">
+                            <option value="Searching on Internet">Searching on Internet</option>
+                            <option value="Recommendation">Recommendation</option>
+                            <option value="By Social Network">By Social Network</option>
+                        </select>
                 </label>
             </div>
         </div>
