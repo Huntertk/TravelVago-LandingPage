@@ -101,7 +101,6 @@ const ContactForm = () => {
                 <label htmlFor="pax">
                     <h4>Number of Adult <span>*</span></h4>
                     <div className="pax-section-input">
-
                         <input 
                         type="number"
                         name='adult'
@@ -111,7 +110,12 @@ const ContactForm = () => {
                         value={data.adult} 
                         onChange={handleInputData}
                         />
-                        <input 
+                    </div>
+                </label>
+                <label htmlFor="pax">
+                    <h4>Number of Child <span>*</span></h4>
+                    <div className="pax-section-input">
+                    <input 
                         type="number"
                         name='child'
                         placeholder='Child'
@@ -119,7 +123,13 @@ const ContactForm = () => {
                         value={data.child} 
                         onChange={handleInputData}
                         />
-                        <input 
+                    </div>
+                </label>
+
+                <label htmlFor="pax">
+                    <h4>Number of Infant <span>*</span></h4>
+                    <div className="pax-section-input">
+                    <input 
                         type="number"
                         name='infant'
                         placeholder='Infant'
@@ -186,7 +196,7 @@ const ContactForm = () => {
         <div className="details-container container-flex">
             <h3>YOUR INFORMATION AND CONTACT DETAILS</h3>
             <label htmlFor="">
-                <h4>Enter your name <span>*</span></h4>
+                <h4>Enter name <span>*</span></h4>
                 <input 
                 type="text" 
                 name="name" 
