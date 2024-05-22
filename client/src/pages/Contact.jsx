@@ -1,10 +1,11 @@
 import '../styles/contactPage.scss';
 import { contactImgViwerData } from '../data';
 import { ContactCardContainer, ContactEnquiryForm, ContactQuotationForm, ImageSlider, TitleContainer } from '../components';
+import { useState } from 'react';
 
 
 const Contact = () => {
-  
+    const [activeTab, setActiveTab] = useState("Enquiry")
   return (
     <section className='contactPageMainSection'>
         <ImageSlider imgData={contactImgViwerData} />
@@ -25,9 +26,20 @@ const Contact = () => {
           <ContactCardContainer address={"Pakistan"} phone={"+610629262655"} title={"Pakistan Office"} email={"support@travelvago.com"} />
 
         </div>
+        <div className="form-tab-container">
+          <button 
+          className={`tab-button ${activeTab === 'Enquiry' ? "active" : ""}`}
+          onClick={() =>setActiveTab("Enquiry")}
+          >Enquiry Form</button>
+          <button 
+          className={`tab-button ${activeTab === 'Quotation' ? "active" : ""}`}
+          onClick={() =>setActiveTab("Quotation")}
+          >Quotation Form</button>
+        </div>
         <div className="forms-container-wrapper">
-          <ContactEnquiryForm />
-          <ContactQuotationForm />
+          {
+            activeTab === 'Enquiry' ? <ContactEnquiryForm /> : <ContactQuotationForm />
+          }
         </div>
     </section>
   )
