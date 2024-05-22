@@ -25,6 +25,7 @@ const Footer = () => {
                     <NavLink to="/privacy-policy">Privacy Policy</NavLink>
                     <NavLink to="/about-us">About Us</NavLink>
                     <NavLink to="/contact">Contact Us</NavLink>
+                    <a href="https://www.tvg-partner.com/en/agent-registration" target='__blank'>Agent Sign Up</a>
                 </div>
             </div>
             <div className="footerSubConatiner">
