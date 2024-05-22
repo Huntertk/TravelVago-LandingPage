@@ -1,5 +1,6 @@
 import ContactCardContainer from "./contact/ContactCardContainer";
-import ContactForm from "./contact/ContactForm";
+import ContactEnquiryForm from "./contact/ContactEnquiryForm";
+import ContactQuotationForm from "./contact/ContactQuotationForm";
 import Award from "./home/Award";
 import BlogCard from "./home/BlogCard";
 import CountryGrid from "./home/CountryGrid";
@@ -18,7 +19,8 @@ import WhyThailand from "./thailand/WhyThailand";
 import WhyVisitDestination from "./WhyVisitDestination";
 
 export {
-    ContactForm,
+    ContactEnquiryForm,
+    ContactQuotationForm,
     ContactCardContainer,
     WhyVisitDestination,
     WhyThailand,

@@ -4,7 +4,7 @@ import '../../styles/contactform.scss';
 import { useState } from 'react';
 
 
-const ContactForm = () => {
+const ContactQuotationForm = () => {
     const [data, setData] = useState({
         name:"",
         email:"",
@@ -246,4 +246,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm
+export default ContactQuotationForm

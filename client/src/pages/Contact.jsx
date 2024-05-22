@@ -1,6 +1,6 @@
 import '../styles/contactPage.scss';
 import { contactImgViwerData } from '../data';
-import { ContactCardContainer, ContactForm, ImageSlider, TitleContainer } from '../components';
+import { ContactCardContainer, ContactEnquiryForm, ContactQuotationForm, ImageSlider, TitleContainer } from '../components';
 
 
 const Contact = () => {
@@ -25,7 +25,10 @@ const Contact = () => {
           <ContactCardContainer address={"Pakistan"} phone={"+610629262655"} title={"Pakistan Office"} email={"support@travelvago.com"} />
 
         </div>
-        <ContactForm />
+        <div className="forms-container-wrapper">
+          <ContactEnquiryForm />
+          <ContactQuotationForm />
+        </div>
     </section>
   )
 }
