@@ -3,11 +3,12 @@ import { useParams } from 'react-router-dom'
 import { packageDetails } from '../data';
 import '../styles/packageDetail.scss';
 import {Helmet} from "react-helmet";
+import ContactQuotationForm from '../components/contact/ContactQuotationForm';
 
 const PackagesDetails = () => {
     const {slug} = useParams();
     const packageDetailsData = packageDetails.filter(packages => packages.slug === slug);
-    console.log(packageDetailsData);
+    
     const divRef = useRef(null);
 
     useEffect(() => {
@@ -78,6 +79,8 @@ const PackagesDetails = () => {
                         ))
                     }
                 </div>
+                    {/*Quotation Form */}
+                <ContactQuotationForm />
                 
             </div>
 
