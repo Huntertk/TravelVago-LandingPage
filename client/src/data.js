@@ -984,6 +984,106 @@ export const packageDetails = [
                 ]
                 
             },
+
+
+            {
+                sectionTitle:"Detailed Program",
+                sectionData:[
+                    {
+                        title :"Day 01 Hanoi arrival",
+                        sectionImg:"/assets/images/packageVietnamDetailsOneImg.jpg",
+                        rowReverse:false,
+                        listItems:[
+                            "Arrival in Noi Bai airport with flight, you will be picked up and then transferred to the hotel in the city center. The check-in is available at 2pm. The day is free for your own exploration and shopping. Overnight at hotel"
+                        ]
+                    },
+                    {
+                        title :"Day 02 Hanoi city tour in jeep car - Night train to Lao Cai (B)",
+                        sectionImg:"/assets/images/packageVietnamDetailsTwoImg.jpg",
+                        rowReverse:true,
+                        listItems:[
+                            "You will be picked up at the hotel at 8:00am",
+                            "Starting the day trip will be a visit of the Ho Chi Minh Complex, which compromises Ho Chi Minh's mausoleum (closed on Mondays & Fridays), his former stilt-house residence, the Presidential Palace and Ho Chi Minh Museum",
+                            "We will then visit the Temple of Literature, which served as the first Royal National University in Vietnam",
+                            "In the afternoon, we will visit the Museum of Ethnology (closed on Mondays, the alternative being the History Museum), which offers informative and well-documented displays of the country's 54 ethnic groups.",
+                            "Then back to the Old Quarter for a 1.5-hour walking tour, then you will have a deeper insight of local daily life. We then head to Ngoc Son Temple on a tiny island in the middle of Hoan Kiem Lake.",
+                            "Then transfer to the station for the night train to Sapa, private cabins for you."
+                        ]
+                    },
+                    {
+                        title :"Day 03 Sapa - Villages (B)",
+                        sectionImg:"/assets/images/packageVietnamDetailsThreeImg.jpg",
+                        rowReverse:false,
+                        listItems:[
+                            "On arrival, you will have time to take a bath and have breakfast.",
+                            "After that, descending into the Muong Hoa Valley, you will reach the picturesque Lao Chai village home to the Black H'mong ethnic minority and Ta Van village inhabited by Dzay.",
+                            "Enjoy stunning views of rice terraces curving around the hillside, winding rivers and streams glistening in the sunshine. Then we visit Cat Cat village.",
+                            "Overnight in hotel.",
+                        ]
+                    },
+                    {
+                        title :"Day 04 Sapa - Fanxipan peak - Drive to Hanoi (B)",
+                        sectionImg:"/assets/images/packageVietnamDetailsFourImg.jpg",
+                        rowReverse:true,
+                        listItems:[
+                            "After breakfast, we will be transferred to a cable car station where we will have 25 minutes to travel to Fanxipan Mountain, considered the most beautiful landscape of Vietnam.",
+                            "the altitude of 2800 meters, you have a good time to see the view and take photos, visit pagoda the spiritual destinations and trek up to 600 steps you will reach the peak of Fansipan - the Roof of Indochina. (Spend about 1,5 hours hiking and taking photos).",
+                            "Then we take a sharing limousine back to Hanoi. Overnite in Hanoi."
+                        ]
+                    },
+                    {
+                        title :"Day 05 Hanoi - Tam Coc - Bich Dong - Mua Cave (B)",
+                        sectionImg:"/assets/images/packageVietnamDetailsFiveImg.jpg",
+                        rowReverse:false,
+                        listItems:[
+                            "In the morning, our car and guide will pick you up to travel to Hoa Lu - the former capital of Vietnam, about a two-hour drive from Hanoi.",
+                            "After lunch at a local restaurant, you will visit Tam Coc (three caves), a peaceful valley among limestone 'karst' hills",
+                            "After the boat trip in Tam Coc, for the rest of the day, visit Mua Caves and learn about its exciting stories told by our guide",
+                            " Continue to climb 500 stone steps, you are on the top of the mountain where you can enjoy a stunning panoramic view of the countryside and wonderful Ngo Dong River.",
+                            "Overnight in hotel in Tam Coc.",
+                        ]
+                    },
+                    {
+                        title :"Day 06 Tam Coc - Ha Long Bay (B, L, D)",
+                        sectionImg:"/assets/images/packageVietnamDetailsSixImg.jpg",
+                        rowReverse:true,
+                        listItems:[
+                            "After breakfast, transfer to Ha Long bay.",
+                            "12:00 - 12:30: Check-in and enjoy Welcome drink, meet the crew to get a brief introduction about cruise and safety guidelines.",
+                            "13:00: Enjoy Vietnamese seafood and vegetarian lunch",
+                            "Continue cruising through Duck Islet, Thumb islet and Gia Luan Harbor. Discover lagoon natural area, drop anchor for swimming or sunbathe",
+                            "15:45: Kayaking, then swim or just sunbathe on our cruise. Heading back toward the sleeping area.",
+                            "18.00: Come back to our La Casta Cruise and participate in our Sunset party.",
+                            "19:00: Time for dinner enjoying special seafood and Vietnamese typical food on the cruise.",
+                            "21:00: Evening entertainments: cards game, squid fishing, relaxing with massage service and overnight on the La Casta Cruise.",
+                        ]
+                    },
+                    {
+                        title :"Day 07 Lan Ha bay - Halong - Hanoi (B, L)",
+                        sectionImg:"/assets/images/packageVietnamDetailsSeventImg.jpg",
+                        rowReverse:false,
+                        listItems:[
+                            "7:00 - 7:45: Have breakfast. Morning view of bay's landscape with a cup of tea or coffee.",
+                            "8:00: Mingling yourself in the stunning views of the Bay and it's dramatic limestone islets. visit the famous Frog Pond. Here you can freely kayak and explore the landscape, or swim.",
+                            "9:15: Back to your cabin, relax, and check all the luggage carefully before leaving.",
+                            "9:30: Check-out from the private cabin and enjoy a fantastic cruise on the bay for room service. Complete the check-out procedure and enjoy your last lunch at the La Casta cruise.",
+                            "11:30: La Casta Cruise are landing Tuan Chau Harbor, tourist say goodbye to sailors and finish the cruise.",
+                            "12:00 - 12:30: Return to Hanoi by the luxury limousine.",
+                            "15:00 - 15:30: Arrive in Hanoi.",
+                            "Overnight in Hanoi."
+                        ]
+                    },
+                    {
+                        title :"Day 08 Hanoi free - Departure (B)",
+                        sectionImg:"/assets/images/packageVietnamDetailsEighttImg.jpg",
+                        rowReverse:true,
+                        listItems:[
+                            "After breakfast, at 09h00, you will transfer to the airport for the departure flight back home."
+                        ]
+                    },
+                ]
+                
+            },
         ]
             
     },
