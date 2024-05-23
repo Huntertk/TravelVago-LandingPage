@@ -1,7 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import '../../styles/product.scss';
 
 const Product = ({data}) => {
-  
+  const navigate = useNavigate()
   return (
     <div 
       className='productCardContainer'
@@ -11,9 +12,8 @@ const Product = ({data}) => {
       </div>
       <div className="productContent">
         <h1>{data.title}</h1>
-        <p>{data.desc}</p>
         <div className="buttonContainer">
-          <button>View Details</button>
+          <button onClick={() => navigate(`${data.slug}`)}>View Details</button>
         </div>
       </div>
     </div>

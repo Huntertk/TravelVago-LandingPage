@@ -12,8 +12,10 @@ import Malaysia from "./Malaysia";
 import Singapore from "./Singapore";
 import Veitnam from "./Veitnam";
 import Dubai from "./Dubai";
+import Packages from "./Packages";
 
 export {
+    Packages,
     Dubai,
     Veitnam,
     Singapore,

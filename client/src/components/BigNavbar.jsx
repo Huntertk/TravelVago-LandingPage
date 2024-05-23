@@ -24,7 +24,7 @@ const BigNavbar = () => {
             <NavLink to="/tours" className='navLinks'>Tours</NavLink>
             <NavLink to="/destination" className='navLinks'>Destination</NavLink>
             <NavLink to="/blogs" className='navLinks'>Blogs</NavLink>
-            <NavLink to="/contact" className='navLinks'>Contact</NavLink>
+            <NavLink to="/packages" className='navLinks'>Packages</NavLink>
             <NavLink to="/about-us" className='navLinks'>About Us</NavLink>
         </ul>
     </motion.nav>

@@ -11,16 +11,6 @@ import { nanoid } from 'nanoid';
 //Blog Image
 import blogMountain from './assets/images/mountainsBlog.jpg'
 
-//Driver
-import driverOneImg from './assets/images/driverOne.jpg'
-import driverTwoImg from './assets/images/driverTwo.jpg'
-import driverThreeImg from './assets/images/driverThree.jpg'
-import driverFourImg from './assets/images/driverFour.jpg'
-import driverFiveImg from './assets/images/driverFive.jpg'
-import driverSixImg from './assets/images/driverSix.jpg'
-import driverSevenImg from './assets/images/driverSeven.jpg'
-import driverEightImg from './assets/images/driverEight.jpg'
-import driverNineImg from './assets/images/driverNine.jpg'
 
 
 export const homeProductData = [
@@ -922,5 +912,27 @@ export const dubaiPageDetailsData = [
         desc:[
             "With its unique blend of modernity, tradition, and luxury, Dubai promises an unforgettable journey for every traveler. Whether you're seeking iconic landmarks, luxury shopping, desert adventures, or culinary delights, Dubai offers a wealth of experiences waiting to be discovered. Start planning your Dubai adventure today and let the magic of this glittering city in the desert captivate your imagination."
         ]
+    },
+]
+
+
+
+//Packages Page
+export const packagesImgViwerData = [
+    {
+        id: nanoid(),
+        img:"/assets/images/packageVietnamOneImgOne.jpg",
+        title: "Packages",
+        subTitle:"Best Packages for you"
+    },
+]
+
+
+export const allPackageData = [
+    {
+        id:nanoid(),
+        title:"1 Week in Northern Vietnam",
+        image: "/assets/images/packageVietnamOneImgOne.jpg",
+        slug:"1-week-in-northern-vietnam",
     },
 ]

@@ -7,7 +7,7 @@
     padding: 1rem;
     .productContainer{
         display: grid;
-        grid-template-columns: repeat(5,1fr);
+        // grid-template-columns: repeat(5,1fr);
         overflow-x: scroll;
         gap: 1rem;
         padding: 1rem 0;

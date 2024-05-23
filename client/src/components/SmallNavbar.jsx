@@ -44,6 +44,13 @@ const SmallNavbar = ({setNavOpen}) => {
             }}
             >Destination</NavLink>
 
+            <NavLink to="/packages" 
+            className='navLinks'
+            onClick={() => {
+                setNavOpen(false)
+            }}
+            >Packages</NavLink>
+
             <NavLink to="/blogs" 
             className='navLinks'
             onClick={() => {
