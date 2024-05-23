@@ -1,5 +1,4 @@
-import React from 'react'
-import { ImageSlider } from '../components'
+import React, { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom'
 import { packageDetails } from '../data';
 import '../styles/packageDetail.scss';
@@ -9,17 +8,26 @@ const PackagesDetails = () => {
     const {slug} = useParams();
     const packageDetailsData = packageDetails.filter(packages => packages.slug === slug)
     console.log(packageDetailsData);
+    const divRef = useRef(null);
+
+    useEffect(() => {
+      divRef.current.focus();
+  
+    },[]) 
   return (
     <>
      <Helmet>
         <title>{packageDetailsData[0].title} | Travelvago</title>
       </Helmet>
         <section className='packages-detials-main-section'>
-            <ImageSlider imgData={[{
-                img: packageDetailsData[0].imageCover,
-                title: packageDetailsData[0].locations,
-                subTitle: packageDetailsData[0].title
-            }]} />
+             <div className="packageDetailsImageContainer"
+                ref={divRef}
+                tabIndex={0}
+                >
+            <img className='packageDetailsImage' src={packageDetailsData[0].imageCover} alt={packageDetailsData[0].title} />
+        </div>
+        <h1 className='title'>{packageDetailsData[0].title}</h1>
+        <hr />
 
             <div className="package-details-main-container">
                 {
