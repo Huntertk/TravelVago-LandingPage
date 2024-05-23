@@ -63,7 +63,21 @@
                 }
             }
             .rowReverse{
-                flex-direction: column-reverse;
+                flex-direction: column;
+            }
+        }
+        .package-detail-hotel-container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            overflow-x: scroll;
+            gap: 1rem;
+            
+            padding: 1rem;
+            .package-hotel-card{
+                padding: 1rem;
+                width: 300px;
+                background-color: $primaryModalColor;
+                border-radius: 14px;
             }
         }
     }
@@ -97,6 +111,24 @@
                 }
                 .rowReverse{
                     flex-direction: row-reverse;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .packages-detials-main-section{
+
+        
+        .package-details-main-container{
+           
+            .package-detail-hotel-container{
+                overflow-x: unset;
+                .package-hotel-card{    
+                    width: 400px;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
                 }
             }
         }

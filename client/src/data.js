@@ -1084,6 +1084,23 @@ export const packageDetails = [
                 ]
                 
             },
+        ],
+        hotelList:[
+            {
+                title:"Acoustic Hotel",
+                hotelLocation:"Hanoi, Vietnam",
+                imageUrl:"/assets/images/packageHotelImgOne.jpg"
+            },
+            {
+                title:"Lalita Boutique hotel & Spa",
+                hotelLocation:"Ninh Binh, Vietnam",
+                imageUrl:"/assets/images/packageHotelImgTwo.jpg"
+            },
+            {
+                title:"La Casta",
+                hotelLocation:"Lan Ha Bay, Vietnam",
+                imageUrl:"/assets/images/packageHotelImgThree.jpg"
+            },
         ]
             
     },

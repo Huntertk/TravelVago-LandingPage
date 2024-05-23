@@ -6,7 +6,7 @@ import {Helmet} from "react-helmet";
 
 const PackagesDetails = () => {
     const {slug} = useParams();
-    const packageDetailsData = packageDetails.filter(packages => packages.slug === slug)
+    const packageDetailsData = packageDetails.filter(packages => packages.slug === slug);
     console.log(packageDetailsData);
     const divRef = useRef(null);
 
@@ -66,8 +66,21 @@ const PackagesDetails = () => {
                         </div>
                     ))
                 }
+                <h1 className='title'>Hotel List</h1>
+                <div className='package-detail-hotel-container'>
+                    {
+                        packageDetailsData[0].hotelList.map((data, index) => (
+                            <div key={index} className='package-hotel-card'>
+                                <img src={data.imageUrl} alt={data.title} />
+                                <h3>{data.title}</h3>
+                                <h4>{data.hotelLocation}</h4>
+                            </div>
+                        ))
+                    }
+                </div>
                 
             </div>
+
 
 
         </section>
