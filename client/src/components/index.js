@@ -1,6 +1,7 @@
 import ContactCardContainer from "./contact/ContactCardContainer";
 import ContactEnquiryForm from "./contact/ContactEnquiryForm";
 import ContactQuotationForm from "./contact/ContactQuotationForm";
+import DynamicHeading from "./DynamicHeading";
 import Award from "./home/Award";
 import BlogCard from "./home/BlogCard";
 import CountryGrid from "./home/CountryGrid";
@@ -17,8 +18,8 @@ import WhyTravel from "./home/WhyTravel";
 import TeamMember from "./TeamMember";
 import WhyThailand from "./thailand/WhyThailand";
 import WhyVisitDestination from "./WhyVisitDestination";
-
 export {
+    DynamicHeading,
     ContactEnquiryForm,
     ContactQuotationForm,
     ContactCardContainer,

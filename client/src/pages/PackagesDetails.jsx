@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom'
 import { packageDetails } from '../data';
 import '../styles/packageDetail.scss';
-import {Helmet} from "react-helmet";
 import ContactQuotationForm from '../components/contact/ContactQuotationForm';
+import { DynamicHeading } from '../components';
 
 const PackagesDetails = () => {
     const {slug} = useParams();
@@ -17,9 +17,7 @@ const PackagesDetails = () => {
     },[]) 
   return (
     <>
-     <Helmet>
-        <title>{packageDetailsData[0].title} | Travelvago</title>
-      </Helmet>
+        <DynamicHeading title={packageDetailsData[0].title} />
         <section className='packages-detials-main-section'>
              <div className="packageDetailsImageContainer"
                 ref={divRef}
