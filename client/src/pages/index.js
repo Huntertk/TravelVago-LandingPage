@@ -13,8 +13,10 @@ import Singapore from "./Singapore";
 import Veitnam from "./Veitnam";
 import Dubai from "./Dubai";
 import Packages from "./Packages";
+import PackagesDetails from "./PackagesDetails";
 
 export {
+    PackagesDetails,
     Packages,
     Dubai,
     Veitnam,

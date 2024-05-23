@@ -936,3 +936,57 @@ export const allPackageData = [
         slug:"1-week-in-northern-vietnam",
     },
 ]
+
+export const packageDetails = [
+    {
+        id:nanoid(),
+        title:"1 Week in Northern Vietnam",
+        imageCover: "/assets/images/packagesCoverImgOne.png",
+        slug:"1-week-in-northern-vietnam",
+        locations:"Vietnam",
+        duration:"8 Days",
+        sections:[
+            {
+                sectionTitle:"Overview",
+                sectionData:[
+                    {
+                        title :"Itinerary in brief",
+                        sectionImg:"/assets/images/packageVietnamOneImgOne.jpg",
+                        rowReverse:false,
+                        listItems:[
+                            "Day 01: Hanoi arrival",
+                            "Day 02: Hanoi city tour in jeep car - Night train to Lao Cai",
+                            "Day 03: Sapa - Villages",
+                            "Day 04: Sapa - Fanxipan peak - Drive to Hanoi",
+                            "Day 05: Hanoi - Tam Coc - Bich Dong - Mua Cave",
+                            "Day 06: Tam Coc - Ha Long Bay",
+                            "Day 07: Lan Ha bay - Halong - Hanoi",
+                            "Day 08: Hanoi free - Departure"
+                        ]
+                    },
+                    {
+                        title :"Services include",
+                        sectionImg:"/assets/images/packageVietnamOneImgTwo.jpg",
+                        rowReverse:true,
+                        listItems:[
+                            "Accommodation with breakfast as mentioned in the program (on basis of 02 and 03 people/room)",
+                            "A sweet night onboard in a deluxe cabin with traditional design.",
+                            "Fanxipan cable car fee",
+                            "Night train Hanoi - Sapa (2 private cabins)",
+                            "Luxury limosine Sapa - Hanoi",
+                            "Travel on private, modern & comfortable air-conditioned vehicles with a caring driver for all transfers and ground transportation (except the break time or program clearly mentioned 'WITHOUT DRIVER')",
+                            "Meals as mentioned in the program (B = Breakfast, L = Lunch, D = Dinner)",
+                            "Entry fee for all mentioned sites for visit",
+                            "Boat trips as mentioned in the program",
+                            "Qualified local tour guides during the whole trip (except the break time or program clearly mentioned 'WITHOUT GUIDE') "
+                        ]
+                    }
+                ]
+                
+            },
+        ]
+            
+    },
+
+    
+]
