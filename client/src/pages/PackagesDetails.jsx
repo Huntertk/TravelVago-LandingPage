@@ -31,7 +31,8 @@ const PackagesDetails = () => {
             <div className="package-details-main-container">
                 {
                     packageDetailsData.map((pac, i) => (
-                        <div className="package-details-section" key={pac.id}>
+                        <div key={pac.id}>
+                        <div className="package-details-section" >
                             {
                                 pac.sections.map((sect, j) => (
                                     <div key={j}>
@@ -63,20 +64,21 @@ const PackagesDetails = () => {
                             }
                            
                         </div>
+                        <h1 className='title'>Hotel List</h1>
+                        <div className='package-detail-hotel-container'>
+                            {
+                                pac.hotelList.map((data, index) => (
+                                    <div key={index} className='package-hotel-card'>
+                                        <img src={data.imageUrl} alt={data.title} />
+                                        <h3>{data.title}</h3>
+                                        <h4>{data.hotelLocation}</h4>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                        </div>
                     ))
                 }
-                <h1 className='title'>Hotel List</h1>
-                <div className='package-detail-hotel-container'>
-                    {
-                        packageDetailsData[0].hotelList.map((data, index) => (
-                            <div key={index} className='package-hotel-card'>
-                                <img src={data.imageUrl} alt={data.title} />
-                                <h3>{data.title}</h3>
-                                <h4>{data.hotelLocation}</h4>
-                            </div>
-                        ))
-                    }
-                </div>
                     {/*Quotation Form */}
                 <ContactQuotationForm />
                 
