@@ -360,7 +360,7 @@ export const toursProductData = [
 export const destinationImgViwerData = [
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/wTMq9LYC/pexels-pixabay-36717.jpg",
+        img:"/assets/images/destinationCoverImg.jpg",
         title: "Destination",
         subTitle:"Explore tours by destination"
     },
@@ -370,7 +370,7 @@ export const destinationImgViwerData = [
 export const contactImgViwerData = [
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/sxV99pbV/pexels-atbo-245240.jpg",
+        img:"/assets/images/contactCoverImg.jpg",
         title: "ContactUs",
         subTitle:"Get in touch"
     },
@@ -380,7 +380,7 @@ export const contactImgViwerData = [
 export const aboutUsImgViwerData = [
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/zXZjTFND/pexels-oleksandr-p-1007657.jpg",
+        img:"/assets/images/contactCoverImg.jpg",
         title: "AboutUs",
         subTitle:"Travelvago"
     },
@@ -620,13 +620,13 @@ export const thailandPageImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/W4B71NYb/pexels-pixabay-208444.jpg",
+        img:"/assets/images/thailandDestinationOne.jpg",
         title: "Thailand",
         subTitle:"Find your perfect vacation"
     },
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/zXZjTFND/pexels-oleksandr-p-1007657.jpg",
+        img:"/assets/images/thailandDestinationTwo.jpg",
         title: "Thailand",
         subTitle:"Find your perfect vacation"
     },
@@ -638,7 +638,7 @@ export const malaysiaPageImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/Gt2x7xkb/malaysia.jpg",
+        img:"/assets/images/countryMalaysia.jpg",
         title: "Malaysia",
         subTitle:"Find your perfect vacation"
     },
@@ -694,7 +694,7 @@ export const TermsAndConditionImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/d041cQsB/pexels-pixabay-33545.jpg",
+        img:"/assets/images/termsAndConditionCoverImg.jpg",
         title: "Terms&Condition",
         subTitle:"Our Conditions"
     },
@@ -706,7 +706,7 @@ export const PrivacyImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/15ghtftj/pexels-flodahm-1139040.jpg",
+        img:"/assets/images/privacyPolicyCoverImg.jpg",
         title: "PrivacyPolicy",
         subTitle:"Our Policy"
     },
@@ -722,7 +722,7 @@ export const singaporePageImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/WpWnDxvz/singapore.jpg",
+        img:"/assets/images/countrySingapore.jpg",
         title: "Singapore",
         subTitle:"Find your perfect vacation"
     },
@@ -780,7 +780,7 @@ export const vietnamPageImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/q7swzRJH/vietnam.jpg",
+        img:"/assets/images/countryVietnam.jpg",
         title: "Vietnam",
         subTitle:"Find your perfect vacation"
     },
@@ -862,7 +862,7 @@ export const dubaiPageImgViwerData = [
     
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/gJGDRWjX/dubai.jpg",
+        img:"/assets/images/countryDubai.jpg",
         title: "Dubai",
         subTitle:"Find your perfect vacation"
     },
@@ -984,8 +984,6 @@ export const packageDetails = [
                 ]
                 
             },
-
-
             {
                 sectionTitle:"Detailed Program",
                 sectionData:[
