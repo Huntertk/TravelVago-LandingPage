@@ -299,7 +299,7 @@ export const guidesData = [
 export const toursImgViwerData = [
     {
         id: nanoid(),
-        img:"https://i.postimg.cc/J0pFZzYd/pexels-riccardo-789380-1.jpg",
+        img:"/assets/images/toursCoverImg.jpg",
         title: "Tours",
         subTitle:"All Tours for you"
     },
