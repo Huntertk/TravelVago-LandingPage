@@ -1,6 +1,5 @@
 import '../../styles/imageSlider.scss';
 import { useEffect, useRef, useState } from 'react';
-import cloud from '../../assets/images/cloud.png';
 
 const ImageSlider = ({imgData}) => {
   const [sliderChange, setSliderChange] = useState(0);

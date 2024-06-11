@@ -11,14 +11,15 @@
     }
     .sliderSubtitle{
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 2rem;
         letter-spacing: 2px;
         font-family: "Allura", cursive;
         color: $primary;
-        text-shadow: 1px 1px 10px #000;
+        text-shadow: 2px 2px 5px #000;
 
     }
     .sliderTitle{
+        text-align: center;
         position: absolute;
         font-size: 2rem;
         color: #fff;
