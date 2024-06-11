@@ -32,15 +32,15 @@ const Footer = () => {
                 <p className='footerTitle'>Need Help</p>
                 <div className="contactDetailsContainer">
                     <p className='contactTitle'>For General Enquiries</p>
-                    <p>+66657158194</p>
+                    <p>+60356124646</p>
                 </div>
                 <div className="contactDetailsContainer">
                     <p className='contactTitle'>For Ticketing Enquiries</p>
-                    <p>+66657158194</p>
+                    <p>+6017-3078194</p>
                 </div>
                 <div className="contactDetailsContainer">
                     <p className='contactTitle'>Email us at</p>
-                    <p className='email'>support@travelvago.com</p>
+                    <p className='email'>info@travelvago.com</p>
                 </div>
             </div>
         </div>
