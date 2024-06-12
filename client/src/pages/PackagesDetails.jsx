@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import { packageDetails } from '../data';
 import '../styles/packageDetail.scss';
 import ContactQuotationForm from '../components/contact/ContactQuotationForm';
@@ -12,9 +12,12 @@ const PackagesDetails = () => {
     const divRef = useRef(null);
 
     useEffect(() => {
-      divRef.current.focus();
+      divRef.current?.focus();
   
     },[]) 
+    if(packageDetailsData.length < 1){
+        return <Navigate to={"/"} />
+    }
   return (
     <>
         <DynamicHeading title={packageDetailsData[0].title} />
