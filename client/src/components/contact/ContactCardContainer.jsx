@@ -4,8 +4,9 @@ import { IoIosMail } from "react-icons/io";
 import {motion} from 'framer-motion';
 import { FaArrowUp, FaArrowDown  } from "react-icons/fa";
 import { useState } from "react";
+import { IoIosDocument } from "react-icons/io";
 
-const ContactCardContainer = ({title, address,email, phone}) => {
+const ContactCardContainer = ({title, address,email, phone,licenceNo}) => {
 
     const [isDropDownOpen, setIsDropDownOpen] = useState(false);
 
@@ -36,6 +37,15 @@ const ContactCardContainer = ({title, address,email, phone}) => {
                     <IoLocationSharp />
                     <p>{address}</p>
                 </div>
+                {
+                    licenceNo && (
+                        <div className="contactDetails">
+                            <IoIosDocument />
+                            <p>{licenceNo}</p>
+                        </div>
+                    )
+                }
+                
                 <div className="contactDetails">
                     <BsFillTelephoneFill />
                     <p>{phone}</p>

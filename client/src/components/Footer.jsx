@@ -17,6 +17,7 @@ const Footer = () => {
                     <FaInstagram />
                     <FaFacebookSquare />
                 </div>
+                
             </div>
             <div className="footerSubConatiner">
                 <p className='footerTitle'>Quick Links</p>
@@ -41,6 +42,17 @@ const Footer = () => {
                 <div className="contactDetailsContainer">
                     <p className='contactTitle'>Email us at</p>
                     <p className='email'>info@travelvago.com</p>
+                </div>
+                <div className="contactDetailsContainer">
+                    <div id="TA_certificateOfExcellence696" className="TA_certificateOfExcellence">
+                        <ul id="re8C8naf" className="TA_links QyoAAbNzkUI">
+                            <li id="SofsVnQ3" className="jFQ6jMa2">
+                                <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g298570-d12616388-Reviews-Travelvago-Kuala_Lumpur_Wilayah_Persekutuan.html">
+                                    <img src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png" alt="TripAdvisor" className="widCOEImg" id="CDSWIDCOELOGO"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

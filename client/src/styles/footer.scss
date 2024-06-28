@@ -65,6 +65,17 @@
                     color: $primary;
                 }
             }
+
+            .TA_certificateOfExcellence {
+                ul{
+                    list-style: none;
+                    img{
+                        width: 120px;
+                        height: 120px;
+                        object-fit: contain;
+                    }
+                }
+            }
         }
     }
 
