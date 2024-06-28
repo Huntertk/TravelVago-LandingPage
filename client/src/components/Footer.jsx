@@ -14,8 +14,13 @@ const Footer = () => {
                 </div>
                 <p>Travelvago Sdn Bhd is a Malaysian-based travel agency. The company operates as both a Destination Management Company (DMC) and an Online Travel Agency.</p>
                 <div className="socailIcons">
-                    <FaInstagram />
-                    <FaFacebookSquare />
+                    <a href="https://www.instagram.com/jomtravellocal/?hl=en" target='__blank'>
+                        <FaInstagram className='instagram' />
+                    </a>
+                    <a href="https://www.facebook.com/travelvagoasia/" target='__blank'>
+                        <FaFacebookSquare className='facebook' />
+                    </a>
+                    
                 </div>
                 
             </div>

@@ -1,5 +1,5 @@
 import '../../styles/award.scss';
-import awardImgOne from '../../assets/images/awards.png';
+import awardImgOne from '../../assets/traipadvisor.gif';
 import awardImgTwo from '../../assets/images/award.jpg';
 import awardImgThree from '../../assets/images/award2.jpg';
 import awardImgFour from '../../assets/images/award3.png';
@@ -29,6 +29,13 @@ const Award = () => {
               <img 
               className='awardImg' 
               src={awardImgFour} 
+              alt="Travelvago" 
+              />
+          </div>
+          <div className="awardImgContainer">
+              <img 
+              className='awardImg' 
+              src={awardImgOne} 
               alt="Travelvago" 
               />
           </div>

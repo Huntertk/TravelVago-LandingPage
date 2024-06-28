@@ -25,6 +25,20 @@
                 gap: 1rem;
                 font-size: 2rem;
                 margin-top: 10px;
+
+                svg{
+                    transition: all linear 0.3s;
+                    transform: scale(1);
+                }
+                
+                .instagram:hover{
+                    color: #ff0000;
+                    transform: scale(1.2);
+                }
+                .facebook:hover{
+                    color: #3b5998 ;
+                    transform: scale(1.2);
+                }
             }
 
             .footerTitle{
