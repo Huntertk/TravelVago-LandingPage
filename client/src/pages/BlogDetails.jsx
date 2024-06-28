@@ -32,7 +32,10 @@ const BlogDetails = () => {
                     data.detailedData.map((d) => (
                         <div className="blogsDetailsContentContainer" key={d.id}>
                             <h1>{d.title}</h1>
-                            <p>{d.desc}</p>
+                            {
+                                d.desc.map((des, i) => <p key={i}>{des}</p>)
+                            }
+                            
                         </div>
                     ))
                 }

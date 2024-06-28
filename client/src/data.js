@@ -410,57 +410,79 @@ export const blogsData = [
             {
                 id:nanoid(),
                 title:"Visa and Entry Requirements",
-                desc:"Before embarking on your Malaysian adventure, ensure you check the visa requirements based on your nationality. Most visitors are granted a visa-free entry for a certain period, but it's essential to verify the latest regulations to avoid any last-minute surprises."
+                desc:[
+                    "Before embarking on your Malaysian adventure, ensure you check the visa requirements based on your nationality. Most visitors are granted a visa-free entry for a certain period, but it's essential to verify the latest regulations to avoid any last-minute surprises."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Best Time to Visit",
-                desc:"Malaysia enjoys a tropical climate, with warm temperatures year-round. The best time to visit depends on your preferences and activities. The dry season, from May to September, is ideal for exploring the beaches and islands on the east coast, while the west coast experiences its dry season from November to April."
+                desc:[
+                    "Malaysia enjoys a tropical climate, with warm temperatures year-round. The best time to visit depends on your preferences and activities. The dry season, from May to September, is ideal for exploring the beaches and islands on the east coast, while the west coast experiences its dry season from November to April."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Packing Essentials",
-                desc:"When packing for Malaysia, keep in mind the warm and humid weather. Lightweight, breathable clothing is a must, along with sunscreen, a hat, and insect repellent. Don't forget to pack comfortable walking shoes, as you'll likely be exploring bustling cities and trekking through lush jungles."
+                desc:[
+                    "When packing for Malaysia, keep in mind the warm and humid weather. Lightweight, breathable clothing is a must, along with sunscreen, a hat, and insect repellent. Don't forget to pack comfortable walking shoes, as you'll likely be exploring bustling cities and trekking through lush jungles."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Health and Safety",
-                desc:"Ensure you're up to date on routine vaccinations before traveling to Malaysia. It's also advisable to drink bottled water and avoid street food stalls with questionable hygiene practices. While Malaysia is generally safe for travelers, exercise caution in crowded areas and be mindful of your belongings."
+                desc:[
+                    "Ensure you're up to date on routine vaccinations before traveling to Malaysia. It's also advisable to drink bottled water and avoid street food stalls with questionable hygiene practices. While Malaysia is generally safe for travelers, exercise caution in crowded areas and be mindful of your belongings."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Transportation",
-                desc:"Getting around Malaysia is convenient, thanks to its well-developed transportation network. From modern highways to efficient public transport systems, including buses, trains, and even domestic flights, traveling between cities and regions is a breeze."
+                desc:[
+                    "Getting around Malaysia is convenient, thanks to its well-developed transportation network. From modern highways to efficient public transport systems, including buses, trains, and even domestic flights, traveling between cities and regions is a breeze."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Accommodation",
-                desc:"Malaysia offers a wide range of accommodation options to suit every budget and preference. Whether you prefer luxury resorts, boutique hotels, or budget-friendly hostels, you'll find plenty of choices in bustling cities like Kuala Lumpur or idyllic beach destinations like Langkawi."
+                desc:[
+                    "Malaysia offers a wide range of accommodation options to suit every budget and preference. Whether you prefer luxury resorts, boutique hotels, or budget-friendly hostels, you'll find plenty of choices in bustling cities like Kuala Lumpur or idyllic beach destinations like Langkawi."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Cultural Etiquette",
-                desc:"Respect for local customs and traditions is key when visiting Malaysia. Dress modestly when visiting religious sites, remove your shoes before entering someone's home, and greet locals with a warm smile and a friendly 'Selamat sejahtera' (meaning 'peace and prosperity')."
+                desc:[
+                    "Respect for local customs and traditions is key when visiting Malaysia. Dress modestly when visiting religious sites, remove your shoes before entering someone's home, and greet locals with a warm smile and a friendly 'Selamat sejahtera' (meaning 'peace and prosperity')."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Must-See Destinations",
-                desc:"No trip to Malaysia is complete without visiting iconic landmarks like the Petronas Twin Towers in Kuala Lumpur, the UNESCO-listed George Town in Penang, and the stunning beaches of the Perhentian Islands. Be sure to explore the rich cultural heritage of Melaka and the lush rainforests of Taman Negara."
+                desc:[
+                    "No trip to Malaysia is complete without visiting iconic landmarks like the Petronas Twin Towers in Kuala Lumpur, the UNESCO-listed George Town in Penang, and the stunning beaches of the Perhentian Islands. Be sure to explore the rich cultural heritage of Melaka and the lush rainforests of Taman Negara."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Local Cuisine",
-                desc:"Malaysia is a paradise for food lovers, with its diverse culinary influences and mouthwatering dishes. Don't miss out on sampling local delicacies such as nasi lemak, roti canai, and laksa. Be adventurous and try street food from bustling night markets for an authentic Malaysian dining experience."
+                desc:[
+                    "Malaysia is a paradise for food lovers, with its diverse culinary influences and mouthwatering dishes. Don't miss out on sampling local delicacies such as nasi lemak, roti canai, and laksa. Be adventurous and try street food from bustling night markets for an authentic Malaysian dining experience."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Language and Communication",
-                desc:"While Bahasa Malaysia is the official language, English is widely spoken and understood, especially in tourist areas. Learning a few basic phrases in Bahasa Malaysia, such as 'terima kasih' (thank you) and 'tolong' (please), can go a long way in enhancing your travel experience."
+                desc:[
+                    "While Bahasa Malaysia is the official language, English is widely spoken and understood, especially in tourist areas. Learning a few basic phrases in Bahasa Malaysia, such as 'terima kasih' (thank you) and 'tolong' (please), can go a long way in enhancing your travel experience."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Conclusionn",
-                desc:"With its fascinating blend of cultures, breathtaking natural beauty, and mouthwatering cuisine, Malaysia promises an unforgettable adventure for first-time visitors. Embrace the warmth and hospitality of its people as you explore the diverse wonders of this enchanting country."
+                desc:[
+                    "With its fascinating blend of cultures, breathtaking natural beauty, and mouthwatering cuisine, Malaysia promises an unforgettable adventure for first-time visitors. Embrace the warmth and hospitality of its people as you explore the diverse wonders of this enchanting country."
+                ]
             },
         ]
     },
@@ -474,57 +496,79 @@ export const blogsData = [
             {
                 id:nanoid(),
                 title:"Island Hopping in the Andaman Sea",
-                desc:"Kick off your summer adventure by exploring the breathtaking islands of the Andaman Sea. From the famous Phi Phi Islands to the lesser-known gems like Koh Lanta and Koh Yao Noi, each island boasts crystal-clear waters, white sandy beaches, and vibrant marine life. Snorkel, dive, or simply relax under the shade of a palm tree – the choice is yours!"
+                desc:[
+                    "Kick off your summer adventure by exploring the breathtaking islands of the Andaman Sea. From the famous Phi Phi Islands to the lesser-known gems like Koh Lanta and Koh Yao Noi, each island boasts crystal-clear waters, white sandy beaches, and vibrant marine life. Snorkel, dive, or simply relax under the shade of a palm tree - the choice is yours!"
+                ]
             },
             {
                 id:nanoid(),
                 title:"Songkran Festival",
-                desc:"Experience the world's largest water fight during Thailand's Songkran Festival, celebrated in April. Join the lively street parties, where locals and tourists alike engage in friendly water battles to wash away the past year's misfortunes and welcome the Thai New Year with joy and laughter."
+                desc:[
+                    "Experience the world's largest water fight during Thailand's Songkran Festival, celebrated in April. Join the lively street parties, where locals and tourists alike engage in friendly water battles to wash away the past year's misfortunes and welcome the Thai New Year with joy and laughter."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Chiang Mai Flower Festival",
-                desc:"Immerse yourself in a riot of colors at the Chiang Mai Flower Festival, held annually in February. Marvel at the stunning floral displays, intricately designed floats, and vibrant parades showcasing the beauty of Northern Thai culture. Don't forget to capture Instagram-worthy photos amidst a sea of blossoms!"
+                desc:[
+                    "Immerse yourself in a riot of colors at the Chiang Mai Flower Festival, held annually in February. Marvel at the stunning floral displays, intricately designed floats, and vibrant parades showcasing the beauty of Northern Thai culture. Don't forget to capture Instagram-worthy photos amidst a sea of blossoms!"
+                ]
             },
             {
                 id:nanoid(),
                 title:"Muay Thai Training Camps",
-                desc:"Channel your inner warrior and embark on a Muay Thai training camp adventure. Whether you're a beginner or a seasoned fighter, Thailand's renowned Muay Thai camps offer professional training in a tropical paradise setting. Strengthen your body, sharpen your skills, and unleash your potential under the guidance of experienced trainers."
+                desc:[
+                    "Channel your inner warrior and embark on a Muay Thai training camp adventure. Whether you're a beginner or a seasoned fighter, Thailand's renowned Muay Thai camps offer professional training in a tropical paradise setting. Strengthen your body, sharpen your skills, and unleash your potential under the guidance of experienced trainers."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Temple Hopping in Bangkok",
-                desc:"Discover the rich cultural heritage of Thailand by exploring the ancient temples of Bangkok. Marvel at the majestic beauty of Wat Phra Kaew, home to the revered Emerald Buddha, and admire the intricate architecture of Wat Arun, the Temple of Dawn. Don't miss the chance to witness the mesmerizing evening chants at Wat Pho, the Temple of the Reclining Buddha."
+                desc:[
+                    "Discover the rich cultural heritage of Thailand by exploring the ancient temples of Bangkok. Marvel at the majestic beauty of Wat Phra Kaew, home to the revered Emerald Buddha, and admire the intricate architecture of Wat Arun, the Temple of Dawn. Don't miss the chance to witness the mesmerizing evening chants at Wat Pho, the Temple of the Reclining Buddha."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Night Markets and Street Food",
-                desc:"Indulge your senses in the vibrant atmosphere of Thailand's night markets and savor the tantalizing flavors of Thai street food. From the bustling stalls of Bangkok's Chatuchak Weekend Market to the aromatic delicacies of Chiang Mai's Night Bazaar, experience a culinary adventure like no other. Sample exotic fruits, spicy curries, and delectable desserts as you navigate through a maze of colors and aromas."
+                desc:[
+                    "Indulge your senses in the vibrant atmosphere of Thailand's night markets and savor the tantalizing flavors of Thai street food. From the bustling stalls of Bangkok's Chatuchak Weekend Market to the aromatic delicacies of Chiang Mai's Night Bazaar, experience a culinary adventure like no other. Sample exotic fruits, spicy curries, and delectable desserts as you navigate through a maze of colors and aromas."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Elephant Sanctuaries",
-                desc:"Embark on a journey of compassion and conservation at Thailand's ethical elephant sanctuaries. Interact with these gentle giants in their natural habitat, feed them, bathe them, and learn about their rehabilitation journey. Choose responsible elephant experiences that prioritize the well-being of the animals and support sustainable tourism practices."
+                desc:[
+                    "Embark on a journey of compassion and conservation at Thailand's ethical elephant sanctuaries. Interact with these gentle giants in their natural habitat, feed them, bathe them, and learn about their rehabilitation journey. Choose responsible elephant experiences that prioritize the well-being of the animals and support sustainable tourism practices."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Waterfalls and National Parks",
-                desc:"Escape the heat and reconnect with nature at Thailand's picturesque waterfalls and national parks. Trek through lush jungles, swim in refreshing pools, and marvel at the beauty of cascading waterfalls such as Erawan Falls in Kanchanaburi and Namtok Phlio in Chanthaburi. Embrace the serenity of the great outdoors and immerse yourself in Thailand's natural wonders."
+                desc:[
+                    "Escape the heat and reconnect with nature at Thailand's picturesque waterfalls and national parks. Trek through lush jungles, swim in refreshing pools, and marvel at the beauty of cascading waterfalls such as Erawan Falls in Kanchanaburi and Namtok Phlio in Chanthaburi. Embrace the serenity of the great outdoors and immerse yourself in Thailand's natural wonders."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Full Moon Parties in Koh Phangan",
-                desc:"Dance the night away under the glow of the full moon at Koh Phangan's legendary Full Moon Parties. Join thousands of revelers from around the world as they gather on the shores of Haad Rin Beach to celebrate life, music, and freedom. Lose yourself in the electrifying beats of international DJs, indulge in fire shows, and create memories that will last a lifetime."
+                desc:[
+                    "Dance the night away under the glow of the full moon at Koh Phangan's legendary Full Moon Parties. Join thousands of revelers from around the world as they gather on the shores of Haad Rin Beach to celebrate life, music, and freedom. Lose yourself in the electrifying beats of international DJs, indulge in fire shows, and create memories that will last a lifetime."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Language and Communication",
-                desc:"While Bahasa Malaysia is the official language, English is widely spoken and understood, especially in tourist areas. Learning a few basic phrases in Bahasa Malaysia, such as 'terima kasih' (thank you) and 'tolong' (please), can go a long way in enhancing your travel experience."
+                desc:[
+                    "While Bahasa Malaysia is the official language, English is widely spoken and understood, especially in tourist areas. Learning a few basic phrases in Bahasa Malaysia, such as 'terima kasih' (thank you) and 'tolong' (please), can go a long way in enhancing your travel experience."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Conclusion",
-                desc:"With its diverse landscapes, rich cultural heritage, and warm hospitality, Thailand beckons travelers to embrace the magic of summer like never before. Whether you're seeking adventure, relaxation, or cultural immersion, Thailand offers endless possibilities for a summer getaway you'll cherish forever. So pack your bags, embark on an unforgettable journey, and let the wonders of Thailand ignite your spirit of adventure this summer!"
+                desc:[
+                    "With its diverse landscapes, rich cultural heritage, and warm hospitality, Thailand beckons travelers to embrace the magic of summer like never before. Whether you're seeking adventure, relaxation, or cultural immersion, Thailand offers endless possibilities for a summer getaway you'll cherish forever. So pack your bags, embark on an unforgettable journey, and let the wonders of Thailand ignite your spirit of adventure this summer!"
+                ]
             },
         ]
     },
@@ -538,77 +582,128 @@ export const blogsData = [
             {
                 id:nanoid(),
                 title:"Island Hopping in the Andaman Sea",
-                desc:"Kick off your summer adventure by exploring the breathtaking islands of the Andaman Sea. From the famous Phi Phi Islands to the lesser-known gems like Koh Lanta and Koh Yao Noi, each island boasts crystal-clear waters, white sandy beaches, and vibrant marine life. Snorkel, dive, or simply relax under the shade of a palm tree – the choice is yours!"
+                desc:[
+                    "Kick off your summer adventure by exploring the breathtaking islands of the Andaman Sea. From the famous Phi Phi Islands to the lesser-known gems like Koh Lanta and Koh Yao Noi, each island boasts crystal-clear waters, white sandy beaches, and vibrant marine life. Snorkel, dive, or simply relax under the shade of a palm tree - the choice is yours!"
+                ]
             },
             {
                 id:nanoid(),
                 title:"Petronas Twin Towers",
-                desc:"Rising to an impressive height of 452 meters, the Petronas Twin Towers held the title of the world's tallest building from 1998 to 2004. Take a lift to the 86th-floor observation deck for a breathtaking view of Kuala Lumpur."
+                desc:[
+                    "Rising to an impressive height of 452 meters, the Petronas Twin Towers held the title of the world's tallest building from 1998 to 2004. Take a lift to the 86th-floor observation deck for a breathtaking view of Kuala Lumpur."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Food Paradise",
-                desc:"Malaysia offers a culinary adventure like no other, with an array of delectable dishes at affordable prices. Whether you're dining at a street food cart, hawker center, café, or restaurant, you'll be treated to a diverse selection of Malay, Chinese, Indian, and Thai cuisine."
+                desc:[
+                    "Malaysia offers a culinary adventure like no other, with an array of delectable dishes at affordable prices. Whether you're dining at a street food cart, hawker center, café, or restaurant, you'll be treated to a diverse selection of Malay, Chinese, Indian, and Thai cuisine."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Multicultural Harmony",
-                desc:"Experience the harmonious coexistence of various cultures as you stroll through the streets of Malaysia. From mosques to Chinese temples and churches, Malaysia celebrates festivals like Christmas, Chinese New Year, and Hari Raya with enthusiasm, regardless of ethnic or religious background."
+                desc:[
+                    "Experience the harmonious coexistence of various cultures as you stroll through the streets of Malaysia. From mosques to Chinese temples and churches, Malaysia celebrates festivals like Christmas, Chinese New Year, and Hari Raya with enthusiasm, regardless of ethnic or religious background."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Blue Ocean, White Sand",
-                desc:"Malaysia boasts stunning beaches with crystal-clear waters and powdery white sands. Destinations like Langkawi, Perhentian Islands, Rendang Island, and Sabah offer idyllic settings for beach lovers."
+                desc:[
+                    "Malaysia boasts stunning beaches with crystal-clear waters and powdery white sands. Destinations like Langkawi, Perhentian Islands, Rendang Island, and Sabah offer idyllic settings for beach lovers."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Atas English Tea",
-                desc:"Head to Cameron Highlands for a taste of Southeast Asian English tea amidst lush landscapes and Malaysia's largest tea plantation."
+                desc:[
+                    "Head to Cameron Highlands for a taste of Southeast Asian English tea amidst lush landscapes and Malaysia's largest tea plantation."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Malacca World Heritage",
-                desc:"Explore the rich historical and cultural heritage of Malacca, a UNESCO World Heritage Site, dotted with colonial-era buildings, Dutch Square, and charming riverside walks."
+                desc:[
+                    "Explore the rich historical and cultural heritage of Malacca, a UNESCO World Heritage Site, dotted with colonial-era buildings, Dutch Square, and charming riverside walks."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Kinabalu National Park",
-                desc:"Discover the natural wonders of Kinabalu National Park, home to diverse flora and fauna, including over 5,000 plant species. Visitors can indulge in activities like mountain climbing, rock climbing, paragliding, and relaxing in hot springs."
+                desc:[
+                    "Discover the natural wonders of Kinabalu National Park, home to diverse flora and fauna, including over 5,000 plant species. Visitors can indulge in activities like mountain climbing, rock climbing, paragliding, and relaxing in hot springs."
+                ]
             },
             {
                 id:nanoid(),
                 title:"World's Largest Cave",
-                desc:"Explore the awe-inspiring Gunung Mulu National Park, home to the world's largest known underground cave system, showcasing stunning karst landscapes and high biodiversity."
+                desc:[
+                    "Explore the awe-inspiring Gunung Mulu National Park, home to the world's largest known underground cave system, showcasing stunning karst landscapes and high biodiversity."
+                ]
             },
             {
                 id:nanoid(),
                 title:"The Iban People",
-                desc:"Learn about the traditional customs and way of life of the Iban people, known for their past reputation as headhunters. Today, they preserve their cultural heritage while embracing modern amenities."
+                desc:[
+                    "Learn about the traditional customs and way of life of the Iban people, known for their past reputation as headhunters. Today, they preserve their cultural heritage while embracing modern amenities."
+                ]
             },
             {
                 id:nanoid(),
                 title:"World's Oldest Rainforest",
-                desc:"Immerse yourself in the ancient Taman Negara, one of the world's oldest rainforests, teeming with rare wildlife and vegetation."
+                desc:[
+                    "Immerse yourself in the ancient Taman Negara, one of the world's oldest rainforests, teeming with rare wildlife and vegetation."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Southeast Asia's Largest Buddhist Temple",
-                desc:"Visit the magnificent Kek Lok Si Temple in Penang, the largest Buddhist temple in Southeast Asia, known for its elaborate Chinese New Year celebrations."
+                desc:[
+                    "Visit the magnificent Kek Lok Si Temple in Penang, the largest Buddhist temple in Southeast Asia, known for its elaborate Chinese New Year celebrations."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Sepang International Circuit",
-                desc:"Experience the adrenaline rush at Sepang International Circuit, where you can enjoy go-karting on tracks frequented by international racing stars."
+                desc:[
+                    "Experience the adrenaline rush at Sepang International Circuit, where you can enjoy go-karting on tracks frequented by international racing stars."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Diver's Paradise",
-                desc:"Explore the vibrant underwater world of Sipadan, one of the world's top dive sites, boasting an abundance of marine life and stunning coral reefs."
+                desc:[
+                    "Explore the vibrant underwater world of Sipadan, one of the world's top dive sites, boasting an abundance of marine life and stunning coral reefs."
+                ]
             },
             {
                 id:nanoid(),
                 title:"Conclusion",
-                desc:"Whether you're seeking adventure, cultural immersion, or relaxation, Malaysia offers something for every type of traveler."
+                desc:[
+                    "Whether you're seeking adventure, cultural immersion, or relaxation, Malaysia offers something for every type of traveler."
+                ]
+            },
+        ]
+    },
+    {
+        id: nanoid(),
+        img:"/assets/images/tripadvisorimg.jpg",
+        title: "Travelvago Named Tripadvisor Travelers' Choice Awards Best of the Best Winner for 2024",
+        desc:"Travelvago Named Tripadvisor Travelers' Choice Awards Best of the Best Winner for 2024 Travelvago Recognized as a Top-Rated Cultural and Historical Tours in Worldwide.",
+        slug:"travelvago-named-tripadvisor-travelers-choice-awards-best-of-the-best-winner-for-2024",
+        detailedData:[
+            {
+                id:nanoid(),
+                title:"BANDAR SUNWAY, MALAYSIA",
+                desc:[
+                    "June 28, 2024 - Travelvago is pleased to announce today that it has been recognized in Tripadvisor's® Travelers' Choice® Awards Best of the Best for 2024, ranking No. 18 in the Cultural and Historical Tours category worldwide. The highest level of Tripadvisor's awards, the Best of the Best winners are among the top 1% of listings around the world on Tripadvisor.",
+
+                    "As the world's largest travel guidance platform, Tripadvisor has unparalleled authority with travelers and diners. This award is based on genuine feedback from anyone in the community who has visited and left an authentic, first-hand review on Tripadvisor over a 12-month period, making it a valuable and trustworthy designation of travelers' favorites.",
+                    "We are honored to be included among travelers' favorites this year,” said a spokesperson from Travelvago. “Travelers' Choice is one of the most recognized and coveted awards in the travel space, so it is very valuable to us…",
+
+                    "Congratulations to Travelvago on its recognition in Tripadvisor's Travelers' Choice Awards Best of the Best for 2024,” said John Boris, Chief Growth Officer at Tripadvisor. Ranking among the top percentage of businesses globally means you have made such a memorable impact on your visitors that many of them took time to go online and leave a glowing review about their experience. Travelers rely on Tripadvisor's Best of the Best lists to help them navigate the myriad things to see, eat and do across the globe. We hope this recognition continues to drive business to you in 2024 and beyond"
+                ]
             },
         ]
     },
