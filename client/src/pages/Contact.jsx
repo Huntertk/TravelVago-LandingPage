@@ -25,7 +25,7 @@ const Contact = () => {
 
             <ContactCardContainer address={"Singapore"} phone={"+610629262655"} title={"Singapore Office"} email={"support@travelvago.com"} />
 
-            <ContactCardContainer address={"Pakistan"} phone={"+610629262655"} title={"Pakistan Office"} email={"support@travelvago.com"} />
+            <ContactCardContainer address={"Room no 7, 2nd Floor, Ahsan Cash and Carry, Near Zafar Ullah Chock, Sargodha, 40100"} phone={"+610629262655"} title={"Pakistan Office"} email={"support@travelvago.com"} />
 
           </div>
           <div className="form-tab-container">
