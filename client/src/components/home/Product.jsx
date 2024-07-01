@@ -13,7 +13,7 @@ const Product = ({data}) => {
       <div className="productContent">
         <h1>{data.title}</h1>
         <div className="buttonContainer">
-          <button onClick={() => navigate(`${data.slug}`)}>View Details</button>
+          <button onClick={() => navigate(`${data.slug ? data.slug : "/"}`)}>View Details</button>
         </div>
       </div>
     </div>
