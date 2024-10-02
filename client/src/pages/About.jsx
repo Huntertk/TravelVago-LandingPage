@@ -9,6 +9,25 @@ const About = () => {
       <section className='aboutUsPageMainSection'>
         <ImageSlider imgData={aboutUsImgViwerData} />
         <TitleContainer title={"About Us"} para={"Travelvago"} />
+        <div className="founderDetialsContainer">
+          <div className="founderImgContainer">
+            <div className="founderImgWrapper">
+              <img src="/assets/images/Founder.jpg" alt="Sooria Prakas" />
+              <h3>Sooria Prakash</h3>
+              <p>Founder / Managing Director</p>
+            </div>
+            <div className="founderImgWrapper">
+              <img src="/assets/images/Co-Founder.jpg" alt="Thiruchelvan Balakrishnan" />
+              <h3>Thiruchelvan Balakrishnan</h3>
+              <p>Co-Founder / Director</p>
+            </div>
+            
+          </div>
+          <p><span>Welcome to Travelvago,</span> where extraordinary travel experiences become a reality. As a pioneering force in the travel industry, we are dedicated to delivering unique and unforgettable journeys to explorers around the globe. With a profound passion for travel, we have established ourselves as a premier online travel platform, reshaping the way people discover, plan, and embark on their adventures.</p>
+            <p><span>Founded by Sooria Prakash,</span> with Thiruchelvan Balakrishnan as Co-founder, Travelvago represents the culmination of their shared vision and unwavering commitment to excellence in the travel sector. Sooria Prakash, as Founder and Managing Director, brings a wealth of experience and leadership to the company, steering its growth and success. Thiruchelvan Balakrishnan, serving as Co-founder and Director, has been instrumental in shaping the company's strategic direction and cultivating key partnerships</p>
+            <p><span>At Travelvago,</span> we believe travel should be seamless and effortless. That,s why we leverage cutting-edge technology to provide our clients with an intuitive, user-friendly booking platform. With just a few clicks, you can explore our extensive inventory, receive instant tour confirmations, and benefit from secure payment options. Our commitment to convenience ensures a stress-free planning experience, allowing you to focus on what truly matters - creating lasting memories</p>
+            <p>Collaboration and partnerships are at the heart of Travelvago. We understand the importance of teamwork and work closely with travel agencies and tour operators to expand their offerings and deliver exceptional value to their customers. Our exclusive inventory, integrated seamlessly into your website through our XML interface, allows you to present a diverse range of travel products under your brand.</p>
+        </div>
         <div className="companyDetailsAboutUsContainer">
           <p><span className='bold-text'>At Travelvago</span>, we're passionate about exploring the world and helping others create
           unforgettable travel experiences. Our journey began with a simple idea: to provide
