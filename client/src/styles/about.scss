@@ -8,6 +8,12 @@
         margin: 0 auto;
         .founderImgContainer{
             padding: 1rem;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            overflow-x: scroll;
+            &::-webkit-scrollbar{
+                display: none;
+            }
             .founderImgWrapper{
                 width: 100%;
                 margin: 1rem auto;
@@ -16,6 +22,8 @@
                 align-items: center;
                 margin: 2rem 0;
                 > img{
+                    height: 300px;
+                    object-fit: contain;
                     width: 300px;
                 }
                 > h3 {
