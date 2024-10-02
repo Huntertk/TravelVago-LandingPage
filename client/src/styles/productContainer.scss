@@ -5,12 +5,47 @@
     max-width: $maxWidth;
     margin: 3rem auto 2rem auto;
     padding: 1rem;
+    .scrollRightBtn, .scrollLeftBtn{
+        display: none;
+    }
     .productContainer{
         display: grid;
         // grid-template-columns: repeat(5,1fr);
         overflow-x: scroll;
         gap: 1rem;
         padding: 1rem 0;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    .productContainerMainSection{
+        position: relative;
+        .scrollRightBtn{
+            position: absolute;
+            right: 10px;
+            top: 50%; 
+            transform: translate(0, -50%);
+        }
+        .scrollLeftBtn{
+            position: absolute;
+            left: 10px;
+            top: 50%; 
+            transform: translate(0, -50%);
+        }
+        .scrollRightBtn, .scrollLeftBtn{
+            background-color: transparent;
+            color: $primary;
+            border: none;
+            font-size: 2rem;
+            display: block;
+        }
+        .productContainer{
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+        
     }
 }
 
